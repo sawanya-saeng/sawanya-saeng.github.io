@@ -1,0 +1,239 @@
+/****************************************** Contacts COMPONENT ********************************************/
+
+.contacts {
+  background: #a9643e;
+  padding: 3rem 0;
+  padding-top: 7.5rem;
+  padding-bottom: 5rem;
+  height: 100%; 
+}
+
+.contacts h1 {
+  color: #ffffff;
+}
+
+.txtContacts {
+  color: #ffffff;
+  padding: 1.3rem 0;
+}
+
+.contacts p {
+  color: #F5C5AA;
+  font-size: 1rem;
+}
+
+.rowTextContacts {
+  justify-content: space-around;
+  color: #ffffff;
+  margin-top: 4rem;
+  padding-left: 15rem;
+  padding-right: 15rem;
+  border: 1px solid;
+}
+
+.picContacts {
+  width: 60px;
+}
+.boXL1{
+  margin-left: 120px;
+}
+.boXL2{
+  text-align: left;
+  margin-right: 100px;
+}
+.txtMe {
+  font-size: 1.25rem;
+  color: #ffffff;
+}
+.marginTop {
+  margin-top: 5px;
+  font-size: 1.3rem;
+  color: #F5C5AA;
+}
+
+.areaInput {
+  border: 1px solid;
+}
+
+.rowContacts {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.txtInput {
+  font-size: 2rem;
+  color: #ffffff;
+}
+.areaForm {
+  box-sizing: border-box;
+  width: 550px;
+  height: 300px;
+  padding: 10px;
+}
+
+.boxName {
+  justify-content: flex-start;
+}
+
+.boxEmail {
+  justify-content: flex-end;
+  padding-top: 45px;
+}
+
+/****************************************** INPUT ********************************************/
+/*------------------ INPUTS -------------------------------*/
+.contacts input,
+.contacts textarea {
+  width: 100%;
+  height: 50px;
+  box-sizing: border-box;
+  background: none;
+  resize: none;
+  border: 0;
+  border: 0.125rem solid #ffffff;
+  color: #F5C5AA;
+  border-radius: 10px;
+  outline: 0 !important;
+  box-shadow: none !important;
+  margin-bottom: 1rem;
+  padding-left: 0 !important;
+}
+
+.contacts .container {
+  padding: 4rem 0;
+}
+
+.contacts input:focus,
+.contacts textarea:focus {
+  border: 1px #ffffff;
+  padding-left: 20px;
+}
+
+.contacts textarea {
+  height: 13rem !important;
+  padding-left: 20px;
+}
+
+.contact-btn {
+  margin: 1rem 0 0 0;
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  background: #ffffff;
+  border: 0px;
+  color: #F5C5AA
+}
+.contact-btn:hover{
+  background: #F5C5AA;
+  color: #ffffff;
+}
+input:focus + .line,
+textarea:focus + .line {
+  width: 100%;
+  transition: width 0.5s ease-in-out;
+  padding-left: 20px;
+}
+
+input.form-control {
+  margin: 0.3rem 0;
+  padding-left: 20px;
+}
+
+textarea.form-control {
+  margin: 0.3rem 0;
+}
+
+.error-message {
+  color: #ff0000;
+  text-align: left;
+}
+
+.success-message {
+  font-weight: 900;
+  color: #00ff7f;
+}
+
+/*---------------- MEDIA -----------------------*/
+@media (max-width: 768px) {
+  .contacts {
+    overflow-x: hidden;
+  }
+
+  .contacts .container {
+    padding: 0 1rem;
+  }
+
+  .contacts p {
+    padding: 0 0.4rem;
+  }
+}
+
+
+/* Large Desktop */
+/* @media (max-width: 768px) {} */
+@media screen and (max-width: 1024px) {
+}
+/* tablet */
+/* @media (max-height: 570px) {} */
+@media screen and (max-width: 780px) {
+  .contacts p {
+    font-size: 1rem;
+    padding: 20px;
+  }
+  .picContacts {
+    width: 40px;
+  }
+  .txtMe {
+    font-size: 1.1rem;
+  }
+  .marginTop {
+    font-size: 0.8rem;
+  }
+  .boxLeft{
+    padding-left: 50px;
+  }
+  .boXL1{
+    margin: 0;
+  }
+  
+}
+
+/* mobile */
+/* @media (max-height: 280px) */
+@media (max-width: 480px) {
+  .contacts {
+    background: #a9643e;
+    padding: 3rem 0;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    height: 100%; 
+  }
+  .contacts p {
+    font-size: 0.8rem;
+    padding: 20px;
+  }
+  .picContacts {
+    width: 35px;
+  }
+  .txtMe {
+    font-size: 0.9rem;
+  }
+  .marginTop {
+    font-size: 0.7rem;
+  }
+  .boxLeft{
+    padding-left: 20px;
+  }
+  .boxRight{
+    padding-left: 20px;
+  }
+  .boXL1{
+    margin: 0;
+  }
+  .boXL2{
+    text-align: left;
+  }
+  
+}

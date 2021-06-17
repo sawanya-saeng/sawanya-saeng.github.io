@@ -1,0 +1,171 @@
+.aboutme {
+  padding: 0.7rem;
+  padding-top: 1.5rem;
+  background-color: #161616;
+  height: 100vh;
+}
+
+.txtAboutme {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.boxAbout {
+  margin: auto;
+}
+
+.about-details {
+  font-size: 1.85rem;
+  margin-top: 5rem;
+  color: #ffffff;
+}
+
+.textBox {
+  display: flex;
+  justify-content: center;
+}
+
+.textEdu {
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 2.1rem;
+  margin-left: 40px;
+  font-weight: bold;
+  color: #ffffff;
+  margin-top: 7rem;
+}
+.boxUnderline {
+  border: 2px solid #9e9e9e;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  margin-left: 125px;
+  margin-right: 125px;
+}
+
+.boxRow {
+  margin-top: 20px;
+}
+.txtYears {
+  color: #ffffff;
+  font-size: 1.65rem;
+  list-style-type: square;
+  margin-left: 40px;
+  font-weight: bold;
+}
+
+.txtUnivercity {
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+.txtMajor {
+  font-size: 1rem;
+  color: #949393;
+}
+
+/* Large Desktop */
+/* @media (max-width: 768px) {} */
+@media screen and (max-width: 1024px) {
+}
+/* tablet */
+/* @media (max-height: 570px) {} */
+@media screen and (max-width: 780px) {
+  .aboutme {
+    padding: 0.7rem;
+    padding-top: 1rem;
+    background-color: #161616;
+    height: 100vh;
+  }
+  .txtAboutme {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .about-details {
+    font-size: 1.1rem;
+    margin-top: 5rem;
+    color: #ffffff;
+  }
+  .boxUnderline {
+    border: 0px solid;
+    margin-left: -25px;
+  }
+  .textEdu {
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 5rem;
+    margin-left: 20px;
+  }
+  .boxRow {
+    margin-top: 20px;
+  }
+  .txtYears {
+    color: #ffffff;
+    font-size: 1.5rem;
+    list-style-type: square;
+    text-align: start;
+    margin-left: 0px;
+    font-weight: bold;
+  }
+  .txtUnivercity {
+    font-size: 1.4rem;
+    color: #ffffff;
+  }
+  .txtMajor {
+    font-size: 0.9rem;
+    color: #949393;
+  }
+}
+/* mobile */
+/* @media (max-height: 280px) */
+@media screen and (max-width: 480px) {
+  .aboutme {
+    padding: 0.7rem;
+    padding-top: 1rem;
+    background-color: #161616;
+    height: 160vh;
+  }
+  .txtAboutme {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .about-details {
+    font-size: 1.1rem;
+    margin-top: 5rem;
+    color: #ffffff;
+  }
+  .boxUnderline {
+    border: 0px solid;
+    margin-left: -25px;
+  }
+  .textEdu {
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 5rem;
+    margin-left: 20px;
+  }
+  .boxRow {
+    margin-top: 20px;
+  }
+  .txtYears {
+    color: #ffffff;
+    font-size: 1.5rem;
+    list-style-type: square;
+    text-align: start;
+    margin-left: 0px;
+    font-weight: bold;
+  }
+  .txtUnivercity {
+    font-size: 1.4rem;
+    color: #ffffff;
+  }
+  .txtMajor {
+    font-size: 0.9rem;
+    color: #949393;
+  }
+}

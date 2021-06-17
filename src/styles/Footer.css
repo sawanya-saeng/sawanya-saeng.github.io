@@ -1,0 +1,57 @@
+/****************************** FOOTER ********************************/
+.footer {
+  background: #a9643e;
+  color: #ffffff;
+  padding: 2rem;
+}
+.container-group {
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: #ff0000;
+  cursor: pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
+.txtCopy{
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .iconbox {
+    margin-top: 2.5rem;
+  }
+  .txtCopy {
+    text-align: center;
+  }
+}
+
+@media (max-height: 570px) {
+  .iconbox {
+    margin-top: 2.5rem;
+    margin-left: -0.5rem;
+  }
+  .txtCopy {
+    text-align: center;
+  }
+}
+
+@media (max-height: 280px) {
+  .iconbox {
+    margin-top: 2.5rem;
+    margin-left: -0.5rem;
+  }
+  .txtCopy {
+    text-align: center;
+  }
+}

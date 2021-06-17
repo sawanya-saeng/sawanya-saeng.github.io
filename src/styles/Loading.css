@@ -1,0 +1,10 @@
+.loading{ 
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 100vh;
+}
+.images {
+    margin-top: 3%;
+    margin-left: -5%;
+}

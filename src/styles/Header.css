@@ -1,0 +1,163 @@
+.header-wraper h1 {
+  font-size: 5.8rem;
+  text-transform: uppercase;
+  letter-spacing: 30px;
+  font-weight: 700;
+  color: #ffffff;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  mix-blend-mode: difference;
+  z-index: 9;
+}
+
+.banner {
+  display: flex;
+  background: linear-gradient(90deg, #a9643e 50%, #161616 50%);
+  position: relative;
+  height: 105vh;
+  margin: 0;
+}
+
+.homeMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  position: relative;
+  border-color: 2px soild darkorange;
+}
+
+.main-text {
+  font-size: 6rem;
+  font-family: "Krona One", sans-serif !important;
+  text-transform: uppercase;
+  letter-spacing: 100px;
+  font-weight: 900;
+  color: #ffffff;
+  position: absolute;
+  display: block;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  /* mix-blend-mode: difference; */
+  z-index: 9;
+  @media (max-width: 1440px) {
+    font-size: 4.4rem;
+    letter-spacing: 36px;
+  }
+}
+
+.mainpic {
+  width: 850px;
+  margin: auto auto;
+  display: block;
+}
+
+.scroll {
+  font-weight: 700;
+  font-size: 0.875rem;
+  left: 100px;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 48px;
+}
+.fixed-misc {
+  position: fixed;
+  top: 50%;
+  right: -48px;
+  transform: rotate(-90deg);
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+  /* mix-blend-mode: difference; */
+  z-index: 8;
+  @media (max-width: 1440px) {
+    right: -112px;
+  }
+}
+
+/* Large Desktop */
+/* @media (max-width: 768px) {} */
+@media screen and (max-width: 1024px) {
+  .mainpic {
+    width: 850px;
+    margin: auto auto;
+    display: block;
+  }
+}
+/* tablet */
+/* @media (max-height: 570px) {} */
+@media screen and (max-width: 780px) {
+  .mainpic {
+    width: 650px;
+    margin: auto auto;
+    display: block;
+  }
+  .main-text {
+    font-size: 0rem;
+  }
+  .fixed-misc {
+    position: fixed;
+    top: 43%;
+    right: -145px;
+    transform: rotate(-90deg);
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    letter-spacing: 1.5px;
+    color: #ffffff;
+    /* mix-blend-mode: difference; */
+    @media (max-width: 1440px) {
+      right: -112px;
+    }
+  }
+}
+
+/* mobile */
+/* @media (max-height: 280px) */
+@media screen and (max-width: 480px) {
+  .mainpic {
+    width: 350px;
+    margin: auto auto;
+    display: block;
+  }
+  .main-text {
+    font-size: 0rem;
+  }
+  .scroll {
+    font-weight: 600;
+    font-size: 0.875rem;
+    left: 30px;
+    letter-spacing: 1.5px;
+    color: #ffffff;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 60px;
+  }
+  .fixed-misc {
+    position: fixed;
+    top: 45%;
+    right: -145px;
+    transform: rotate(-90deg);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    letter-spacing: 1.5px;
+    color: #ffffff;
+    /* mix-blend-mode: difference; */
+    @media (max-width: 1440px) {
+      right: -112px;
+    }
+  }
+}

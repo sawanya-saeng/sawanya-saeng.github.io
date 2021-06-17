@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&display=swap");
+
+body {
+  font-family: "Aldrich", sans-serif !important;
+}
+/****************************************** NAVBAR ********************************************/
+
+nav {
+  background: linear-gradient(90deg, #a9643e 50%, #161616 50%);
+  /* z-index: 2; */
+}
+
+.logo {
+  width: 7rem;
+  margin-top: 1.2rem;
+  margin-left: 3rem;
+}
+
+.navbar-collapse {
+  margin-right: 3rem;
+}
+.navbar-toggler {
+  margin-right: 3rem;
+  border: 0px;
+}
+
+/*----- MENU LINKS --------*/
+nav a.nav-link {
+  font-size: 22px;
+  letter-spacing: 0.05rem;
+  cursor: pointer;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+  margin-right: 2rem;
+  margin-left: 2rem;
+  color: #ffffff !important;
+  text-align: right;
+}
+
+.navbar-brand {
+  max-width: 20rem;
+  padding: 0 !important;
+  height: 6rem !important;
+}
+
+.navbar-nav > li > a.active,
+.navbar-nav > li > a.active:focus {
+  border-top: 0.1875rem solid #a9643e;
+}
+.navbar-nav > li > a:hover {
+  border-top: 0.1875rem solid #a9643e;
+}
+
+/* Large Desktop */
+@media screen and (max-width: 1020px) {
+}
+/* tablet */
+@media screen and (max-width: 780px) {
+}
+/* mobile */
+@media screen and (max-width: 480px) {
+  .logo {
+    width: 5rem;
+    margin-top: 1.2rem;
+    margin-left: 3rem;
+  }
+}
