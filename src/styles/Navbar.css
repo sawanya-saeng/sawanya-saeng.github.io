@@ -58,7 +58,10 @@ nav ul li {
 }
 
 /* Large Desktop */
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 120px) {
+  nav {
+    z-index: 2;
+  }
 }
 /* tablet */
 @media screen and (max-width: 780px) {

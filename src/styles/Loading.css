@@ -8,3 +8,22 @@
     margin-top: 3%;
     margin-left: -5%;
 }
+
+/* Large Desktop */
+/* @media (max-width: 768px) {} */
+@media screen and (max-width: 1024px) {
+}
+/* tablet */
+/* @media (max-height: 570px) {} */
+@media screen and (max-width: 780px) {
+}
+
+/* mobile */
+/* @media (max-height: 280px) */
+@media (max-width: 480px) {
+    .images {
+        display: block;
+        margin: auto;
+        margin-left: -40px;
+    }
+}

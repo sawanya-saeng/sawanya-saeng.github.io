@@ -23,7 +23,7 @@ class App extends Component {
   componentDidMount() {
     setTimeout(() => {
       this.setLoading();
-    }, 1000);
+    }, 2500);
   }
 
   setLoading = () => {

@@ -86,7 +86,7 @@ const Contacts = () => {
                     <input
                       type="text"
                       className="form-control"
-                      placeholder="   Your Name ..."
+                      // placeholder="   Your Name ..."
                       name="name"
                       ref={register({
                         required: "*Please enter your name*",
@@ -99,9 +99,6 @@ const Contacts = () => {
                     />
                     <div className="line"></div>
                   </div>
-                  <span className="error-message">
-                    {errors.name && errors.name.message}
-                  </span>
 
                   {/* EMAIL INPUT */}
                   <div className="text-left boxEmail">
@@ -109,7 +106,7 @@ const Contacts = () => {
                     <input
                       type="email"
                       className="form-control"
-                      placeholder="   Your Email Address..."
+                      // placeholder="   Your Email Address..."
                       name="email"
                       ref={register({
                         required: "*Please provide you email*",
@@ -121,31 +118,27 @@ const Contacts = () => {
                     />
                     <div className="line"></div>
                   </div>
-                  <span className="error-message">
-                    {errors.email && errors.email.message}
-                  </span>
                 </div>
               </div>
               <div className="areaForm">
                 <div className="col-md-12 col-xs-12">
                   {/* DESCRIPTION */}
-                  <div className="text-left">
-                    <div className="txtInput">Meassge</div>
-                    <textarea
-                      type="text"
-                      className="form-control"
-                      placeholder="   Your Message..."
-                      name="description"
-                      ref={register({
-                        required:
-                          "*Please describe shortly your project needs...*",
-                      })}
-                    ></textarea>
-                    <div className="line"></div>
+                  <div className="boxMeassge">
+                    <div className="text-left">
+                      <div className="txtInput">Message</div>
+                      <textarea
+                        type="text"
+                        className="form-control"
+                        // placeholder="   Your Message..."
+                        name="description"
+                        ref={register({
+                          required:
+                            "*Please describe shortly your project needs...*",
+                        })}
+                      ></textarea>
+                      <div className="line"></div>
+                    </div>
                   </div>
-                  <span className="error-message">
-                    {errors.description && errors.description.message}
-                  </span>
                   <button className="btn-main-offer contact-btn" type="submit">
                     Submit
                   </button>

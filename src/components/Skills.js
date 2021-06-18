@@ -27,7 +27,7 @@ const Skills = () => {
             </ul>
           </div>
           <div class="col boxSKills">
-            <div className="textSkills">SOFTWARE SKILLS</div>
+            <div className="textSkills">Software Skills</div>
             <div className="row rowItem">
               <div className="col itemSkills">
                 <img className="picAdobe" src={Photoshop} alt="Photoshop..." />

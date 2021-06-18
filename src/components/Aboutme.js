@@ -4,15 +4,13 @@ import Fade from "react-reveal/Fade";
 import "../styles/Aboutme.css";
 
 const Aboutme = () => {
-  const txtAboutme = "HI !";
-
   return (
     <div id="about" className="aboutme">
       <div className="col-xs col-sm col-md col-lg boxAbout">
         <Fade right>
           <div className="container">
             <div className="text-left about-details">
-              <p className="txtAboutme">{txtAboutme}</p>
+              <p className="txtAboutme">Hi !</p>
               <div className="textBox">
                 My name is Sawanya Saengbuaphuen. My nickname is TALUEW <br />
                 I interested in UX/UI design and Graphic design.
