@@ -46,6 +46,7 @@
   top: 50%;
   transform: translateY(-50%);
   text-align: center;
+  margin-left: 55px;
   /* mix-blend-mode: difference; */
   z-index: 9;
   @media (max-width: 1440px) {

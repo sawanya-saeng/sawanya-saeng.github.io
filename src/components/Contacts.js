@@ -12,7 +12,6 @@ const Contacts = () => {
   const {
     register,
     handleSubmit,
-    formState: { errors },
   } = useForm();
   const serviceID = "service_ID";
   const templateID = "template_ID";

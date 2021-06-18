@@ -10,7 +10,7 @@ const Header = () => {
       <div className="container homeMain">
         <Typed
           className="main-text"
-          strings={["TAL UEW"]}
+          strings={["TALUEW"]}
           typeSpeed={400}
           backSpeed={400}
           loop
