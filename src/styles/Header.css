@@ -34,7 +34,7 @@
 }
 
 .main-text {
-  font-size: 6rem;
+  font-size: 5rem;
   font-family: "Krona One", sans-serif !important;
   text-transform: uppercase;
   letter-spacing: 100px;
@@ -46,7 +46,7 @@
   top: 50%;
   transform: translateY(-50%);
   text-align: center;
-  margin-left: 55px;
+  padding-left: 35px;
   /* mix-blend-mode: difference; */
   z-index: 9;
   @media (max-width: 1440px) {
@@ -87,7 +87,13 @@
     right: -112px;
   }
 }
-
+@media (width: 1440px) {
+  .mainpic {
+    width: 750px;
+    margin: auto auto;
+    display: block;
+  }
+}
 /* Large Desktop */
 /* @media (max-width: 768px) {} */
 @media screen and (max-width: 1024px) {
