@@ -13,7 +13,7 @@ const GraphicDesign = () => {
   const loadding = setTimeout(() => {
     setTimeLoad(true);
     clearTimeout(loadding);
-  }, 5000);
+  }, 2000);
 
     return (
       <div className="graphicdesign">

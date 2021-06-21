@@ -28,11 +28,6 @@
   align-items: center;
 }
 
-.row {
-  position: relative;
-  border-color: 2px soild darkorange;
-}
-
 .main-text {
   font-size: 5rem;
   font-family: "Krona One", sans-serif !important;
@@ -47,12 +42,7 @@
   transform: translateY(-50%);
   text-align: center;
   padding-left: 35px;
-  /* mix-blend-mode: difference; */
-  z-index: 9;
-  @media (max-width: 1440px) {
-    font-size: 4.4rem;
-    letter-spacing: 36px;
-  }
+  padding-top: 20px;
 }
 
 .mainpic {
@@ -74,74 +64,73 @@
 .fixed-misc {
   position: fixed;
   top: 50%;
-  right: -48px;
+  right: -70px;
   transform: rotate(-90deg);
   font-weight: 700;
   text-transform: uppercase;
   font-size: 0.875rem;
   letter-spacing: 1.5px;
   color: #ffffff;
-  /* mix-blend-mode: difference; */
   z-index: 8;
-  @media (max-width: 1440px) {
-    right: -112px;
-  }
 }
-@media (width: 1440px) {
+
+@media (min-width: 1281px) {
+  /* CSS */
+  .banner {
+    display: flex;
+    background: linear-gradient(90deg, #a9643e 50%, #161616 50%);
+    position: relative;
+    height: 100vh;
+    margin: 0;
+  }
   .mainpic {
     width: 750px;
     margin: auto auto;
     display: block;
+    padding-top: 20px;
   }
 }
-/* Large Desktop */
-/* @media (max-width: 768px) {} */
-@media screen and (max-width: 1024px) {
-  .mainpic {
-    width: 850px;
-    margin: auto auto;
-    display: block;
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+  IPads
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  .banner {
+    display: flex;
+    background: linear-gradient(90deg, #a9643e 50%, #161616 50%);
+    position: relative;
+    height: 100vh;
+    margin: 0;
   }
-}
-/* tablet */
-/* @media (max-height: 570px) {} */
-@media screen and (max-width: 780px) {
   .mainpic {
     width: 650px;
     margin: auto auto;
     display: block;
   }
   .main-text {
-    font-size: 0rem;
-  }
-  .fixed-misc {
-    position: fixed;
-    top: 43%;
-    right: -145px;
-    transform: rotate(-90deg);
-    font-weight: 500;
+    font-size: 4rem;
+    font-family: "Krona One", sans-serif !important;
     text-transform: uppercase;
-    font-size: 0.875rem;
-    letter-spacing: 1.5px;
+    letter-spacing: 50px;
+    font-weight: 700;
     color: #ffffff;
-    /* mix-blend-mode: difference; */
-    @media (max-width: 1440px) {
-      right: -112px;
-    }
-  }
-}
-
-/* mobile */
-/* @media (max-height: 280px) */
-@media screen and (max-width: 480px) {
-  .mainpic {
-    width: 350px;
-    margin: auto auto;
+    position: absolute;
     display: block;
-  }
-  .main-text {
-    font-size: 0rem;
-  }
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding-left: 20px;
+    z-index: 9;
+    @media (max-width: 1440px) {
+      font-size: 4.4rem;
+      letter-spacing: 36px;
+    }
+}
   .scroll {
     font-weight: 600;
     font-size: 0.875rem;
@@ -154,17 +143,76 @@
   }
   .fixed-misc {
     position: fixed;
-    top: 45%;
-    right: -100px;
+    top: 48%;
+    right: -135px;
+    transform: rotate(-90deg);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 1.5px;
+    color: #ffffff;
+  }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+  Iphone 6 7 8 X
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  .banner {
+    display: flex;
+    background: linear-gradient(90deg, #a9643e 50%, #161616 50%);
+    position: relative;
+    height: 100vh;
+    margin: 0;
+  }
+  .mainpic {
+    width: 360px;
+    margin: auto auto;
+    display: block;
+  }
+  .main-text {
+    font-size: 3rem;
+    font-family: "Krona One", sans-serif !important;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    font-weight: 200;
+    color: #ffffff;
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding-left: 10px;
+    z-index: 9;
+    @media (max-width: 1440px) {
+      font-size: 4.4rem;
+      letter-spacing: 36px;
+    }
+}
+  .scroll {
+    font-weight: 600;
+    font-size: 0.875rem;
+    left: 30px;
+    letter-spacing: 1.5px;
+    color: #ffffff;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 60px;
+  }
+  .fixed-misc {
+    position: fixed;
+    top: 48%;
+    right: -108px;
     transform: rotate(-90deg);
     font-weight: 600;
     text-transform: uppercase;
     font-size: 0.6rem;
     letter-spacing: 1.5px;
     color: #ffffff;
-    /* mix-blend-mode: difference; */
-    @media (max-width: 1440px) {
-      right: -112px;
-    }
   }
 }

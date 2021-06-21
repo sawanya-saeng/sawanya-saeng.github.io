@@ -27,15 +27,17 @@
 }
 .carouselBox{
     height: 500px;
+    padding-left: 110px;
+    padding-right: 135px;
     justify-content: center;
 }
 .CarouselPic{
     width: 85%;
-    margin-left: 180px;
-    margin-top: -15px;
 }
 .flexRow{
     margin-top: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .detailLeft {
     text-align: left;
@@ -48,7 +50,6 @@
 }
 .detailRight{
     color: #ffffff;
-    padding-left: 1px;
 }
 .boxToolM{
     border: 1px solid #ffffff ;
@@ -60,14 +61,15 @@
     padding: 5px;
 }
 
-/* Large Desktop */
-/* @media (max-width: 768px) {} */
-@media screen and (max-width: 1024px) {
-}
-/* tablet */
-/* @media (max-height: 570px) {} */
-@media screen and (max-width: 780px) {
-    .project {
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+  IPads
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  .project {
         background: #161616;
         padding: 0.7rem;
         padding-top: 4.5rem;
@@ -112,10 +114,15 @@
         margin-top: 200px;
     }
 }
-/* mobile */
-/* @media (max-height: 280px) */
-@media screen and (max-width: 480px) {
-    .project {
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+  Iphone 6 7 8 X
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  .project {
         background: #161616;
         padding: 0.7rem;
         padding-top: 4.5rem;

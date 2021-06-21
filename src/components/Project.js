@@ -9,19 +9,20 @@ import GallaryShoot from "../Data/dataShoot"
 const Project = () => {
   return (
     <div id="project" className="project">
-      <h1 className="txtProject">Project</h1>
-      <div className="Box">
-        <ItemProject
-          ProjectName="Food Fridge App"
-          ProjectDetails="Application find food menu from your ingredient"
-          Tool1="UX  Design"
-          Tool2="Flutter"
-          Tool3="UI  Design"
-          Tool4="Firebase"
-          PicItem={GallaryFoodApp}
-        />
-      </div>
-      <div className="Box">
+      <div className="container">
+        <h1 className="txtProject">Project</h1>
+        <div className="container Box">
+          <ItemProject
+            ProjectName="Food Fridge App"
+            ProjectDetails="Application find food menu from your ingredient"
+            Tool1="UX  Design"
+            Tool2="Flutter"
+            Tool3="UI  Design"
+            Tool4="Firebase"
+            PicItem={GallaryFoodApp}
+          />
+        </div>
+        {/* <div className="Box">
         <ItemProject
           ProjectName="CPE  Website"
           ProjectDetails="The course management system of Computer Engineering"
@@ -36,6 +37,7 @@ const Project = () => {
           Tool4="Java"
           PicItem={GallaryShoot}
         />
+      </div> */}
       </div>
     </div>
   );
