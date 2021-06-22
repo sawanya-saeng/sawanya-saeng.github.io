@@ -46,9 +46,9 @@ class App extends Component {
             <Aboutme />
             <Skills />
             <Project />
-            {/*<GraphicDesign />
-             <Banner />
-            <Illustrantion />
+            <GraphicDesign />
+            <Banner />
+            {/*<Illustrantion />
             <TextEffect />
             <Contacts />
             <Footer /> */}

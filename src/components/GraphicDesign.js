@@ -17,40 +17,40 @@ const GraphicDesign = () => {
 
     return (
       <div className="graphicdesign">
-          <h1 className="txtGraphicDesign">Graphic Design</h1>
-          <div className="txtLogoBrand">LOGO & BRANDING</div>
-          <div className="GalleryLogo">
-            {TimeLoad ? (
-              <Gallery photos={Brand1} />
-            ) : (
-              <Skeleton
-                height={500}
-                width={800}
-                count={2}
-                className="skelatonPic"
-              />
-            )}
-            {TimeLoad ? (
-              <Gallery photos={Brand2} />
-            ) : (
-              <Skeleton
-                height={500}
-                width={800}
-                count={2}
-                className="skelatonPic"
-              />
-            )}
-            {TimeLoad ? (
-              <Gallery photos={Brand3} />
-            ) : (
-              <Skeleton
-                height={500}
-                width={800}
-                count={2}
-                className="skelatonPic"
-              />
-            )}
-          </div>
+        <h1 className="txtGraphicDesign">Graphic Design</h1>
+        <div className="txtLogoBrand">LOGO & BRANDING</div>
+        <div className="container GalleryLogo">
+          {TimeLoad ? (
+            <Gallery photos={Brand1} />
+          ) : (
+            <Skeleton
+              height={500}
+              width={800}
+              count={2}
+              className="skelatonPic"
+            />
+          )}
+          {TimeLoad ? (
+            <Gallery photos={Brand2} />
+          ) : (
+            <Skeleton
+              height={500}
+              width={800}
+              count={2}
+              className="skelatonPic"
+            />
+          )}
+          {TimeLoad ? (
+            <Gallery photos={Brand3} />
+          ) : (
+            <Skeleton
+              height={500}
+              width={800}
+              count={2}
+              className="skelatonPic"
+            />
+          )}
+        </div>
       </div>
     );
 }

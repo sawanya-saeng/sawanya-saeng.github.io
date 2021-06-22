@@ -16,7 +16,7 @@ const Banner = () => {
     return (
       <div className="banners">
         <div className="txtLogoBrand">Banner</div>
-        <div className="GalleryLogo">
+        <div className="container GalleryLogo">
           {TimeLoad ? (
             <Gallery photos={BannerG1} />
           ) : (
