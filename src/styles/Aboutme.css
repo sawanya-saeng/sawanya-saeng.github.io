@@ -149,10 +149,11 @@
     font-weight: bold;
     color: #ffffff;
     margin-top: 3rem;
-    margin-left: 20px;
+    margin-left: 25px;
   }
   .boxRow {
     margin-top: 20px;
+    margin-left: -20px;
   }
   .txtYears {
     color: #ffffff;

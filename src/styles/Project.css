@@ -5,10 +5,7 @@
     background: #161616;
     padding: 0.7rem;
     padding-top: 6rem;
-    height: 250vh;
-}
-.Box{
-    height: 80vh;
+    height: 280vh;
 }
 .txtProject{
     text-align: center;
@@ -25,19 +22,27 @@
 .areaProject{
     height: 550px;
 }
+.BoxFirst{
+    margin-top: 0%;
+}
+.BoxTwo{
+    margin-top: 15%;
+}
 .carouselBox{
     height: 500px;
-    padding-left: 110px;
-    padding-right: 135px;
+    margin-left: 110px;
+    margin-right: 135px;
     justify-content: center;
 }
 .CarouselPic{
-    width: 85%;
+    width: 90%;
+    margin-left: 100px;
+    margin-right: 20px;
 }
 .flexRow{
     margin-top: 80px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 125px;
+    padding-right: 140px;
 }
 .detailLeft {
     text-align: left;
@@ -47,9 +52,11 @@
 .detailMiddle{
     color: #ffffff;
     padding-right: 1px;
+    padding: 1px;
 }
 .detailRight{
     color: #ffffff;
+    padding: 1px;
 }
 .boxToolM{
     border: 1px solid #ffffff ;
@@ -67,51 +74,57 @@
   IPads
 */
 @media (min-width: 768px) and (max-width: 1024px) {
-  
   /* CSS */
-  .project {
-        background: #161616;
+    .project {
         padding: 0.7rem;
         padding-top: 4.5rem;
-        height: 155vh;
+        height: 145vh;
     }
     .txtProject {
-        font-size: 3rem;
+        font-size: 2rem;
         color: #ffffff;
         padding-bottom: 4.5px;
     }
-    .Box{
-        height: 50vh;
+    .BoxFirst{
+        margin-top: 0%;
+    }
+    .BoxTwo{
+        margin-top: -15%;
     }
     .carouselBox{
-        height: 150px;
+        height: 50%;
+        margin-left: 45px;
+        margin-right: 45px;
         justify-content: center;
     }
     .CarouselPic{
-        width: 85%;
-        margin-top: 10px;
-        margin-left: 100px;
-        padding: 2px;
+        width: 95%;
+        margin: 10px;
+        margin-left: 5%;
+        margin-right: 5%;
     }
     .txtNameWork{
-        font-size: 20px;
+        font-size: 18px;
         font-weight: bold;
     }
     .txtWorkDetails{
-        font-size: 15px;
-    }
-    .boxToolM{
-        border: 1px solid #ffffff ;
-        padding: 0px;
-        font-size: 10px;
-    }
-    .boxToolR{
-        border: 1px solid #ffffff ;
-        padding: 0px;
-        font-size: 10px;
+        font-size: 14px;
     }
     .flexRow{
-        margin-top: 200px;
+        margin-top: 60px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .detailMiddle{
+        color: #ffffff;
+        padding-right: 1px;
+        font-size: 10px;
+        padding: 1px;
+    }
+    .detailRight{
+        color: #ffffff;
+        font-size: 10px;
+        padding: 1px;
     }
 }
 /* 
@@ -120,50 +133,49 @@
   Iphone 6 7 8 X
 */
 @media (min-width: 320px) and (max-width: 480px) {
-  
+   
   /* CSS */
-  .project {
-        background: #161616;
-        padding: 0.7rem;
+    .project {
         padding-top: 4.5rem;
-        height: 155vh;
+        height: 115vh;
     }
     .txtProject {
-        font-size: 1.8rem;
-        color: #ffffff;
-        padding-bottom: 4.5px;
+        font-size: 1.5rem;
+        padding-bottom: 4px;
     }
-    .Box{
-        height: 50vh;
+    .BoxTwo{
+        margin-top: -85%;
     }
     .carouselBox{
-        height: 150px;
+        height: 30%;
+        width: 100%;
+        margin-left: 0%;
         justify-content: center;
     }
     .CarouselPic{
         width: 100%;
-        margin: 0px;
-        margin-top: 10px;
-        padding: 20px;
+        margin-left: 0%;
     }
     .txtNameWork{
-        font-size: 14px;
+        font-size: 10px;
         font-weight: bold;
     }
     .txtWorkDetails{
-        font-size: 10px;
-    }
-    .boxToolM{
-        border: 1px solid #ffffff ;
-        padding: 0px;
-        font-size: 8px;
-    }
-    .boxToolR{
-        border: 1px solid #ffffff ;
-        padding: 0px;
-        font-size: 8px;
+        font-size: 9px;
     }
     .flexRow{
-        margin-top: 110px;
+        margin-top: 10%;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .detailMiddle{
+        color: #ffffff;
+        font-size: 4px;
+        padding: 1px;
+    }
+    .detailRight{
+        color: #ffffff;
+        font-size: 4px;
+        padding: 1px;
     }
 }
