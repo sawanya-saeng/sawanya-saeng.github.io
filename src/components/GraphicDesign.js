@@ -13,7 +13,7 @@ const GraphicDesign = () => {
   const loadding = setTimeout(() => {
     setTimeLoad(true);
     clearTimeout(loadding);
-  }, 2000);
+  }, 1500);
 
     return (
       <div className="graphicdesign">
@@ -25,7 +25,7 @@ const GraphicDesign = () => {
           ) : (
             <Skeleton
               height={500}
-              width={800}
+              width={700}
               count={2}
               className="skelatonPic"
             />
@@ -35,7 +35,7 @@ const GraphicDesign = () => {
           ) : (
             <Skeleton
               height={500}
-              width={800}
+              width={700}
               count={2}
               className="skelatonPic"
             />
@@ -45,7 +45,7 @@ const GraphicDesign = () => {
           ) : (
             <Skeleton
               height={500}
-              width={800}
+              width={700}
               count={2}
               className="skelatonPic"
             />

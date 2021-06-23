@@ -14,18 +14,18 @@ const Illustrantion = () => {
   const loadding = setTimeout(() => {
     setTimeLoad(true);
     clearTimeout(loadding);
-  }, 5000);
+  }, 1500);
   
   return (
     <div className="illustrantion">
       <div className="txtLogoBrand">ILLUSTRATION</div>
-      <div className="GalleryLogo">
+      <div className="container GalleryLogo">
         {TimeLoad ? (
           <Gallery photos={illustrantionG1} />
         ) : (
           <Skeleton
             height={500}
-            width={800}
+            width={700}
             count={2}
             className="skelatonPic"
           />
@@ -35,7 +35,7 @@ const Illustrantion = () => {
         ) : (
           <Skeleton
             height={500}
-            width={800}
+            width={700}
             count={2}
             className="skelatonPic"
           />
@@ -45,7 +45,7 @@ const Illustrantion = () => {
         ) : (
           <Skeleton
             height={500}
-            width={800}
+            width={700}
             count={2}
             className="skelatonPic"
           />

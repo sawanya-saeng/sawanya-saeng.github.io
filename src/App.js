@@ -48,10 +48,10 @@ class App extends Component {
             <Project />
             <GraphicDesign />
             <Banner />
-            {/*<Illustrantion />
+            <Illustrantion />
             <TextEffect />
             <Contacts />
-            <Footer /> */}
+            {/* <Footer /> */}
           </>
         )}
       </div>

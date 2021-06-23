@@ -1,7 +1,7 @@
 import React from "react";
-import "../styles/Header.css";
-
 import Typed from "react-typed";
+
+import "../styles/Header.css";
 import mainpic from "../images/mainpic.png";
 
 const Header = () => {

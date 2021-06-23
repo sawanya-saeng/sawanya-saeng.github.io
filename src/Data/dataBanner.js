@@ -1,5 +1,5 @@
-import Banner1 from "../images/text1.jpg";
-import Banner2 from "../images/text2.jpg";
+import Banner1 from "../images/banner1.jpg";
+import Banner2 from "../images/banner2.jpg";
 
 
 const Banner = [

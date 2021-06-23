@@ -11,11 +11,12 @@ const TextEffect = () => {
   const loadding = setTimeout(() => {
     setTimeLoad(true);
     clearTimeout(loadding);
-  }, 5000);
+  }, 1500);
+  
   return (
     <div className="texteffect">
       <div className="txtLogoBrand">Texteffect</div>
-      <div className="GalleryLogo">
+      <div className="container GalleryLogo">
         {TimeLoad ? (
           <Gallery photos={TextEffectG1} />
         ) : (

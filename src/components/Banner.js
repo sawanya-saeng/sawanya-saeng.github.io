@@ -11,7 +11,7 @@ const Banner = () => {
   const loadding = setTimeout(() => {
     setTimeLoad(true);
     clearTimeout(loadding);
-  }, 5000);
+  }, 1500);
 
     return (
       <div className="banners">
@@ -22,7 +22,7 @@ const Banner = () => {
           ) : (
             <Skeleton
               height={500}
-              width={800}
+              width={700}
               count={2}
               className="skelatonPic"
             />
