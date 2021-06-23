@@ -13,7 +13,7 @@ nav {
 
 .logo {
   width: 4.5rem;
-  margin-left: 3rem;
+  margin-left: 3.5rem;
   margin-top:  1rem;
 }
 
@@ -88,9 +88,12 @@ nav ul li {
   
   /* CSS */
   .logo {
-    width: 5rem;
-    margin-top: 1.2rem;
-    margin-left: 5rem;
+    width: 4rem;
+    margin-top: 1rem;
+    margin-left: 0.8rem;
+  }
+  .navbar-toggler {
+    margin-right: 1rem;
   }
 }
 
@@ -126,13 +129,15 @@ nav ul li {
   
   /* CSS */
   .navbar-brand {
-    max-width: 20rem;
-    padding: 0 !important;
+    max-width: 25rem;
     height: 3rem !important;
   }
   .logo {
     width: 3rem;
     margin-top: 0.3rem;
-    margin-left: 2rem;
+    margin-left: 0.3rem;
+  }
+  .navbar-toggler {
+    margin-right: 0rem;
   }
 }

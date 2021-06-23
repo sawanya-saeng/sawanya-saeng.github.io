@@ -15,7 +15,7 @@ const TextEffect = () => {
   
   return (
     <div className="texteffect">
-      <div className="txtLogoBrand">Texteffect</div>
+      <div className="txtLogoBrand">Text effect</div>
       <div className="container GalleryLogo">
         {TimeLoad ? (
           <Gallery photos={TextEffectG1} />

@@ -6,6 +6,7 @@
     height: 100%;
 }
 
+
 /* Large Desktop */
 /* @media (max-width: 768px) {} */
 @media screen and (max-width: 1024px) {
@@ -19,6 +20,15 @@
         padding: 0.7rem;
         padding-top: 3rem;
         height: 100%;
+    }
+    .txtLogoBrand{
+        border: 1px solid #ffffff;
+        color: #ffffff;
+        font-size: 30px;
+        width: 93%;
+        margin-top: 30px;
+        text-align: center;
+        display: inline-block;
     }
 }
 
