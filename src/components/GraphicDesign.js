@@ -18,7 +18,9 @@ const GraphicDesign = () => {
     return (
       <div className="graphicdesign">
         <h1 className="txtGraphicDesign">Graphic Design</h1>
-        <div className="txtLogoBrand">LOGO & BRANDING</div>
+        <div className="txtLogoBrand">
+          <div className="teLOBR">LOGO & BRANDING</div>
+        </div>
         <div className="container GalleryLogo">
           {TimeLoad ? (
             <Gallery photos={Brand1} />

@@ -15,18 +15,20 @@ const Banner = () => {
 
     return (
       <div className="banners">
-          <div className="txtLogoBrand">Banner</div>
-          <div className="container GalleryLogo">
-            {TimeLoad ? (
-              <Gallery photos={BannerG1} />
-            ) : (
-              <Skeleton
-                height={500}
-                width={700}
-                count={2}
-                className="skelatonPic"
-              />
-            )}
+        <div className="txtLogoBrand">
+          <div className="teLOBR">Banner</div>
+        </div>
+        <div className="container GalleryLogo">
+          {TimeLoad ? (
+            <Gallery photos={BannerG1} />
+          ) : (
+            <Skeleton
+              height={500}
+              width={700}
+              count={2}
+              className="skelatonPic"
+            />
+          )}
         </div>
       </div>
     );

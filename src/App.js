@@ -51,7 +51,7 @@ class App extends Component {
             <Illustrantion />
             <TextEffect />
             <Contacts />
-            {/* <Footer /> */}
+            <Footer />
           </>
         )}
       </div>

@@ -18,7 +18,9 @@ const Illustrantion = () => {
   
   return (
     <div className="illustrantion">
-      <div className="txtLogoBrand">ILLUSTRATION</div>
+      <div className="txtLogoBrand">
+        <div className="teLOBR">ILLUSTRATION</div>
+      </div>
       <div className="container GalleryLogo">
         {TimeLoad ? (
           <Gallery photos={illustrantionG1} />
