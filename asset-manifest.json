@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.0992954b.chunk.css",
-    "main.js": "/static/js/main.42f62b80.chunk.js",
-    "main.js.map": "/static/js/main.42f62b80.chunk.js.map",
+    "main.js": "/static/js/main.7f0a7da5.chunk.js",
+    "main.js.map": "/static/js/main.7f0a7da5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.03944658.js",
     "runtime-main.js.map": "/static/js/runtime-main.03944658.js.map",
     "static/css/2.300f53a9.chunk.css": "/static/css/2.300f53a9.chunk.css",
@@ -46,7 +46,7 @@
     "static/media/illus6.40fe2428.png": "/static/media/illus6.40fe2428.png",
     "static/media/illustrator.4fd50186.png": "/static/media/illustrator.4fd50186.png",
     "static/media/kaolahm.1b2fca93.jpg": "/static/media/kaolahm.1b2fca93.jpg",
-    "static/media/mainpic.1a9529ad.png": "/static/media/mainpic.1a9529ad.png",
+    "static/media/mainpic.8e41553f.png": "/static/media/mainpic.8e41553f.png",
     "static/media/mw.1d680bdd.jpg": "/static/media/mw.1d680bdd.jpg",
     "static/media/pig.a869edc1.jpg": "/static/media/pig.a869edc1.jpg",
     "static/media/shoot1.5878ce11.png": "/static/media/shoot1.5878ce11.png",
@@ -68,6 +68,6 @@
     "static/css/2.300f53a9.chunk.css",
     "static/js/2.e9f3f317.chunk.js",
     "static/css/main.0992954b.chunk.css",
-    "static/js/main.42f62b80.chunk.js"
+    "static/js/main.7f0a7da5.chunk.js"
   ]
 }
