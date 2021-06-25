@@ -4,7 +4,7 @@
   background: #a9643e;
   padding: 3rem 0;
   padding-top: 7.5rem;
-  padding-bottom: 5rem;
+  padding-bottom: 10rem;
   height: 100%; 
 }
 
@@ -208,7 +208,7 @@ textarea.form-control {
     background: #a9643e;
     padding: 3rem 0;
     padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-bottom: 10rem;
     height: 100%; 
   }
   .contacts p {
