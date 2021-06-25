@@ -4,7 +4,7 @@
   background: #a9643e;
   padding: 3rem 0;
   padding-top: 7.5rem;
-  padding-bottom: 10rem;
+  padding-bottom: 7rem;
   height: 100%; 
 }
 
@@ -65,10 +65,9 @@
   color: #ffffff;
 }
 .areaForm {
-  box-sizing: border-box;
-  width: 550px;
+  box-sizing: content-box;
+  width: 600px;
   height: 300px;
-  padding: 10px;
 }
 
 .boxName {
@@ -173,8 +172,14 @@ textarea.form-control {
 
 /* Large Desktop */
 /* @media (max-width: 768px) {} */
-@media screen and (max-width: 1024px) {
-  
+@media screen and (width: 1440px) {
+  .contacts {
+    background: #a9643e;
+    padding: 3rem 0;
+    padding-top: 7.5rem;
+    padding-bottom: 0rem;
+    height: 100%; 
+  }
 }
 /* tablet */
 /* @media (max-height: 570px) {} */
@@ -224,7 +229,6 @@ textarea.form-control {
   }
   .marginTop {
     font-size: 0.7rem;
-
   }
   .boxLeft{
     padding-left: 20px;
