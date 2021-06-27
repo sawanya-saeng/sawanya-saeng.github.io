@@ -21,8 +21,8 @@ const ItemProject = ({
           autoWidth
           infinite
           // autoPlay
-          autoPlayStrategy="none"
-          autoPlayInterval={1000}
+          // autoPlayStrategy="none"
+          // autoPlayInterval={1000}
           animationDuration={1000}
           animationType="fadeout"
           items={PicItem}
