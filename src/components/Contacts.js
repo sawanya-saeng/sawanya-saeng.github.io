@@ -10,10 +10,7 @@ const txtContacts = "CONTACT ME";
 
 const Contacts = () => {
   const [sucessMessage, setSucessMessage] = useState("");
-  const {
-    register,
-    handleSubmit,
-  } = useForm();
+  const { register, handleSubmit } = useForm();
   const serviceID = "service_ID";
   const templateID = "template_ID";
   const userID = "user_K4kp6fa8xDyDX5jWc0U87";
@@ -153,5 +150,3 @@ const Contacts = () => {
 };
 
 export default Contacts;
-
-
