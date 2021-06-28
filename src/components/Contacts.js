@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import "../styles/Contacts.css";
 import emailjs from "emailjs-com";
 import { useForm } from "react-hook-form";
+
+import "../styles/Contacts.css";
 import Phone from "../images/phone.png";
 import Email from "../images/email.png";
 
