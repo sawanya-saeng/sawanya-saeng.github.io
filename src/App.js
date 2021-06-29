@@ -23,7 +23,7 @@ class App extends Component {
   componentDidMount() {
     setTimeout(() => {
       this.setLoading();
-    }, 1500);
+    }, 2500);
   }
 
   setLoading = () => {
@@ -50,7 +50,7 @@ class App extends Component {
             <Banner />
             <Illustrantion />
             <TextEffect />
-            {/* <Contacts /> */}
+            <Contacts />
             <Footer />
           </>
         )}

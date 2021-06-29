@@ -47,9 +47,9 @@ const Contacts = () => {
         <p>PLEASE COMPLETE THE FORM BELOW TO SEND AN EMAIL DIRECTLY.</p>
         <span className="success-message">{sucessMessage}</span>
       </div>
-      <div className="col container">
-        <div class="row">
-          <div class="col boxLeft">
+      <div className="container areaTag">
+        <div className="row">
+          <div className="col-md-6 col-xs-12 boxLeft">
             <div className="row">
               <div className="col boXL1">
                 <img src={Phone} className="picContacts" alt="Phone..." />
@@ -60,86 +60,83 @@ const Contacts = () => {
               </div>
             </div>
           </div>
-          <div class="col boxRight">
+          <div className="col-md-6 col-xs-12 boxRight">
             <div className="row">
               <div className="col boXL1">
-                <img src={Email} className="picContacts" alt="Phone..." />
+                <img src={Email} className="picContacts" alt="Email..." />
               </div>
               <div className="col boXL2">
                 <div className="txtMe">E-mail</div>
                 <div className="marginTop">sawanya.saeng@gmail.com</div>
               </div>
             </div>
-          </div> 
+          </div>
         </div>
+
         <div className="container">
           <form onSubmit={handleSubmit(onSubmit)}>
-            <div className="row rowContacts">
-              <div className="areaForm">
-                <div className="col-md-12 col-xs-12">
-                  {/* NAME INPUT */}
-                  <div className="text-left boxName">
-                    <div className="txtInput">Name</div>
-                    <input
-                      type="text"
-                      className="form-control"
-                      // placeholder="   Your Name ..."
-                      name="name"
-                      ref={register({
-                        required: "*Please enter your name*",
-                        maxLength: {
-                          value: 20,
-                          message:
-                            "**Please enter a name with fewer than 20 characters**",
-                        },
-                      })}
-                    />
-                    <div className="line"></div>
-                  </div>
+            <div className="row">
+              <div className="col-md-6 col-xs-12 areaIn">
+                {/* NAME INPUT */}
+                <div className="text-left boxName">
+                  <div className="txtInput">Name</div>
+                  <input
+                    type="text"
+                    className="form-control"
+                    // placeholder="   Your Name ..."
+                    name="name"
+                    ref={register({
+                      required: "*Please enter your name*",
+                      maxLength: {
+                        value: 20,
+                        message:
+                          "**Please enter a name with fewer than 20 characters**",
+                      },
+                    })}
+                  />
+                  <div className="line"></div>
+                </div>
 
-                  {/* EMAIL INPUT */}
-                  <div className="text-left boxEmail">
-                    <div className="txtInput">Email Address</div>
-                    <input
-                      type="email"
-                      className="form-control"
-                      // placeholder="   Your Email Address..."
-                      name="email"
-                      ref={register({
-                        required: "*Please provide you email*",
-                        pattern: {
-                          value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
-                          message: "**invalid Email**",
-                        },
-                      })}
-                    />
-                    <div className="line"></div>
-                  </div>
+                {/* EMAIL INPUT */}
+                <div className="text-left boxEmail">
+                  <div className="txtInput">Email Address</div>
+                  <input
+                    type="email"
+                    className="form-control"
+                    // placeholder="   Your Email Address..."
+                    name="email"
+                    ref={register({
+                      required: "*Please provide you email*",
+                      pattern: {
+                        value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
+                        message: "**invalid Email**",
+                      },
+                    })}
+                  />
+                  <div className="line"></div>
                 </div>
               </div>
-              <div className="areaForm">
-                <div className="col-md-12 col-xs-12">
-                  {/* DESCRIPTION */}
-                  <div className="boxMeassge">
-                    <div className="text-left">
-                      <div className="txtInput">Message</div>
-                      <textarea
-                        type="text"
-                        className="form-control"
-                        // placeholder="   Your Message..."
-                        name="description"
-                        ref={register({
-                          required:
-                            "*Please describe shortly your project needs...*",
-                        })}
-                      ></textarea>
-                      <div className="line"></div>
-                    </div>
+              <div className="col-md-6 col-xs-12 areaIn">
+                {/* DESCRIPTION */}
+                <div className="boxMeassge">
+                  <div className="text-left">
+                    <div className="txtInput">Message</div>
+                    <textarea
+                      type="text"
+                      className="form-control"
+                      // placeholder="   Your Message..."
+                      name="description"
+                      ref={register({
+                        required:
+                          "*Please describe shortly your project needs...*",
+                      })}
+                    ></textarea>
+                    <div className="line"></div>
                   </div>
-                  <button className="btn-main-offer contact-btn" type="submit">
-                    Submit
-                  </button>
                 </div>
+                <button className="btn-main-offer contact-btn" type="submit">
+                  Submit
+                </button>
               </div>
             </div>
           </form>
@@ -150,3 +147,5 @@ const Contacts = () => {
 };
 
 export default Contacts;
+
+
