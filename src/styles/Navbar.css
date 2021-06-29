@@ -13,16 +13,16 @@ nav {
 
 .logo {
   width: 4.5rem;
-  margin-left: 4rem;
+  margin-left: 8.55rem;
   margin-top:  1rem;
 }
 
 .navbar-collapse {
-  margin-right: 1rem;
+  margin-right: 7.2rem;
   text-align: right;
 }
 .navbar-toggler {
-  margin-right: 3rem;
+  margin-right: 1.5rem;
 }
 
 /*----- MENU LINKS --------*/
@@ -37,8 +37,8 @@ nav ul li {
 }
 
 .navbar-nav > li > a {
-  margin-right: 2rem;
-  margin-left: 2rem;
+  margin-right: 1.2rem;
+  margin-left: 1.2rem;
   color: #ffffff !important;
   text-align: right;
   margin-top:  1.3rem;
@@ -58,76 +58,59 @@ nav ul li {
   border-top: 0.1875rem solid #a9643e;
 }
 
-/* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
-/* Large Desktop */
-@media (min-width: 1281px) {
-  /* CSS */
-  
-}
+@media (min-width: 1281px) and (max-height: 1920px) {
+  .logo {
+    width: 4.5rem;
+    margin-left: 8.55rem;
+    margin-top:  1rem;
+  }
 
-/* 
-  ##Device = Laptops, Desktops
-  ##Screen = B/w 1025px to 1280px
-*/
+  .navbar-collapse {
+    margin-right: 7.2rem;
+    text-align: right;
+  }
+}
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-  
-  /* CSS */
-  
+  .logo {
+    width: 4.5rem;
+    margin-left: 3.5rem;
+    margin-top:  1rem;
+  }
+  .navbar-collapse {
+    margin-right: 2.2rem;
+    text-align: right;
+  }
 }
 
-/* 
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-  IPads
-*/
-@media (min-width: 768px) and (max-width: 1024px) {
-  
-  /* CSS */
+@media (max-width: 1024px) {
   .logo {
-    width: 4rem;
-    margin-top: 1rem;
-    margin-left: 0.8rem;
+    width: 4.5rem;
+    margin-left: 2.35rem;
+  }
+  .navbar-collapse {
+    margin-right: 2rem;
+    text-align: right;
+  }
+    .navbar-nav > li > a {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    color: #ffffff !important;
+    text-align: right;
+    margin-top:  1.3rem;
+  }
+}
+
+@media (width: 768px) {
+  .logo {
+    width: 4.5rem;
+    margin-left: 1.8rem;
   }
   .navbar-toggler {
-    margin-right: 1rem;
-  }
+  margin-right: 1.5rem;
 }
-
-/* 
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  
-  /* CSS */
-  
-  
 }
-
-/* 
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
-
-@media (min-width: 481px) and (max-width: 767px) {
-  
-  /* CSS */
-  
-}
-
-/* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
-  Iphone 6 7 8 X
-*/
 @media (min-width: 320px) and (max-width: 480px) {
-  
-  /* CSS */
   .navbar-brand {
     max-width: 25rem;
     height: 2rem !important;
@@ -135,9 +118,25 @@ nav ul li {
   .logo {
     width: 2.5rem;
     margin-top: 0rem;
-    margin-left: 0.3rem;
+    margin-left: 0.6rem;
   }
   .navbar-toggler {
     margin-right: 0rem;
+  }
+}
+
+
+@media (width: 414px) and (height: 736px) {
+  .navbar-brand {
+    max-width: 25rem;
+    height: 2rem !important;
+  }
+  .logo {
+    width: 2.5rem;
+    margin-top: 0rem;
+    margin-left: 1.7rem;
+  }
+  .navbar-toggler {
+    margin-right: 1.35rem;
   }
 }
