@@ -301,7 +301,7 @@
         padding-bottom: 20px;
     }
     .areaProject{
-        height: 550px;
+        height: 400px;
     }
     .BoxFirst{
         margin-top: 0%;
@@ -311,13 +311,13 @@
     }
     .carouselBox{
         height: 500px;
-        width: 650px;
-        margin-left: -15px;
+        width: 600px;
+        margin-left: 15px;
         justify-content: center;
     }
     .CarouselPic{
-        width: 75%;
-        margin-left: -215px;
+        width: 80%;
+        margin-left: 110px;
     }
     .txtNameWork{
         color: #ffffff;
@@ -329,7 +329,7 @@
         margin-top: 11px;
     }
     .flexRow{
-        margin-top: -10%;
+        margin-top: -38%;
         margin-left: 1%;
         margin-right: 3%;
     }
