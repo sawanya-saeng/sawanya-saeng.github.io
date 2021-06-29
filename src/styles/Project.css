@@ -14,11 +14,7 @@
     color: #ffffff;
     padding-bottom: 20px;
 }
-.txtNameWork{
-    color: #ffffff;
-    font-size: 35px;
-    font-weight: bold;
-}
+
 .areaProject{
     height: 550px;
 }
@@ -26,7 +22,7 @@
     margin-top: 0%;
 }
 .BoxTwo{
-    margin-top: 15%;
+    margin-top: 18%;
 }
 .carouselBox{
     height: 500px;
@@ -35,12 +31,23 @@
     justify-content: center;
 }
 .CarouselPic{
-    width: 80%;
-    margin-left: 180px;
-    margin-right: 20px;
+    width: 90%;
+    margin-left: 130px;
+    margin-right: 35px;
+}
+.txtNameWork{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+}
+.txtWorkDetails{
+    font-size: 18px;
+    margin-top: 10px;
 }
 .flexRow{
-    margin-top: 5%;
+    margin-top: 0%;
+    margin-left: 1%;
+    margin-right: 3%;
 }
 .detailLeft {
     text-align: left;
@@ -66,74 +73,9 @@
     padding: 5px;
 }
 
-/* @media (min-width: 1281px) and (max-height: 1920px) {
-    .project {
-        background: #161616;
-        padding: 0.7rem;
-        padding-top: 10%;
-        padding-bottom: 15%;
-    }
-    .txtProject{
-        text-align: center;
-        text-transform: uppercase;
-        font-size: 4rem;
-        color: #ffffff;
-        padding-bottom: 20px;
-    }
-    .txtNameWork{
-        color: #ffffff;
-        font-size: 35px;
-        font-weight: bold;
-    }
-    .areaProject{
-        height: 550px;
-    }
-    .BoxFirst{
-        margin-top: 0%;
-    }
-    .BoxTwo{
-        margin-top: 15%;
-    }
-    .carouselBox{
-        height: 500px;
-        width: 1005px;
-        margin-left: 20px;
-        justify-content: center;
-    }
-    .CarouselPic{
-        width: 80%;
-        margin-left: 10px;
-        margin-right: 20px;
-    }
-    .flexRow{
-        margin-top: 5%;
-        padding-left: 125px;
-        padding-right: 140px;
-    }
-    .detailLeft {
-        text-align: left;
-        font-weight: bold;
-        color: #ffffff;
-    }
-    .detailMiddle{
-        color: #ffffff;
-        padding-right: 1px;
-        padding: 1px;
-    }
-    .detailRight{
-        color: #ffffff;
-        padding: 1px;
-    }
-    .boxToolM{
-        border: 1px solid #ffffff ;
-        padding: 5px;
-
-    }
-    .boxToolR{
-        border: 1px solid #ffffff ;
-        padding: 5px;
-    }
-} */
+@media (min-width: 1281px) and (max-height: 1920px) {
+ 
+} 
 
 /* @media (min-width: 1025px) and (max-width: 1280px) {
     .project {
