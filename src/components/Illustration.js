@@ -1,57 +1,51 @@
-import React, { useState } from "react";
-import Gallery from "react-photo-gallery";
-import Skeleton from "react-loading-skeleton";
+import React from "react";
 
 import "../styles/Illustrantion.css";
-import illustrantionG1 from "../Data/dataIllustration1";
-import illustrantionG2 from "../Data/dataIllustration2";
-import illustrantionG3 from "../Data/dataIllustration3";
+import illustrantionG1 from "../images/illus1.jpg";
+import illustrantionG2 from "../images/illus2.jpg";
+import illustrantionG3 from "../images/illus3.jpg";
+import illustrantionG4 from "../images/illus4.jpg";
+import illustrantionG5 from "../images/illus5.jpg";
+import illustrantionG6 from "../images/illus6.jpg";
 
 
 const Illustrantion = () => {
-  const [TimeLoad, setTimeLoad] = useState(false);
-
-  const loadding = setTimeout(() => {
-    setTimeLoad(true);
-    clearTimeout(loadding);
-  }, 1500);
-  
   return (
     <div className="illustrantion">
-      <div className="txtLogoBrand">
-        <div className="teLOBR">ILLUSTRATION</div>
+      <div className="borderLogoBrand">
+        <div className="textillustrantion">ILLUSTRATION</div>
       </div>
       <div className="container GalleryLogo">
-        {TimeLoad ? (
-          <Gallery photos={illustrantionG1} />
-        ) : (
-          <Skeleton
-            height={500}
-            width={700}
-            count={2}
-            className="skelatonPic"
-          />
-        )}
-        {TimeLoad ? (
-          <Gallery photos={illustrantionG2} />
-        ) : (
-          <Skeleton
-            height={500}
-            width={700}
-            count={2}
-            className="skelatonPic"
-          />
-        )}
-        {TimeLoad ? (
-          <Gallery photos={illustrantionG3} />
-        ) : (
-          <Skeleton
-            height={500}
-            width={700}
-            count={2}
-            className="skelatonPic"
-          />
-        )}
+        <div className="image-box-wrapper row justify-content-center">
+          <div className="illustrantion-image-box">
+            <img className="illustrantion-image" src={illustrantionG1} alt="illu1" />
+            <div className="overlay" />
+          </div>
+          <div className="illustrantion-image-box">
+            <img className="illustrantion-image" src={illustrantionG2} alt="illu2" />
+            <div className="overlay" />
+          </div>
+        </div>
+        <div className="image-box-wrapper row justify-content-center">
+          <div className="illustrantion-image-box">
+            <img className="illustrantion-image" src={illustrantionG3} alt="illu3" />
+            <div className="overlay" />
+          </div>
+          <div className="illustrantion-image-box">
+            <img className="illustrantion-image" src={illustrantionG4} alt="illu4" />
+            <div className="overlay" />
+          </div>
+        </div>
+        <div className="image-box-wrapper row justify-content-center">
+          <div className="illustrantion-image-box">
+            <img className="illustrantion-image" src={illustrantionG5} alt="illu5" />
+            <div className="overlay" />
+          </div>
+          <div className="illustrantion-image-box">
+            <img className="illustrantion-image" src={illustrantionG6} alt="illu6" />
+            <div className="overlay" />
+          </div>
+        </div>
       </div>
     </div>
   );

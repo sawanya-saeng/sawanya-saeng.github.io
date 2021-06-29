@@ -20,8 +20,7 @@
     text-align: left;
   }
   .rowSkills {
-    padding-left:  80px;
-    padding-right:  85px;
+    justify-content: space-evenly;
   }
   .listAbility {
     list-style-type: square;
@@ -29,13 +28,11 @@
     color: #ffffff;
     font-size: 1.85rem;
     line-height: 180%;
-    margin-left: 40px;
+    margin-left: 30px;
   }
-
   .rowItem {
     margin-top: 20px;
   }
-
   .nameApp {
     margin-top: 10px;
     color: #ffffff;
@@ -46,20 +43,113 @@
     margin-left: auto;
     margin-right: auto;
   }
+ 
 
-
-@media (min-width: 1281px) {
-  /* CSS */
-  
+@media (min-width: 1281px) and (max-height: 1920px) {
+.skills {
+  background: #a9643e;
+  padding-top: 6rem;
+  padding-bottom: 8rem;
+  height: 100%;
+}
+.textSkills {
+    border: 2px solid #cea792;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    font-size: 2.1rem;
+    color: #ffffff;
+    margin-bottom: 40px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-transform: uppercase;
+    text-align: left;
+  }
+  .rowSkills {
+    justify-content: space-evenly;
+  }
+  .listAbility {
+    list-style-type: square;
+    text-align: left;
+    color: #ffffff;
+    font-size: 1.85rem;
+    line-height: 180%;
+    margin-left: 30px;
+  }
+  .rowItem {
+    margin-top: 20px;
+  }
+  .nameApp {
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 1.1rem;
+  }
+  .picAdobe {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+   .boxAbility{
+    margin-left: 20px;
+  }
 }
 
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .skills {
+  background: #a9643e;
+  padding-top: 6rem;
+  padding-bottom: 8rem;
+  height: 100%;
+}
+.textSkills {
+    border: 2px solid #cea792;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    font-size: 2.1rem;
+    color: #ffffff;
+    margin-bottom: 40px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-transform: uppercase;
+    text-align: left;
+  }
+  .rowSkills {
+    justify-content: space-evenly;
+  }
+  .listAbility {
+    list-style-type: square;
+    text-align: left;
+    color: #ffffff;
+    font-size: 1.85rem;
+    line-height: 180%;
+    margin-left: 30px;
+  }
+  .rowItem {
+    margin-top: 20px;
+  }
+  .nameApp {
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 1.1rem;
+  }
+  .picAdobe {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+   .boxAbility{
+    margin-left: 20px;
+  }
+}
 /* 
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
   IPads
 */
-@media (min-width: 768px) and (max-width: 1024px) {
-  
+@media (min-width: 1024px) {
   /* CSS */
   .skills {
     padding-top: 6rem;
@@ -71,11 +161,10 @@
     border-top-style: none;
     border-left-style: none;
     border-right-style: none;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     color: #ffffff;
     margin-bottom: 40px;
     margin-left: 25px;
-    margin-right: 50px;
   }
   .listAbility {
     list-style-type: square;
@@ -83,7 +172,7 @@
     color: #ffffff;
     font-size: 1.5rem;
     line-height: 160%;
-    margin-left: 10px;
+    margin-left: 3px;
   }
   .rowItem {
     margin-top: 20px;
@@ -103,13 +192,56 @@
     margin-right: auto;
   }
 }
+@media (width: 768px) {
+  /* CSS */
+  .skills {
+    padding-top: 6rem;
+    padding-bottom: 8rem;
+    height: 100%;
+  }
+  .textSkills {
+    border: 2px solid #cea792;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 40px;
+    margin-left: 3px;
+  }
+  .borderSoftSkills{
+    margin-left: 10px;
+  }
+  .listAbility {
+    list-style-type: square;
+    text-align: left;
+    color: #ffffff;
+    font-size: 1.3rem;
+    line-height: 210%;
+    margin-left: -20px;
+  }
+  .rowItem {
+    margin-top: 20px;
+    margin-right: 0px;
+    text-align: center;
+  }
+  .nameApp {
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 1rem;
+  }
+  .picAdobe {
+    width: 55px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
   Iphone 6 7 8 X
 */
 @media (min-width: 320px) and (max-width: 480px) {
-  
   /* CSS */
   .skills {
     padding-top: 3.2rem;
@@ -117,14 +249,18 @@
     height: 100%;
   }
   .textSkills {
-    border: 0px;
+    border: 2px solid #cea792;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
     font-size: 1.5rem;
     color: #ffffff;
     text-align: left;
     text-transform: uppercase;
     margin-bottom: 20px;
     font-weight: bold;
-    margin-left: 20px;    
+    margin-left: 20px;  
+    margin-right: 20px;  
   }
   .boxSKills {
     margin-top: 15px;
@@ -139,7 +275,7 @@
     color: #ffffff;
     font-size: 1rem;
     line-height: 180%;
-    margin-left: 5px;
+    margin-left: -6px;
   }
   .picAdobe {
     width: 30%;

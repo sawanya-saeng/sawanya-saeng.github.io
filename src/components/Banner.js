@@ -1,34 +1,26 @@
-import React, { useState } from "react";
-import Gallery from "react-photo-gallery";
-import Skeleton from "react-loading-skeleton";
+import React from "react";
 
 import "../styles/Banner.css";
-import BannerG1 from "../Data/dataBanner";
+import banner1 from "../images/banner1.jpg";
+import banner2 from "../images/banner2.jpg";
 
 const Banner = () => {
-  const [TimeLoad, setTimeLoad] = useState(false);
-
-  const loadding = setTimeout(() => {
-    setTimeLoad(true);
-    clearTimeout(loadding);
-  }, 1500);
-
     return (
       <div className="banners">
-        <div className="txtLogoBrand">
-          <div className="teLOBR">Banner</div>
+        <div className="borderLogoBrand">
+          <div className="textBanner">Banner</div>
         </div>
         <div className="container GalleryLogo">
-          {TimeLoad ? (
-            <Gallery photos={BannerG1} />
-          ) : (
-            <Skeleton
-              height={500}
-              width={700}
-              count={2}
-              className="skelatonPic"
-            />
-          )}
+          <div className="image-box-wrapper row justify-content-center">
+            <div className="banner-image-box">
+              <img className="banner-image" src={banner1} alt="Banner1" />
+              <div className="overlay" />
+            </div>
+            <div className="banner-image-box">
+              <img className="banner-image" src={banner2} alt="Banner2" />
+              <div className="overlay" />
+            </div>
+          </div>
         </div>
       </div>
     );

@@ -54,7 +54,7 @@ const Contacts = () => {
               <div className="col boXL1">
                 <img src={Phone} className="picContacts" alt="Phone..." />
               </div>
-              <div className="col-6 boXL2">
+              <div className="col boXL2">
                 <div className="txtMe">Phone</div>
                 <div className="marginTop">(+66) 61 679 3436</div>
               </div>
@@ -65,12 +65,12 @@ const Contacts = () => {
               <div className="col boXL1">
                 <img src={Email} className="picContacts" alt="Phone..." />
               </div>
-              <div className="col-6 boXL2">
+              <div className="col boXL2">
                 <div className="txtMe">E-mail</div>
                 <div className="marginTop">sawanya.saeng@gmail.com</div>
               </div>
             </div>
-          </div>
+          </div> 
         </div>
         <div className="container">
           <form onSubmit={handleSubmit(onSubmit)}>

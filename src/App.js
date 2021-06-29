@@ -50,7 +50,7 @@ class App extends Component {
             <Banner />
             <Illustrantion />
             <TextEffect />
-            <Contacts />
+            {/* <Contacts /> */}
             <Footer />
           </>
         )}

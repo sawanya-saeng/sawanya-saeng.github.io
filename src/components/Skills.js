@@ -28,7 +28,9 @@ const Skills = () => {
               </ul>
             </div>
             <div class="col boxSKills">
-              <div className="textSkills">Software Skills</div>
+              <div className="borderSoftSkills">
+                <div className="textSkills">Software Skills</div>
+              </div>
               <div className="row rowItem">
                 <div className="col itemSkills">
                   <img

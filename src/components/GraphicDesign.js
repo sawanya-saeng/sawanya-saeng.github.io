@@ -1,60 +1,55 @@
-import React, { useState } from "react";
-import Gallery from "react-photo-gallery";
-import Skeleton from "react-loading-skeleton";
+import React from "react";
 
 import "../styles/Design.css";
-import Brand1 from "../Data/dataLogobrand1";
-import Brand2 from "../Data/dataLogobrand2";
-import Brand3 from "../Data/dataLogobrand3";
+import design1 from "../images/wed.jpg";
+import design2 from "../images/mw.jpg";
+import design3 from "../images/duck.jpg";
+import design4 from "../images/pig.jpg";
+import design5 from "../images/kaolahm.jpg";
+import design6 from "../images/eniac.jpg";
+
 
 const GraphicDesign = () => {
-  const [TimeLoad, setTimeLoad] = useState(false);
-
-  const loadding = setTimeout(() => {
-    setTimeLoad(true);
-    clearTimeout(loadding);
-  }, 1500);
-
-    return (
-      <div className="graphicdesign">
-        <h1 className="txtGraphicDesign">Graphic Design</h1>
-        <div className="txtLogoBrand">
-          <div className="teLOBR">LOGO & BRANDING</div>
+  return (
+    <div className="graphicdesign">
+      <h1 className="txtGraphicDesign">Graphic Design</h1>
+      <div className="borderLogoBrand">
+        <div className="textLOGOBRANDING">logo & branding</div>
+      </div>
+      <div className="container GalleryLogo">
+        <div className="image-box-wrapper row justify-content-center">
+          <div className="design-image-box">
+            <img className="design-image" src={design1} alt="Design1" />
+            <div className="overlay" />
+          </div>
+          <div className="design-image-box">
+            <img className="design-image" src={design2} alt="Design2" />
+            <div className="overlay" />
+          </div>
         </div>
-        <div className="container GalleryLogo">
-          {TimeLoad ? (
-            <Gallery photos={Brand1} />
-          ) : (
-            <Skeleton
-              height={500}
-              width={700}
-              count={2}
-              className="skelatonPic"
-            />
-          )}
-          {TimeLoad ? (
-            <Gallery photos={Brand2} />
-          ) : (
-            <Skeleton
-              height={500}
-              width={700}
-              count={2}
-              className="skelatonPic"
-            />
-          )}
-          {TimeLoad ? (
-            <Gallery photos={Brand3} />
-          ) : (
-            <Skeleton
-              height={500}
-              width={700}
-              count={2}
-              className="skelatonPic"
-            />
-          )}
+        <div className="image-box-wrapper row justify-content-center">
+          <div className="design-image-box">
+            <img className="design-image" src={design3} alt="Design3" />
+            <div className="overlay" />
+          </div>
+          <div className="design-image-box">
+            <img className="design-image" src={design4} alt="Design4" />
+            <div className="overlay" />
+          </div>
+        </div>
+        <div className="image-box-wrapper row justify-content-center">
+          <div className="design-image-box">
+            <img className="design-image " src={design5} alt="Design5" />
+            <div className="overlay" />
+          </div>
+          <div className="design-image-box">
+            <img className="design-image" src={design6} alt="Design6" />
+            <div className="overlay" />
+          </div>
         </div>
       </div>
-    );
+    </div>
+  );
 }
 
 export default GraphicDesign;

@@ -20,9 +20,6 @@ const ItemProject = ({
           className="CarouselPic"
           autoWidth
           infinite
-          // autoPlay
-          // autoPlayStrategy="none"
-          // autoPlayInterval={1000}
           animationDuration={1000}
           animationType="fadeout"
           items={PicItem}
