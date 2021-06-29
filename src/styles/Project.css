@@ -387,8 +387,8 @@
         justify-content: center;
     }
     .CarouselPic{
-        width: 35%;
-        margin-left: -570px;
+        width: 100%;
+        margin-left: 0px;
     }
     .txtNameWork{
         color: #ffffff;
@@ -460,8 +460,8 @@
         justify-content: center;
     }
     .CarouselPic{
-        width: 35%;
-        margin-left: -527px;
+        width: 100%;
+        margin-left: 0px;
     }
     .txtNameWork{
         color: #ffffff;
@@ -473,7 +473,7 @@
         margin-top: 10px;
     }
     .flexRow{
-        margin-top: -30%;
+        margin-top: -24%;
         margin-left: -15%;
         margin-right: -10%;
     }
