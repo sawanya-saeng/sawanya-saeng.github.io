@@ -30,11 +30,11 @@ const ItemProject = ({
           <h3 className="txtNameWork">{ProjectName}</h3>
           <h4 className="txtWorkDetails">{ProjectDetails}</h4>
         </div>
-        <div className="col-2 detailMiddle">
+        <div className="col-1.5 detailMiddle">
           {Tool1 ? <div className="boxToolM">{Tool1}</div> : null}
           {Tool2 ? <div className="boxToolM">{Tool2}</div> : null}
         </div>
-        <div className="col-2 detailRight">
+        <div className="col-1.5 detailRight">
           {Tool3 ? <div className="boxToolR">{Tool3}</div> : null}
           {Tool4 ? <div className="boxToolR">{Tool4}</div> : null}
         </div>

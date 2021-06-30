@@ -3,70 +3,71 @@
 .contacts {
   background: #a9643e;
   padding: 3rem 0;
-  padding-top: 7.5rem;
-  padding-bottom: 7rem;
-  height: 100%; 
+  padding-top: 5rem;
+  padding-bottom: 0rem;
 }
+
 .contacts h1 {
   color: #ffffff;
 }
+
 .txtContacts {
   color: #ffffff;
   padding: 1.3rem 0;
 }
+
 .contacts p {
   color: #F5C5AA;
   font-size: 1rem;
 }
-.rowTextContacts {
-  justify-content: space-around;
+.txtInput{
+  font-size: 1.8rem;
   color: #ffffff;
-  margin-top: 4rem;
-  padding-left: 15rem;
-  padding-right: 15rem;
-  border: 1px solid;
-}
-.picContacts {
-  width: 60px;
-}
-.boXL1{
-  text-align: right;
-  margin-left: -200px;
-}
-.boXL2{
   text-align: left;
+  margin-bottom: 5px;
 }
-.txtMe {
-  font-size: 1.25rem;
-  color: #ffffff;
-}
-.marginTop {
-  margin-top: 5px;
-  font-size: 1.3rem;
+
+.contact-btn {
+  margin: 1rem 0 0 0;
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  background: #ffffff;
+  border: 0px;
   color: #F5C5AA;
 }
-.areaInput {
-  border: 1px solid;
-}
-.rowContacts {
-  display: flex;
-  justify-content: space-evenly;
-}
-.txtInput {
-  font-size: 2rem;
+.contact-btn:hover{
+  background: #F5C5AA;
   color: #ffffff;
 }
-.areaForm {
-  box-sizing: content-box;
-  width: 600px;
-  height: 300px;
+.areaBtn{
+  padding: 20px;
 }
-.boxName {
-  justify-content: flex-start;
+.picContacts{
+  width: 60px;
 }
-.boxEmail {
-  justify-content: flex-end;
-  padding-top: 45px;
+.contactDetails{
+  justify-content: center;
+}
+.txtMe{
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+.txtTelEmail{
+  color: #F5C5AA;
+  font-size: 1.3rem;
+}
+.boxLR{
+  text-align: left;
+  margin-left: 15px;
+}
+.BoxDetail{
+  margin-top: -40px;
+}
+.BoxInput{
+  margin-top: -50px;
 }
 
 /****************************************** INPUT ********************************************/
@@ -92,208 +93,176 @@
   padding: 4rem 0;
 }
 
+.contacts textarea {
+  height: 12.2rem !important;
+}
+
 .contacts input:focus,
 .contacts textarea:focus {
-  border: 1px #ffffff;
-  padding-left: 20px;
-}
-
-.contacts textarea {
-  height: 13rem !important;
-  padding-left: 20px;
-}
-
-.contact-btn {
-  margin: 1rem 0 0 0;
-  width: 100%;
-  height: 50px;
-  font-size: 20px;
-  text-transform: uppercase;
-  border-radius: 10px;
-  background: #ffffff;
   border: 0px;
-  color: #F5C5AA
-}
-.contact-btn:hover{
-  background: #F5C5AA;
-  color: #ffffff;
-}
-input:focus + .line,
-textarea:focus + .line {
-  width: 100%;
-  transition: width 0.5s ease-in-out;
-  padding-left: 20px;
 }
 
 input.form-control {
-  margin: 0.3rem 0;
-  padding-left: 20px;
+  margin: -0.3rem 0;
 }
 
 textarea.form-control {
-  margin: 0.3rem 0;
+  margin: -0.3rem 0;
 }
 
 .success-message {
   font-weight: 900;
   color: #00ff7f;
 }
+.boxNameInput{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.boxEmailInput{
+  margin-top: 53px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.boxDescriptionInput{
+  margin: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
-@media (min-width: 1281px) and (max-height: 1920px) {
+/*---------------- MEDIA -----------------------*/
+@media (max-width: 768px) {
+  .contacts {
+    overflow-x: hidden;
+  }
+
+  .contacts .container {
+    padding: 0 1rem;
+  }
+
   .contacts p {
-    font-size: 1rem;
     padding: 20px;
+    margin-top: -20px;
+    font-size: 0.85rem;
   }
-  .picContacts {
-    width: 60px;
+
+  .contacts h1 {
+    color: #ffffff;
+    font-size: 2.8rem;
   }
-  .boXL1{
-    text-align: right;
-    margin-left: -200px;
-  }
-  .boXL2{
+  .txtInput{
+    font-size: 1.3rem;
+    color: #ffffff;
     text-align: left;
   }
-  .txtMe {
-    font-size: 1.25rem;
-    color: #ffffff;
-  }
-  .marginTop {
-    margin-top: 5px;
-    font-size: 1.3rem;
-    color: #F5C5AA;
-  }
-}
-
-@media (min-width: 1025px) and (max-width: 1280px) {
-   .contacts p {
-    font-size: 1rem;
-    padding: 20px;
-  }
-  .picContacts {
-    width: 60px;
-  }
-  .boXL1{
-    text-align: right;
-    margin-left: -200px;
-  }
-  .boXL2{
-    text-align: left;
-  }
-  .txtMe {
-    font-size: 1.25rem;
-    color: #ffffff;
-  }
-  .marginTop {
-    margin-top: 5px;
-    font-size: 1.3rem;
-    color: #F5C5AA;
-  }
-}
-
-@media (width: 1024px) {
-  .contacts {
-    background: #a9643e;
-    padding: 3rem 0;
-    padding-top: 5rem;
-    height: 100%; 
-  }
-   .contacts p {
-    font-size: 1rem;
-    padding: 10px;
-  }
-  .picContacts {
+  .picContacts{
     width: 50px;
   }
-  .boXL1{
-    text-align: right;
-    margin-left: -200px;
+  .contactDetails{
+    justify-content: center;
   }
-  .boXL2{
-    text-align: left;
-  }
-  .txtMe {
-    font-size: 1.3rem;
+  .txtMe{
     color: #ffffff;
+    font-size: 1.3rem;
   }
-  .marginTop {
-    font-size: 1.35rem;
+  .txtTelEmail{
     color: #F5C5AA;
+    font-size: 1rem;
+  }
+  .boxLR{
+    text-align: left;
+    margin-left: 15px;
+  }
+  .BoxDetail{
+    margin-top: -10px;
+  }
+  .BoxInput{
+    margin-top: 50px;
   }
 }
 
-@media screen and (width: 768px) {
-  .contacts {
-    background: #a9643e;
-    padding: 3rem 0;
-    padding-top: 5rem;
-    height: 100%; 
-  }
-   .contacts p {
-    font-size: 1rem;
-    padding: 10px;
-  }
-  .picContacts {
-    width: 50px;
-    margin-top: 5px;
-  }
-  .boXL1{
-    text-align: right;
-    margin-left: -200px;
-  }
-  .boXL2{
-    text-align: left;
-  }
-  .txtMe {
-    font-size: 1.2rem;
-    color: #ffffff;
-  }
-  .marginTop {
-    font-size: 1.25rem;
-    color: #F5C5AA;
-  }
-}
 
 @media (min-width: 320px) and (max-width: 480px) {
   .contacts {
-    background: #a9643e;
-    padding: 3rem 0;
-    padding-top: 5rem;
-    height: 100%; 
+    overflow-x: hidden;
   }
   .contacts h1 {
     font-size: 1.8rem;
   }
+
+  .contacts input,
+  .contacts textarea {
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    background: none;
+    resize: none;
+    border: 0;
+    border: 0.125rem solid #ffffff;
+    color: #F5C5AA;
+    border-radius: 10px;
+    outline: 0 !important;
+    box-shadow: none !important;
+    margin-bottom: 1rem;
+    padding-left: 0 !important;
+  }
+
   .contacts p {
-    font-size: 1rem;
-    padding: 10px;
+    font-size: 0.55rem;
+
   }
-  .picContacts {
-    width: 50px;
-    margin-top: 5px;
+  .contactDetails{
+    justify-content: left;
+    margin-left: 20px;
+    margin-top: 12px;
   }
-  .boXL1{
-    text-align: right;
+  .picContacts{
+    width: 40px;
   }
-  .boXL2{
-    text-align: left;
+  .boxNameInput{
+    margin: 0
   }
-  .boxRight{
-    margin-top: 15px;
+  .boxEmailInput{
+    margin-top: 30px;
   }
-  .txtMe {
+  .boxDescriptionInput{
+    margin-top: 20px;
+  }
+  .txtInput{
     font-size: 1rem;
     color: #ffffff;
+    text-align: left;
+    margin-bottom: 5px;
   }
-  .marginTop {
-    font-size: 1.1rem;
+   .txtMe{
+    color: #ffffff;
+    font-size: 1rem;
+  }
+  .txtTelEmail{
+    color: #F5C5AA;
+    font-size: 0.8rem;
+  }
+  .boxLR{
+    text-align: left;
+    margin-left: 15px;
+  }
+  .BoxDetail{
+    margin-top: -30px;
+  }
+  .BoxInput{
+    margin-top: 50px;
+  }
+  .contact-btn {
+    margin: 1rem 0 0 0;
+    width: 100%;
+    height: 35px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background: #ffffff;
+    border: 0px;
     color: #F5C5AA;
   }
-  .areaTag{
-    margin-top: -30px;
-  }
-  .areaIn{
-    padding: 40px;
-    margin-top: -30px;
+  .areaBtn{
+    margin-top: -20px;
   }
 }

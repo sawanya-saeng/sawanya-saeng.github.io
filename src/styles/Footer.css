@@ -5,6 +5,10 @@
   padding: 1rem;
   height: 100%;
 }
+.textFooter{
+  text-align: center;
+}
+
 .container-group {
   margin: 0 auto;
   padding: 1rem;
@@ -27,7 +31,9 @@
 }
 .txtCopy{
   text-align: center;
+  line-height: 40px;
 }
+
 @media (max-width: 768px) {
   .iconbox {
     margin-top: 2.5rem;
@@ -37,22 +43,8 @@
   }
 }
 
-@media (max-height: 570px) {
-  .iconbox {
-    margin-top: 2.5rem;
-    margin-left: -0.5rem;
-  }
+@media (min-width: 320px) and (max-width: 480px) {
   .txtCopy {
-    text-align: center;
-  }
-}
-
-@media (max-height: 280px) {
-  .iconbox {
-    margin-top: 2.5rem;
-    margin-left: -0.5rem;
-  }
-  .txtCopy {
-    text-align: center;
+    font-size: 0.8rem;    
   }
 }

@@ -54,7 +54,7 @@
 .scroll {
   font-weight: 700;
   font-size: 0.875rem;
-  left: 100px;
+  left: 155px;
   letter-spacing: 1.5px;
   color: #ffffff;
   text-transform: uppercase;
@@ -64,7 +64,7 @@
 .fixed-misc {
   position: fixed;
   top: 50%;
-  right: -120px;
+  right: -100px;
   transform: rotate(-90deg);
   font-weight: 700;
   text-transform: uppercase;
@@ -118,6 +118,24 @@
   IPads
 */
 
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .scroll {
+  font-weight: 700;
+  font-size: 0.875rem;
+  left: 75px;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 48px;
+  }
+  .homeMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+  }
+}
 @media (min-width: 768px) and (max-width: 1024px) {
   
   /* CSS */
@@ -156,7 +174,7 @@
   .scroll {
     font-weight: 600;
     font-size: 0.875rem;
-    left: 30px;
+    left: 60px;
     letter-spacing: 1.5px;
     color: #ffffff;
     text-transform: uppercase;
@@ -166,7 +184,7 @@
   .fixed-misc {
     position: fixed;
     top: 48%;
-    right: -140px;
+    right: -95px;
     transform: rotate(-90deg);
     font-weight: 600;
     text-transform: uppercase;
@@ -181,6 +199,20 @@
   ##Screen = B/w 320px to 479px
   Iphone 6 7 8 X
 */
+
+@media (width: 414px) and (height: 736px) {
+  .scroll {
+    font-weight: 600;
+    font-size: 0.875rem;
+    margin-left: 13px;
+    letter-spacing: 1.5px;
+    color: #ffffff;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 60px;
+  }
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
   
   /* CSS */
@@ -192,7 +224,7 @@
     margin: 0;
   }
   .mainpic {
-    width: 360px;
+    width: 325px;
     margin: auto auto;
     display: block;
   }
@@ -229,7 +261,7 @@
   .fixed-misc {
     position: fixed;
     top: 48%;
-    right: -110px;
+    right: -77px;
     transform: rotate(-90deg);
     font-weight: 600;
     text-transform: uppercase;

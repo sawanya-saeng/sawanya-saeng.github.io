@@ -22,7 +22,7 @@ const Header = () => {
       <div className="scroll">
         <span>Scroll down</span>
       </div>
-      <div className="fixed-misc">Visual Graphic design and UX/UI</div>
+      <div className="fixed-misc">Graphic and UX/UI design</div>
     </div>
   );
 };
