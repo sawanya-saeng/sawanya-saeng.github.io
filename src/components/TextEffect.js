@@ -7,7 +7,7 @@ import TextEffectG2 from "../images/text2.jpg";
 const TextEffect = () => {  
   return (
     <div className="texteffect">
-      <div className="borderLogoBrand">
+      <div>
         <div className="textEFF">Text effect</div>
       </div>
       <div className="container GalleryLogo">

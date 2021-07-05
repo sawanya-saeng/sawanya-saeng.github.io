@@ -12,7 +12,7 @@ import illustrantionG6 from "../images/illus6.jpg";
 const Illustrantion = () => {
   return (
     <div className="illustrantion">
-      <div className="borderLogoBrand">
+      <div>
         <div className="textillustrantion">ILLUSTRATION</div>
       </div>
       <div className="container GalleryLogo">

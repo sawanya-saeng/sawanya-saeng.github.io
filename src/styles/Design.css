@@ -263,10 +263,11 @@
 
 @media (width: 375px) and (height: 667px) {
   .graphicdesign{ 
-    padding-bottom: 2rem;
+    padding-bottom: 5rem;
     background: #161616;
-    padding-top: 1rem;
+    padding-top: 5rem;
   }
+  
 }
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
@@ -282,6 +283,9 @@
   }
   .design-image {
     width: 20rem;
+  }
+  .boxBlack2{ 
+    height: 15vh;
   }
   .design-image-box {
     position: relative;
@@ -329,6 +333,10 @@
     background: #161616;
     padding-top: -10rem;
     height: 99%;
+  }
+  .boxBlack2{
+    background: #161616;
+    height: 15vh;
   }
   .design-image {
     width: 20rem;

@@ -7,7 +7,7 @@ import banner2 from "../images/banner2.jpg";
 const Banner = () => {
     return (
       <div className="banners">
-        <div className="borderLogoBrand">
+        <div>
           <div className="textBanner">Banner</div>
         </div>
         <div className="container GalleryLogo">

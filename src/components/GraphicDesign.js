@@ -12,8 +12,9 @@ import design6 from "../images/eniac.jpg";
 const GraphicDesign = () => {
   return (
     <div className="graphicdesign">
+      <div className="boxBlack2" />
       <h1 className="txtGraphicDesign">Graphic Design</h1>
-      <div className="borderLogoBrand">
+      <div>
         <div className="textLOGOBRANDING">logo & branding</div>
       </div>
       <div className="container GalleryLogo">

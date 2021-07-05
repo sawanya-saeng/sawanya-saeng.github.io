@@ -71,12 +71,154 @@
     padding: 5px;
 }
 
-@media (min-width: 1281px) and (max-height: 1920px) { 
+@media screen and (min-width: 1281px) ,screen and  (max-height: 1920px) { 
     .project {
         background: #161616;
         padding: 0.7rem;
         padding-top: 10%;
         padding-bottom: 15%;
+    }
+    .txtProject{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 4rem;
+        color: #ffffff;
+        padding-bottom: 20px;
+    }
+    .areaProject{
+        height: 550px;
+    }
+    .BoxFirst{
+        margin-top: 0%;
+    }
+    .BoxTwo{
+        margin-top: 18%;
+    }
+    .carouselBox{
+        height: 500px;
+        width: 920px;
+        margin-left: 20px;
+        justify-content: center;
+    }
+    .CarouselPic{
+        width: 90%;
+        margin-left: 100px;
+        margin-right: 35px;
+    }
+    .txtNameWork{
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .txtWorkDetails{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    .flexRow{
+        margin-top: 5%;
+        margin-left: 1%;
+        margin-right: 3%;
+    }
+    .detailLeft {
+        text-align: left;
+        font-weight: bold;
+        color: #ffffff;
+    }
+    .detailMiddle{
+        color: #ffffff;
+        padding-right: 1px;
+        padding: 1px;
+    }
+    .detailRight{
+        color: #ffffff;
+        padding: 1px;
+    }
+    .boxToolM{
+        border: 1px solid #ffffff ;
+        padding: 5px;
+    }
+    .boxToolR{
+        border: 1px solid #ffffff ;
+        padding: 5px;
+    }
+}
+@media screen and (width: 1200px), screen and (height: 1440px){
+    .project {
+        background: #161616;
+        padding: 0.7rem;
+        padding-top: 10%;
+        padding-bottom: 15%;
+    }
+    .txtProject{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 3rem;
+        color: #ffffff;
+        padding-bottom: 20px;
+    }
+    .areaProject{
+        height: 550px;
+    }
+    .BoxFirst{
+        margin-top: 0%;
+    }
+    .BoxTwo{
+        margin-top: 10%;
+    }
+    .carouselBox{
+        height: 500px;
+        width: 600px;
+        margin-left: 0px;
+        justify-content: center;
+    }
+    .CarouselPic{
+        width: 70%;
+        margin-left: 50px;
+    }
+    .txtNameWork{
+        color: #ffffff;
+        font-size: 35px;
+        font-weight: bold;
+    }
+    .txtWorkDetails{
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    .flexRow{
+        margin-top: -5%;
+        margin-left: 1%;
+        margin-right: 3%;
+    }
+    .detailLeft {
+        text-align: left;
+        font-weight: bold;
+        color: #ffffff;
+    }
+    .detailMiddle{
+        color: #ffffff;
+        padding-right: 1px;
+        padding: 1px;
+    }
+    .detailRight{
+        color: #ffffff;
+        padding: 1px;
+    }
+    .boxToolM{
+        border: 1px solid #ffffff ;
+        padding: 5px;
+    }
+    .boxToolR{
+        border: 1px solid #ffffff ;
+        padding: 5px;
+    }
+
+}
+@media screen and (min-width: 1025px) ,screen and (max-width: 1280px) {
+    .project {
+    background: #161616;
+    padding: 0.7rem;
+    padding-top: 10%;
+    padding-bottom: 15%;
     }
     .txtProject{
         text-align: center;
@@ -141,78 +283,6 @@
         border: 1px solid #ffffff ;
         padding: 5px;
     }
-}
-
-@media (min-width: 1025px) and (max-width: 1280px) {
-    .project {
-    background: #161616;
-    padding: 0.7rem;
-    padding-top: 10%;
-    padding-bottom: 15%;
-}
-.txtProject{
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 4rem;
-    color: #ffffff;
-    padding-bottom: 20px;
-}
-.areaProject{
-    height: 550px;
-}
-.BoxFirst{
-    margin-top: 0%;
-}
-.BoxTwo{
-    margin-top: 18%;
-}
-.carouselBox{
-    height: 500px;
-    width: 1005px;
-    margin-left: 20px;
-    justify-content: center;
-}
-.CarouselPic{
-    width: 90%;
-    margin-left: 100px;
-    margin-right: 35px;
-}
-.txtNameWork{
-    color: #ffffff;
-    font-size: 30px;
-    font-weight: bold;
-}
-.txtWorkDetails{
-    font-size: 18px;
-    margin-top: 10px;
-}
-.flexRow{
-    margin-top: 5%;
-    margin-left: 1%;
-    margin-right: 3%;
-}
-.detailLeft {
-    text-align: left;
-    font-weight: bold;
-    color: #ffffff;
-}
-.detailMiddle{
-    color: #ffffff;
-    padding-right: 1px;
-    padding: 1px;
-}
-.detailRight{
-    color: #ffffff;
-    padding: 1px;
-}
-.boxToolM{
-    border: 1px solid #ffffff ;
-    padding: 5px;
-}
-.boxToolR{
-    border: 1px solid #ffffff ;
-    padding: 5px;
-}
 } 
 
 @media (width: 1024px) {
@@ -358,7 +428,79 @@
         padding: 5px;
     }
 }
-
+@media (width: 414px) and (height: 736px) {
+    .project {
+        background: #161616;
+        padding: 0.7rem;
+        padding-top: 10%;
+        padding-bottom: 0%;
+        height: 147vh;
+    }
+    .txtProject{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 1.8rem;
+        color: #ffffff;
+        padding-bottom: 20px;
+    }
+    .areaProject{
+        height: 420px;
+    }
+    .BoxFirst{
+        margin-top: 0%;
+    }
+    .BoxTwo{
+        margin-top: -25%;
+    }
+    .carouselBox{
+        height: 300px;
+        width: 340px;
+        margin-left:-20px;
+        justify-content: center;
+    }
+    .CarouselPic{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .txtNameWork{
+        color: #ffffff;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .txtWorkDetails{
+        font-size: 0.65rem;
+        margin-top: -1px;
+    }
+    .flexRow{
+        margin-top: -24%;
+        margin-left: -8%;
+        margin-right: -3%;
+    }
+    .detailLeft {
+        text-align: left;
+        font-weight: bold;
+        color: #ffffff;
+    }
+    .detailMiddle{
+        color: #ffffff;
+        padding-right: 1px;
+        padding: 1px;
+        font-size: 0.47rem;
+    }
+    .detailRight{
+        color: #ffffff;
+        padding: 1px;
+        font-size: 0.47rem;
+    }
+    .boxToolM{
+        border: 1px solid #ffffff ;
+        padding: 5px;
+    }
+    .boxToolR{
+        border: 1px solid #ffffff ;
+        padding: 5px;
+    }
+}
 @media (width: 375px) and (height: 667px) {
     .project {
         background: #161616;
@@ -366,6 +508,11 @@
         padding-top: 10%;
         padding-bottom: 5%;
     }
+    .boxBlack1{
+        background: #161616;
+        height: 35vh;
+    }
+    
     .txtProject{
         text-align: center;
         text-transform: uppercase;
@@ -439,83 +586,10 @@
         padding: 0.7rem;
         padding-top: 10%;
         padding-bottom: 0%;
-        height: 140vh;
-    }
-    .txtProject{
-        text-align: center;
-        text-transform: uppercase;
-        font-size: 2rem;
-        color: #ffffff;
-        padding-bottom: 20px;
-    }
-    .areaProject{
-        height: 420px;
-    }
-    .BoxFirst{
-        margin-top: 0%;
-    }
-    .BoxTwo{
-        margin-top: -25%;
-    }
-    .carouselBox{
-        height: 300px;
-        width: 300px;
-        margin-left:-20px;
-        justify-content: center;
-    }
-    .CarouselPic{
-        width: 100%;
-        margin-left: 0px;
-    }
-    .txtNameWork{
-        color: #ffffff;
-        font-size: 1rem;
-        font-weight: bold;
-    }
-    .txtWorkDetails{
-        font-size: 0.75rem;
-        margin-top: 10px;
-    }
-    .flexRow{
-        margin-top: -30%;
-        margin-left: -15%;
-        margin-right: -10%;
-    }
-    .detailLeft {
-        text-align: left;
-        font-weight: bold;
-        color: #ffffff;
-    }
-    .detailMiddle{
-        color: #ffffff;
-        padding-right: 1px;
-        padding: 1px;
-        font-size: 0.489rem;
-    }
-    .detailRight{
-        color: #ffffff;
-        padding: 1px;
-        font-size: 0.489rem;
-    }
-    .boxToolM{
-        border: 1px solid #ffffff ;
-        padding: 5px;
-    }
-    .boxToolR{
-        border: 1px solid #ffffff ;
-        padding: 5px;
-    }
-}
-
-
-
-@media (width: 414px) and (height: 736px) {
-    .project {
-        background: #161616;
-        padding: 0.7rem;
-        padding-top: 10%;
-        padding-bottom: 0%;
         height: 147vh;
+    }
+    .boxBlack2{
+        height: 5vh;
     }
     .txtProject{
         text-align: center;
@@ -541,7 +615,7 @@
     }
     .CarouselPic{
         width: 100%;
-        margin-left:2px;
+        margin-left: 0px;
     }
     .txtNameWork{
         color: #ffffff;
