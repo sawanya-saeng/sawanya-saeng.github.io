@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.abbf481f.chunk.css",
-    "main.js": "/static/js/main.ffb09e58.chunk.js",
-    "main.js.map": "/static/js/main.ffb09e58.chunk.js.map",
+    "main.js": "/static/js/main.b043c5de.chunk.js",
+    "main.js.map": "/static/js/main.b043c5de.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.62ca7ae1.js",
     "runtime-main.js.map": "/static/js/runtime-main.62ca7ae1.js.map",
     "static/css/2.b5d0a0a4.chunk.css": "/static/css/2.b5d0a0a4.chunk.css",
@@ -29,8 +29,8 @@
     "static/media/cpe6.5d068dd4.png": "/static/media/cpe6.5d068dd4.png",
     "static/media/cpe7.3349282e.png": "/static/media/cpe7.3349282e.png",
     "static/media/cpe8.995171a4.png": "/static/media/cpe8.995171a4.png",
-    "static/media/duck.364719b8.jpg": "/static/media/duck.364719b8.jpg",
-    "static/media/eniac.4e58c813.jpg": "/static/media/eniac.4e58c813.jpg",
+    "static/media/duck.3cbd4835.jpg": "/static/media/duck.3cbd4835.jpg",
+    "static/media/eniac.4c29b7eb.jpg": "/static/media/eniac.4c29b7eb.jpg",
     "static/media/food0.780d82af.png": "/static/media/food0.780d82af.png",
     "static/media/food1.95096832.png": "/static/media/food1.95096832.png",
     "static/media/food2.fc12b544.png": "/static/media/food2.fc12b544.png",
@@ -45,10 +45,10 @@
     "static/media/illus5.0c305db4.jpg": "/static/media/illus5.0c305db4.jpg",
     "static/media/illus6.d95dd057.jpg": "/static/media/illus6.d95dd057.jpg",
     "static/media/illustrator.4fd50186.png": "/static/media/illustrator.4fd50186.png",
-    "static/media/kaolahm.e6f7851f.jpg": "/static/media/kaolahm.e6f7851f.jpg",
+    "static/media/kaolahm.c5385053.jpg": "/static/media/kaolahm.c5385053.jpg",
     "static/media/mainpic.8e41553f.png": "/static/media/mainpic.8e41553f.png",
-    "static/media/mw.2166bd5f.jpg": "/static/media/mw.2166bd5f.jpg",
-    "static/media/pig.a69056e9.jpg": "/static/media/pig.a69056e9.jpg",
+    "static/media/mw.54bdbe5a.jpg": "/static/media/mw.54bdbe5a.jpg",
+    "static/media/pig.39aa0bf9.jpg": "/static/media/pig.39aa0bf9.jpg",
     "static/media/shoot1.5878ce11.png": "/static/media/shoot1.5878ce11.png",
     "static/media/shoot2.b3963175.png": "/static/media/shoot2.b3963175.png",
     "static/media/shoot3.89d342d5.png": "/static/media/shoot3.89d342d5.png",
@@ -61,13 +61,13 @@
     "static/media/text1.24b41bab.jpg": "/static/media/text1.24b41bab.jpg",
     "static/media/text2.bbc1fb34.jpg": "/static/media/text2.bbc1fb34.jpg",
     "static/media/ux-design.fd3a780f.gif": "/static/media/ux-design.fd3a780f.gif",
-    "static/media/wed.cfd3adca.jpg": "/static/media/wed.cfd3adca.jpg"
+    "static/media/wed.43e84704.jpg": "/static/media/wed.43e84704.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.62ca7ae1.js",
     "static/css/2.b5d0a0a4.chunk.css",
     "static/js/2.afb41d16.chunk.js",
     "static/css/main.abbf481f.chunk.css",
-    "static/js/main.ffb09e58.chunk.js"
+    "static/js/main.b043c5de.chunk.js"
   ]
 }
