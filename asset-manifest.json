@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.abbf481f.chunk.css",
-    "main.js": "/static/js/main.fd25dae2.chunk.js",
-    "main.js.map": "/static/js/main.fd25dae2.chunk.js.map",
+    "main.js": "/static/js/main.af0bd8f2.chunk.js",
+    "main.js.map": "/static/js/main.af0bd8f2.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.62ca7ae1.js",
     "runtime-main.js.map": "/static/js/runtime-main.62ca7ae1.js.map",
     "static/css/2.b5d0a0a4.chunk.css": "/static/css/2.b5d0a0a4.chunk.css",
@@ -19,8 +19,8 @@
     "static/media/Photoshop.1b73cc31.png": "/static/media/Photoshop.1b73cc31.png",
     "static/media/PremierePro.4055d2e9.png": "/static/media/PremierePro.4055d2e9.png",
     "static/media/XD.be70eec5.png": "/static/media/XD.be70eec5.png",
-    "static/media/banner1.75210c23.jpg": "/static/media/banner1.75210c23.jpg",
-    "static/media/banner2.a94ca9fa.jpg": "/static/media/banner2.a94ca9fa.jpg",
+    "static/media/banner1.37ea7eb4.jpg": "/static/media/banner1.37ea7eb4.jpg",
+    "static/media/banner2.93cfdb5f.jpg": "/static/media/banner2.93cfdb5f.jpg",
     "static/media/cpe1.e4da8964.png": "/static/media/cpe1.e4da8964.png",
     "static/media/cpe2.c7bf1064.png": "/static/media/cpe2.c7bf1064.png",
     "static/media/cpe3.45b98006.png": "/static/media/cpe3.45b98006.png",
@@ -29,8 +29,8 @@
     "static/media/cpe6.5d068dd4.png": "/static/media/cpe6.5d068dd4.png",
     "static/media/cpe7.3349282e.png": "/static/media/cpe7.3349282e.png",
     "static/media/cpe8.995171a4.png": "/static/media/cpe8.995171a4.png",
-    "static/media/duck.bda6ac01.jpg": "/static/media/duck.bda6ac01.jpg",
-    "static/media/eniac.78455ce2.jpg": "/static/media/eniac.78455ce2.jpg",
+    "static/media/duck.364719b8.jpg": "/static/media/duck.364719b8.jpg",
+    "static/media/eniac.4e58c813.jpg": "/static/media/eniac.4e58c813.jpg",
     "static/media/food0.780d82af.png": "/static/media/food0.780d82af.png",
     "static/media/food1.95096832.png": "/static/media/food1.95096832.png",
     "static/media/food2.fc12b544.png": "/static/media/food2.fc12b544.png",
@@ -45,10 +45,10 @@
     "static/media/illus5.7bfcf291.jpg": "/static/media/illus5.7bfcf291.jpg",
     "static/media/illus6.0ca0eb74.jpg": "/static/media/illus6.0ca0eb74.jpg",
     "static/media/illustrator.4fd50186.png": "/static/media/illustrator.4fd50186.png",
-    "static/media/kaolahm.1b2fca93.jpg": "/static/media/kaolahm.1b2fca93.jpg",
+    "static/media/kaolahm.e6f7851f.jpg": "/static/media/kaolahm.e6f7851f.jpg",
     "static/media/mainpic.8e41553f.png": "/static/media/mainpic.8e41553f.png",
-    "static/media/mw.1d680bdd.jpg": "/static/media/mw.1d680bdd.jpg",
-    "static/media/pig.a869edc1.jpg": "/static/media/pig.a869edc1.jpg",
+    "static/media/mw.2166bd5f.jpg": "/static/media/mw.2166bd5f.jpg",
+    "static/media/pig.a69056e9.jpg": "/static/media/pig.a69056e9.jpg",
     "static/media/shoot1.5878ce11.png": "/static/media/shoot1.5878ce11.png",
     "static/media/shoot2.b3963175.png": "/static/media/shoot2.b3963175.png",
     "static/media/shoot3.89d342d5.png": "/static/media/shoot3.89d342d5.png",
@@ -61,13 +61,13 @@
     "static/media/text1.74e26610.jpg": "/static/media/text1.74e26610.jpg",
     "static/media/text2.64b60502.jpg": "/static/media/text2.64b60502.jpg",
     "static/media/ux-design.fd3a780f.gif": "/static/media/ux-design.fd3a780f.gif",
-    "static/media/wed.b4469790.jpg": "/static/media/wed.b4469790.jpg"
+    "static/media/wed.cfd3adca.jpg": "/static/media/wed.cfd3adca.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.62ca7ae1.js",
     "static/css/2.b5d0a0a4.chunk.css",
     "static/js/2.afb41d16.chunk.js",
     "static/css/main.abbf481f.chunk.css",
-    "static/js/main.fd25dae2.chunk.js"
+    "static/js/main.af0bd8f2.chunk.js"
   ]
 }
