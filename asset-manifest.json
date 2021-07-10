@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.e28f73c5.chunk.css",
-    "main.js": "/static/js/main.e6c9be27.chunk.js",
-    "main.js.map": "/static/js/main.e6c9be27.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ad979b5a.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ad979b5a.js.map",
-    "static/css/2.d655243d.chunk.css": "/static/css/2.d655243d.chunk.css",
-    "static/js/2.1662f5b2.chunk.js": "/static/js/2.1662f5b2.chunk.js",
-    "static/js/2.1662f5b2.chunk.js.map": "/static/js/2.1662f5b2.chunk.js.map",
-    "static/js/3.7ae4c26c.chunk.js": "/static/js/3.7ae4c26c.chunk.js",
-    "static/js/3.7ae4c26c.chunk.js.map": "/static/js/3.7ae4c26c.chunk.js.map",
+    "main.css": "/static/css/main.087049b6.chunk.css",
+    "main.js": "/static/js/main.614faf14.chunk.js",
+    "main.js.map": "/static/js/main.614faf14.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.62ca7ae1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.62ca7ae1.js.map",
+    "static/css/2.b5d0a0a4.chunk.css": "/static/css/2.b5d0a0a4.chunk.css",
+    "static/js/2.afb41d16.chunk.js": "/static/js/2.afb41d16.chunk.js",
+    "static/js/2.afb41d16.chunk.js.map": "/static/js/2.afb41d16.chunk.js.map",
+    "static/js/3.62e94803.chunk.js": "/static/js/3.62e94803.chunk.js",
+    "static/js/3.62e94803.chunk.js.map": "/static/js/3.62e94803.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.d655243d.chunk.css.map": "/static/css/2.d655243d.chunk.css.map",
-    "static/css/main.e28f73c5.chunk.css.map": "/static/css/main.e28f73c5.chunk.css.map",
-    "static/js/2.1662f5b2.chunk.js.LICENSE.txt": "/static/js/2.1662f5b2.chunk.js.LICENSE.txt",
+    "static/css/2.b5d0a0a4.chunk.css.map": "/static/css/2.b5d0a0a4.chunk.css.map",
+    "static/css/main.087049b6.chunk.css.map": "/static/css/main.087049b6.chunk.css.map",
+    "static/js/2.afb41d16.chunk.js.LICENSE.txt": "/static/js/2.afb41d16.chunk.js.LICENSE.txt",
     "static/media/Animate.6cc6470f.png": "/static/media/Animate.6cc6470f.png",
     "static/media/InDesign.3edfea4e.png": "/static/media/InDesign.3edfea4e.png",
     "static/media/Photoshop.1b73cc31.png": "/static/media/Photoshop.1b73cc31.png",
@@ -64,10 +64,10 @@
     "static/media/wed.b4469790.jpg": "/static/media/wed.b4469790.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.ad979b5a.js",
-    "static/css/2.d655243d.chunk.css",
-    "static/js/2.1662f5b2.chunk.js",
-    "static/css/main.e28f73c5.chunk.css",
-    "static/js/main.e6c9be27.chunk.js"
+    "static/js/runtime-main.62ca7ae1.js",
+    "static/css/2.b5d0a0a4.chunk.css",
+    "static/js/2.afb41d16.chunk.js",
+    "static/css/main.087049b6.chunk.css",
+    "static/js/main.614faf14.chunk.js"
   ]
 }
