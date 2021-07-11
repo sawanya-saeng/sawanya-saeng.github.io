@@ -1,0 +1,253 @@
+.products{ 
+    background: #161616;
+    padding: 0.7rem;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.textProject{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 4rem;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+.itemProject{
+    padding-top: 2rem; 
+    padding-bottom : 3rem;
+    justify-content: center;
+    align-items: center;
+}
+.detailProject{ 
+    padding-bottom : 3rem;
+}
+.txtNameWork{
+    font-size: 40px;
+    font-weight: bold;
+}
+.txtWorkDetails{
+    font-size: 25px;
+}
+.detailLeft {
+    text-align: left;
+    font-weight: bold;
+    color: #ffffff;
+}
+.detailMiddle{
+    color: #ffffff;
+    padding-right: 1px;
+    padding: 1px;
+}
+.detailRight{
+    margin-right: 0.5rem;
+    color: #ffffff;
+    padding: 1px;
+}
+.boxToolM{
+    border: 1px solid #ffffff ;
+    font-size: 15px;
+    padding: 5px;
+}
+
+@media screen and (width: 1281px), screen and (height: 1440px){
+    .textProject{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 4rem;
+        color: #ffffff;
+        padding-bottom: 20px;
+    }
+    .txtNameWork{
+        color: #ffffff;
+        font-size: 35px;
+        font-weight: bold;
+    }
+    .txtWorkDetails{
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    .detailLeft {
+        text-align: left;
+        font-weight: bold;
+        color: #ffffff;
+    }
+    .detailMiddle{
+        color: #ffffff;
+        padding-right: 1px;
+        padding: 1px;
+    }
+    .detailRight{
+        color: #ffffff;
+        padding: 1px;
+    }
+    .boxToolM{
+        border: 1px solid #ffffff ;
+        padding: 5px;
+    }
+}
+
+@media screen and (min-width: 1024px) ,screen and (max-width: 1280px) {
+     .textProject{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 3.5rem;
+        color: #ffffff;
+        padding-bottom: 20px;
+    }
+    .txtNameWork{
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .txtWorkDetails{
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    .detailLeft {
+        text-align: left;
+        font-weight: bold;
+        color: #ffffff;
+    }
+    .detailMiddle{
+        color: #ffffff;
+        padding-right: 1px;
+        padding: 1px;
+    }
+    .detailRight{
+        color: #ffffff;
+        padding: 1px;
+    }
+    .boxToolM{
+        border: 1px solid #ffffff ;
+        font-size: 12px;
+        padding: 5px;
+    }
+}
+
+@media screen and (width: 768px) {
+    .textProject{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 2rem;
+        color: #ffffff;
+        padding-bottom: 20px;
+    }
+    .txtNameWork{
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .txtWorkDetails{
+        font-size: 16px;
+        margin-top: 11px;
+    }
+    .detailLeft {
+        text-align: left;
+        font-weight: bold;
+        color: #ffffff;
+    }
+    .detailMiddle{
+        color: #ffffff;
+        padding-right: 1px;
+        padding: 1px;
+        font-size: 12px;
+    }
+    .detailRight{
+        color: #ffffff;
+        padding: 1px;
+        font-size: 12px;
+    }
+    .boxToolM{
+        border: 1px solid #ffffff ;
+        font-size: 8px;
+        padding: 5px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    .works{ 
+        background: #161616;
+        padding: 0.7rem;
+        padding-top: 5%;
+        padding-bottom: 0%;
+    }
+    .detailProject{ 
+        padding-bottom : 0rem;
+    }
+    .textProject{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 2rem;
+        color: #ffffff;
+        padding-bottom: 20px;
+    }
+    .txtNameWork{
+        color: #ffffff;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .txtWorkDetails{
+        font-size: 0.65rem;
+        margin-top: -1px;
+    }
+    .detailLeft {
+        text-align: left;
+        font-weight: bold;
+        color: #ffffff;
+    }
+    .detailMiddle{
+        color: #ffffff;
+        padding-right: 1px;
+        padding: 1px;
+        font-size: 0.47rem;
+    }
+    .detailRight{
+        color: #ffffff;
+        padding: 1px;
+        font-size: 0.47rem;
+    }
+    .boxToolM{
+        border: 1px solid #ffffff ;
+        padding: 5px;
+        font-size: 4.6px;
+    }
+}
+
+@media (width: 414px) and (height: 736px) {
+    .txtProject{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 1.8rem;
+        color: #ffffff;
+        padding-bottom: 20px;
+    }.txtNameWork{
+        color: #ffffff;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .txtWorkDetails{
+        font-size: 0.65rem;
+        margin-top: -1px;
+    }
+    .detailLeft {
+        text-align: left;
+        font-weight: bold;
+        color: #ffffff;
+        margin-left: 5px;
+
+    }
+    .detailMiddle{
+        color: #ffffff;
+        padding-right: 1px;
+        padding: 1px;
+        font-size: 0.47rem;
+    }
+    .detailRight{
+        color: #ffffff;
+        padding: 1px;
+        margin-right: 5px;
+    }
+    .boxToolM{
+        border: 1px solid #ffffff ;
+        font-size: 4.6px;
+        padding: 3px;
+    }
+}

@@ -6,7 +6,6 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Aboutme from "./components/Aboutme";
 import Skills from "./components/Skills";
-import Project from "./components/Project";
 import GraphicDesign from "./components/GraphicDesign";
 import Illustrantion from "./components/Illustration";
 import Loading from "./components/Loading";
@@ -14,6 +13,7 @@ import Banner from "./components/Banner";
 import TextEffect from "./components/TextEffect";
 import Contacts from "./components/Contacts";
 import Footer from "./components/Footer";
+import Product from "./components/Product";
 
 class App extends Component {
   state = {
@@ -45,7 +45,7 @@ class App extends Component {
             <Header />
             <Aboutme />
             <Skills />
-            <Project />
+            <Product />
             <GraphicDesign />
             <Banner />
             <Illustrantion />

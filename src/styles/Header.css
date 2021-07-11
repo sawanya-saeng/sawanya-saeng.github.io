@@ -29,15 +29,15 @@
 }
 
 .main-text {
-  font-size: 5rem;
+  font-size: 4rem;
   font-family: "Krona One", sans-serif !important;
   text-transform: uppercase;
-  letter-spacing: 100px;
+  letter-spacing: 0px;
   font-weight: 900;
   color: #ffffff;
   position: absolute;
   display: block;
-  width: 100%;
+  width: 90%;
   top: 50%;
   transform: translateY(-50%);
   text-align: center;
@@ -95,7 +95,7 @@
     padding-top: 60px;
   }
   .main-text {
-    font-size: 5rem;
+    font-size: 4rem;
     font-family: "Krona One", sans-serif !important;
     text-transform: uppercase;
     letter-spacing: 100px;
@@ -103,7 +103,7 @@
     color: #ffffff;
     position: absolute;
     display: block;
-    width: 100%;
+    width: 90%;
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
@@ -117,6 +117,40 @@
   ##Screen = B/w 768px to 1024px
   IPads
 */
+
+@media (width: 1200px) and (height: 1920px) {
+  .scroll {
+  font-weight: 700;
+  font-size: 0.875rem;
+  left: 75px;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 48px;
+  }
+  .mainpic {
+    width: 580px;
+    margin: auto auto;
+    display: block;
+  }
+  .main-text {
+    font-size: 3rem;
+    font-family: "Krona One", sans-serif !important;
+    text-transform: uppercase;
+    letter-spacing: 100px;
+    font-weight: 900;
+    color: #ffffff;
+    position: absolute;
+    display: block;
+    width: 90%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding-left: 35px;
+    padding-top: 65px;
+  }
+}
 
 @media (min-width: 1025px) and (max-width: 1280px) {
   .scroll {
@@ -135,6 +169,33 @@
     align-items: center;
     padding-top: 60px;
   }
+  .mainpic {
+    width: 580px;
+    margin: auto auto;
+    display: block;
+  }
+  .homeMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+  }
+  .main-text {
+    font-size: 3rem;
+    font-family: "Krona One", sans-serif !important;
+    text-transform: uppercase;
+    letter-spacing: 80px;
+    font-weight: 800;
+    color: #ffffff;
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding-left: 35px;
+    padding-top: 65px;
+  }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   
@@ -152,7 +213,7 @@
     display: block;
   }
   .main-text {
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-family: "Krona One", sans-serif !important;
     text-transform: uppercase;
     letter-spacing: 50px;
@@ -160,7 +221,7 @@
     color: #ffffff;
     position: absolute;
     display: block;
-    width: 100%;
+    width: 90%;
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
@@ -211,10 +272,20 @@
     position: absolute;
     bottom: 60px;
   }
+  .fixed-misc {
+    position: fixed;
+    top: 50%;
+    right: -87px;
+    transform: rotate(-90deg);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    letter-spacing: 1.5px;
+    color: #ffffff;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-  
   /* CSS */
   .banner {
     display: flex;
@@ -237,7 +308,7 @@
     color: #ffffff;
     position: absolute;
     display: block;
-    width: 100%;
+    width: 90%;
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
@@ -260,10 +331,10 @@
   }
   .fixed-misc {
     position: fixed;
-    top: 48%;
-    right: -77px;
+    top: 50%;
+    right: -85px;
     transform: rotate(-90deg);
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
     font-size: 0.6rem;
     letter-spacing: 1.5px;

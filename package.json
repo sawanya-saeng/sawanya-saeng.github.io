@@ -23,6 +23,7 @@
     "react-lazy-load-image-component": "^1.5.1",
     "react-loading-skeleton": "^2.2.0",
     "react-photo-gallery": "^8.0.0",
+    "react-responsive-carousel": "^3.2.19",
     "react-reveal": "^1.2.2",
     "react-scripts": "4.0.3",
     "react-scroll": "^1.8.2",
