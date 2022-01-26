@@ -14,6 +14,7 @@ import TextEffect from "./components/TextEffect";
 import Contacts from "./components/Contacts";
 import Footer from "./components/Footer";
 import Product from "./components/Product";
+import Package from "./components/Package";
 
 class App extends Component {
   state = {
@@ -48,6 +49,7 @@ class App extends Component {
             <Product />
             <GraphicDesign />
             <Banner />
+            <Package />
             <Illustrantion />
             <TextEffect />
             <Contacts />
