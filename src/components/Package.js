@@ -8,7 +8,7 @@ const Package = () => {
     return (
       <div className="banners">
         <div>
-          <div className="textBanner">Package</div>
+          <div className="textBanner">Packaging</div>
         </div>
         <div className="container GalleryLogo">
           <div className="image-box-wrapper row justify-content-center">
