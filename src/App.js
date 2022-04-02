@@ -15,6 +15,7 @@ import Contacts from "./components/Contacts";
 import Footer from "./components/Footer";
 import Product from "./components/Product";
 import Package from "./components/Package";
+import Uidesign from "./components/UIdesign";
 
 class App extends Component {
   state = {
@@ -47,6 +48,7 @@ class App extends Component {
             <Aboutme />
             <Skills />
             <Product />
+            <Uidesign />
             <GraphicDesign />
             <Banner />
             <Package />
