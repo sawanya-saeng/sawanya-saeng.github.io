@@ -8,7 +8,7 @@ import "../styles/Navbar.css";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light fixed-top">
+    <nav className="navbar navbar-expand-lg navbar-light fixed-top .z-depth-5">
       <Link smooth={true} to="home" className="navbar-brand" href="#">
         <img src={Logo} className="logo" alt="logo..." />
       </Link>

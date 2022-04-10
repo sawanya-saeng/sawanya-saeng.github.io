@@ -16,37 +16,52 @@
 
 .banner {
   display: flex;
-  background: linear-gradient(90deg, #a9643e 50%, #161616 50%);
   position: relative;
   height: 105vh;
-  margin: 0;
+}
+
+.areaTop{
+  margin-top: 150px;
 }
 
 .homeMain {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  border: 1px solid #ffff;
 }
 
-.main-text {
-  font-size: 4rem;
-  font-family: "Krona One", sans-serif !important;
-  text-transform: uppercase;
-  letter-spacing: 0px;
-  font-weight: 900;
-  color: #ffffff;
-  position: absolute;
+.rightProfile{
   display: block;
-  width: 90%;
-  top: 50%;
-  transform: translateY(-50%);
-  text-align: center;
-  padding-left: 35px;
-  padding-top: 20px;
+  margin: auto;
+}
+.theport{
+  font-size: 35px;
+  font-weight: 300;
+  color: #ffffff;
+  letter-spacing: 10px;
+  line-height: 80px;
+}
+.firstName{
+  font-size: 110px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.lastName{
+  font-size: 64px;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 20px;
+}
+.descriptionPositon{
+  font-size: 35px;
+  font-weight: 300;
+  color: #ffffff;
+  letter-spacing: 2px;
+  line-height: 150px;
 }
 
 .mainpic {
-  width: 750px;
+  width: 500px;
+  object-fit: contain;
   margin: auto auto;
   display: block;
 }
@@ -64,7 +79,7 @@
 .fixed-misc {
   position: fixed;
   top: 50%;
-  right: -100px;
+  right: -40px;
   transform: rotate(-90deg);
   font-weight: 700;
   text-transform: uppercase;
@@ -78,7 +93,6 @@
   /* CSS */
   .banner {
     display: flex;
-    background: linear-gradient(90deg, #a9643e 50%, #161616 50%);
     position: relative;
     height: 100vh;
     margin: 0;
@@ -93,22 +107,6 @@
     justify-content: center;
     align-items: center;
     padding-top: 60px;
-  }
-  .main-text {
-    font-size: 4rem;
-    font-family: "Krona One", sans-serif !important;
-    text-transform: uppercase;
-    letter-spacing: 100px;
-    font-weight: 900;
-    color: #ffffff;
-    position: absolute;
-    display: block;
-    width: 90%;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
-    padding-left: 35px;
-    padding-top: 65px;
   }
 }
 
@@ -133,22 +131,6 @@
     width: 580px;
     margin: auto auto;
     display: block;
-  }
-  .main-text {
-    font-size: 3rem;
-    font-family: "Krona One", sans-serif !important;
-    text-transform: uppercase;
-    letter-spacing: 100px;
-    font-weight: 900;
-    color: #ffffff;
-    position: absolute;
-    display: block;
-    width: 90%;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
-    padding-left: 35px;
-    padding-top: 65px;
   }
 }
 
@@ -180,29 +162,12 @@
     align-items: center;
     padding-top: 60px;
   }
-  .main-text {
-    font-size: 3rem;
-    font-family: "Krona One", sans-serif !important;
-    text-transform: uppercase;
-    letter-spacing: 80px;
-    font-weight: 800;
-    color: #ffffff;
-    position: absolute;
-    display: block;
-    width: 100%;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
-    padding-left: 35px;
-    padding-top: 65px;
-  }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   
   /* CSS */
   .banner {
     display: flex;
-    background: linear-gradient(90deg, #a9643e 50%, #161616 50%);
     position: relative;
     height: 100vh;
     margin: 0;
@@ -212,26 +177,7 @@
     margin: auto auto;
     display: block;
   }
-  .main-text {
-    font-size: 3.5rem;
-    font-family: "Krona One", sans-serif !important;
-    text-transform: uppercase;
-    letter-spacing: 50px;
-    font-weight: 700;
-    color: #ffffff;
-    position: absolute;
-    display: block;
-    width: 90%;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
-    padding-left: 20px;
-    z-index: 9;
-    @media (max-width: 1440px) {
-      font-size: 4.4rem;
-      letter-spacing: 36px;
-    }
-}
+  
   .scroll {
     font-weight: 600;
     font-size: 0.875rem;
@@ -289,7 +235,6 @@
   /* CSS */
   .banner {
     display: flex;
-    background: linear-gradient(90deg, #a9643e 50%, #161616 50%);
     position: relative;
     height: 100vh;
     margin: 0;
@@ -299,26 +244,7 @@
     margin: auto auto;
     display: block;
   }
-  .main-text {
-    font-size: 3rem;
-    font-family: "Krona One", sans-serif !important;
-    text-transform: uppercase;
-    letter-spacing: 15px;
-    font-weight: 200;
-    color: #ffffff;
-    position: absolute;
-    display: block;
-    width: 90%;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
-    padding-left: 10px;
-    z-index: 9;
-    @media (max-width: 1440px) {
-      font-size: 4.4rem;
-      letter-spacing: 36px;
-    }
-}
+ 
   .scroll {
     font-weight: 600;
     font-size: 0.875rem;

@@ -1,6 +1,5 @@
 /************************ SERVICES *********************************/
 .skills {
-  background: #a9643e;
   padding-top: 6rem;
   padding-bottom: 8rem;
   height: 100%;
@@ -47,7 +46,6 @@
 
 @media (min-width: 1281px) and (max-height: 1920px) {
 .skills {
-  background: #a9643e;
   padding-top: 6rem;
   padding-bottom: 8rem;
   height: 100%;

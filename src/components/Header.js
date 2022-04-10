@@ -1,28 +1,30 @@
 import React from "react";
-import Typed from "react-typed";
 
 import "../styles/Header.css";
-import mainpic from "../images/mainpic.png";
+import taluew from "../images/taluewprofile.png";
 
 const Header = () => {
   return (
     <div id="home" className="banner">
-      <div className="container homeMain">
-        <Typed
-          className="main-text"
-          strings={["TALUEW"]}
-          typeSpeed={400}
-          backSpeed={400}
-          loop
-          showCursor
-          cursorChar=""
-        />
-        <img className="mainpic" src={mainpic} alt="author..." />
+      <div className="col container">
+          <div class="row areaTop">
+            <div class="col leftProfile">
+              <div className="homeMain">
+                <img className="mainpic" src={taluew} alt="author..." />
+              </div>
+            </div>
+            <div class="col rightProfile">
+              <h4 className="theport">THE{" "}PORTFOLIO{" "}OF</h4>
+              <h1 className="firstName">SAWANYA</h1>
+              <h2 className="lastName">SAENGBUAPHUEN</h2>
+              <h3 className="descriptionPositon">UX/UI{" "}DESIGNER</h3>
+            </div>
+        </div>
       </div>
       <div className="scroll">
         <span>Scroll down</span>
       </div>
-      <div className="fixed-misc">Graphic and UX/UI design</div>
+      <div className="fixed-misc">UX/UI design</div>
     </div>
   );
 };

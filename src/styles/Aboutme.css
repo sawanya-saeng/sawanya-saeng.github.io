@@ -1,5 +1,4 @@
 .aboutme {
-  background-color: #161616;
   padding-top: 0.1rem;
   padding-bottom: 4.8rem;
   height: 100%;
@@ -56,7 +55,6 @@
 
 @media (min-width: 1281px) and (max-height: 1920px) {
   .aboutme {
-  background-color: #161616;
   padding-top: 0.1rem;
   padding-bottom: 4.8rem;
   height: 100%;
