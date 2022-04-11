@@ -5,7 +5,7 @@ import taluew from "../images/taluewprofile.png";
 
 const Header = () => {
   return (
-    <div id="home" className="banner">
+    <div id="home" className="header">
       <div className="col container">
           <div class="row areaTop">
             <div class="col leftProfile">
@@ -20,9 +20,6 @@ const Header = () => {
               <h3 className="descriptionPositon">UX/UI{" "}DESIGNER</h3>
             </div>
         </div>
-      </div>
-      <div className="scroll">
-        <span>Scroll down</span>
       </div>
       <div className="fixed-misc">UX/UI design</div>
     </div>
