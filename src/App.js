@@ -46,7 +46,7 @@ class App extends Component {
             <Navbar />
             <Header />
             <Aboutme />
-            <Skills />
+            {/* <Skills />
             <Product />
             <Uidesign />
             <GraphicDesign />
@@ -55,7 +55,7 @@ class App extends Component {
             <Illustrantion />
             <TextEffect />
             <Contacts />
-            <Footer />
+            <Footer /> */}
           </>
         )}
       </div>
