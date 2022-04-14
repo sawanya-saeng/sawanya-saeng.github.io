@@ -1,7 +1,7 @@
 /************************ SERVICES *********************************/
 .skills {
-  padding-top: 6rem;
-  padding-bottom: 8rem;
+  padding-top: 50px;
+  padding-bottom: 50px;
   height: 95vh;
 }
 .txtSkill {
@@ -39,4 +39,66 @@
   font-size: 18px;
   font-weight: 600;
   text-align: center;
+}
+
+@media (min-width: 360px) and (max-width: 401px) {
+  .skills {
+    height: 340vh;
+  }
+  .txtSkill {
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 15px;
+    margin-left: 20px;
+  }
+}
+@media (min-width: 402px) and (max-width: 480px) {
+  .skills {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 185vh;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .skills {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    height: 180vh;
+  }
+  .txtSkill {
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 15px;
+    margin-left: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .skills {
+    height: 150vh;
+  }
+  .txtSkill {
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 15px;
+    margin-left: 22px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .skills {
+    height: 120vh;
+  }
+  .txtSkill {
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 15px;
+    margin-left: 22px;
+  }
 }
