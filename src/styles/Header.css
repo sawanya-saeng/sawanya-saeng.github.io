@@ -150,7 +150,7 @@
   }
   .fixed-misc {
     position: fixed;
-    top: 60%;
+    top: 55%;
     right: -35px;
     transform: rotate(-90deg);
     font-weight: 400;
@@ -164,7 +164,7 @@
   .header {
     display: flex;
     position: relative;
-    height: 100vh;
+    height: 85vh;
   }
   .areaTop{
     margin-top: 150px;
@@ -321,10 +321,10 @@
   .header {
     display: flex;
     position: relative;
-    height: 125vh;
+    height: 100vh;
   }
   .areaTop{
-    margin-top: 180px;
+    margin-top: 250px;
   }
   .homeMain {
     display: flex;
@@ -418,7 +418,7 @@
     line-height: 150px;
   }
   .mainpic {
-    width: 500px;
+    width: 480px;
     object-fit: contain;
     margin: auto auto;
     display: block;
