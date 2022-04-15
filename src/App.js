@@ -46,9 +46,9 @@ class App extends Component {
             <Navbar />
             <Header />
             <Aboutme />
-             <Skills />
-            {/*<Product />
-            <Uidesign />
+            <Skills />
+            <Product />
+            {/*<Uidesign />
             <GraphicDesign />
             <Banner />
             <Package />

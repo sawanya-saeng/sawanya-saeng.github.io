@@ -18,6 +18,7 @@
   padding: 50px;
   border: 1px solid #ffffff;
   border-radius: 60px;
+  font-weight: 300;
 }
 
 @media (min-width: 360px) and (max-width: 420px) {
@@ -43,6 +44,7 @@
     padding: 30px;
     border: 1px solid #ffffff;
     border-radius: 60px;
+    font-weight: 300;
   }
 }
 @media (min-width: 421px) and (max-width: 480px) {
@@ -68,6 +70,7 @@
     padding: 30px;
     border: 1px solid #ffffff;
     border-radius: 60px;
+    font-weight: 300;
   }
 }
 
@@ -94,6 +97,7 @@
     padding: 25px;
     border: 1px solid #ffffff;
     border-radius: 60px;
+    font-weight: 300;
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
@@ -119,6 +123,7 @@
     padding: 30px;
     border: 1px solid #ffffff;
     border-radius: 60px;
+    font-weight: 300;
   }
 }
 
@@ -144,6 +149,7 @@
     padding: 30px;
     border: 1px solid #ffffff;
     border-radius: 60px;
+    font-weight: 300;
   }
 }
 
@@ -168,6 +174,6 @@
     padding: 50px;
     border: 1px solid #ffffff;
     border-radius: 60px;
+    font-weight: 300;
   }
-  
 }

@@ -7,18 +7,18 @@ const Header = () => {
   return (
     <div id="home" className="header">
       <div className="col container">
-          <div class="row areaTop">
-            <div class="col leftProfile">
-              <div className="homeMain">
-                <img className="mainpic" src={taluew} alt="author..." />
-              </div>
+        <div className="row areaTop">
+          <div className="col leftProfile">
+            <div className="homeMain">
+              <img className="mainpic" src={taluew} alt="author..." />
             </div>
-            <div class="col rightProfile">
-              <h4 className="theport">THE{" "}PORTFOLIO{" "}OF</h4>
-              <h1 className="firstName">SAWANYA</h1>
-              <h2 className="lastName">SAENGBUAPHUEN</h2>
-              <h3 className="descriptionPositon">UX/UI{" "}DESIGNER</h3>
-            </div>
+          </div>
+          <div className="col rightProfile">
+            <h4 className="theport">THE{" "}PORTFOLIO{" "}OF</h4>
+            <h1 className="firstName">SAWANYA</h1>
+            <h2 className="lastName">SAENGBUAPHUEN</h2>
+            <h3 className="descriptionPositon">UX/UI{" "}DESIGNER</h3>
+          </div>
         </div>
       </div>
       <div className="fixed-misc">UX/UI design</div>

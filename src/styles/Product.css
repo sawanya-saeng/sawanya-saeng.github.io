@@ -1,252 +1,362 @@
 .products{ 
-    padding: 0.7rem;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    height: 150vh;
 }
 .textProject{
     text-align: center;
     text-transform: uppercase;
-    font-size: 4rem;
+    font-size: 3rem;
     color: #ffffff;
     padding-bottom: 20px;
+    letter-spacing: 15px;
+}
+.cardProject{
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #ffffff;
+    background: #e2effb;
+    border-radius: 20px;
+}
+.areaSlide{
+    width: 620px;
+    text-align: center;
+    display: inline-block;
 }
 .itemProject{
-    padding-top: 2rem; 
-    padding-bottom : 3rem;
     justify-content: center;
     align-items: center;
 }
 .detailProject{ 
     padding-bottom : 3rem;
 }
-.txtNameWork{
+.headerDetail{
+    color: #65B9EB;
+    font-weight: 300;
     font-size: 40px;
-    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 15px;
+    margin-top: 10px;
+}
+.txtNameWork{
+    font-size: 35px;
+    font-weight: 500;
+    color: #65B9EB;
+    text-align: left;
+    margin-top: 40px;
 }
 .txtWorkDetails{
-    font-size: 25px;
-}
-.detailLeft {
+    font-size: 20px;
+    font-weight: 300;
+    color: #65B9EB;
     text-align: left;
-    font-weight: bold;
-    color: #ffffff;
-}
-.detailMiddle{
-    color: #ffffff;
-    padding-right: 1px;
-    padding: 1px;
-}
-.detailRight{
-    margin-right: 0.5rem;
-    color: #ffffff;
-    padding: 1px;
-}
-.boxToolM{
-    border: 1px solid #ffffff ;
-    font-size: 15px;
-    padding: 5px;
 }
 
-@media screen and (width: 1281px), screen and (height: 1440px){
+@media (min-width: 360px) and (max-width: 480px) {
+    .products{ 
+        height: 150vh;
+    }
     .textProject{
         text-align: center;
         text-transform: uppercase;
-        font-size: 4rem;
+        font-size: 3rem;
         color: #ffffff;
         padding-bottom: 20px;
+        letter-spacing: 15px;
+    }
+    .areaSlide{
+        width: 280px;
+        text-align: center;
+        display: inline-block;
+    }
+    .cardProject{
+        width: 100%;
+        height: 430px;
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: 1px solid #ffffff;
+        background: #e2effb;
+        border-radius: 20px;
+        display: flex;
+        margin: 0;
+    }
+    .headerDetail{
+        color: #65B9EB;
+        font-weight: 300;
+        font-size: 30px;
+        text-transform: uppercase;
+        margin-top: 40px;
     }
     .txtNameWork{
-        color: #ffffff;
-        font-size: 35px;
-        font-weight: bold;
+        font-size: 20px;
+        font-weight: 500;
+        color: #65B9EB;
+        text-align: left;
+        margin-top: 20px;
     }
     .txtWorkDetails{
         font-size: 18px;
-        margin-top: 15px;
-    }
-    .detailLeft {
+        font-weight: 300;
+        color: #65B9EB;
         text-align: left;
-        font-weight: bold;
-        color: #ffffff;
-    }
-    .detailMiddle{
-        color: #ffffff;
-        padding-right: 1px;
-        padding: 1px;
-    }
-    .detailRight{
-        color: #ffffff;
-        padding: 1px;
-    }
-    .boxToolM{
-        border: 1px solid #ffffff ;
-        padding: 5px;
+        margin-top: 20px;
     }
 }
-
-@media screen and (min-width: 1024px) ,screen and (max-width: 1280px) {
-     .textProject{
+@media (min-width: 481px) and (max-width: 624px) {
+    .products{ 
+        height: 150vh;
+    }
+    .textProject{
         text-align: center;
         text-transform: uppercase;
-        font-size: 3.5rem;
+        font-size: 3rem;
         color: #ffffff;
         padding-bottom: 20px;
+        letter-spacing: 15px;
+    }
+    .areaSlide{
+        width: 350px;
+        text-align: center;
+        display: inline-block;
+    }
+    .cardProject{
+        width: 100%;
+        height: 480px;
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: 1px solid #ffffff;
+        background: #e2effb;
+        border-radius: 20px;
+        display: flex;
+        margin: 0;
+    }
+    .headerDetail{
+        color: #65B9EB;
+        font-weight: 300;
+        font-size: 30px;
+        text-transform: uppercase;
+        margin-top: 40px;
     }
     .txtNameWork{
-        color: #ffffff;
-        font-size: 30px;
-        font-weight: bold;
+        font-size: 20px;
+        font-weight: 500;
+        color: #65B9EB;
+        text-align: left;
+        margin-top: 20px;
     }
     .txtWorkDetails{
         font-size: 18px;
-        margin-top: 15px;
-    }
-    .detailLeft {
+        font-weight: 300;
+        color: #65B9EB;
         text-align: left;
-        font-weight: bold;
-        color: #ffffff;
-    }
-    .detailMiddle{
-        color: #ffffff;
-        padding-right: 1px;
-        padding: 1px;
-    }
-    .detailRight{
-        color: #ffffff;
-        padding: 1px;
-    }
-    .boxToolM{
-        border: 1px solid #ffffff ;
-        font-size: 12px;
-        padding: 5px;
+        margin-top: 20px;
     }
 }
-
-@media screen and (width: 768px) {
+@media (min-width: 625px) and (max-width: 767px) {
+    .products{ 
+        height: 150vh;
+    }
     .textProject{
         text-align: center;
         text-transform: uppercase;
-        font-size: 2rem;
+        font-size: 3rem;
         color: #ffffff;
         padding-bottom: 20px;
+        letter-spacing: 15px;
     }
-    .txtNameWork{
-        color: #ffffff;
+    .areaSlide{
+        width: 420px;
+        text-align: center;
+        display: inline-block;
+    }
+    .cardProject{
+        width: 100%;
+        height: 480px;
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: 1px solid #ffffff;
+        background: #e2effb;
+        border-radius: 20px;
+        display: flex;
+        margin: 0;
+    }
+    .headerDetail{
+        color: #65B9EB;
+        font-weight: 300;
         font-size: 30px;
-        font-weight: bold;
+        text-transform: uppercase;
+        margin-top: 40px;
+    }
+    .txtNameWork{
+        font-size: 20px;
+        font-weight: 500;
+        color: #65B9EB;
+        text-align: left;
+        margin-top: 20px;
     }
     .txtWorkDetails{
-        font-size: 16px;
-        margin-top: 11px;
-    }
-    .detailLeft {
+        font-size: 18px;
+        font-weight: 300;
+        color: #65B9EB;
         text-align: left;
-        font-weight: bold;
-        color: #ffffff;
-    }
-    .detailMiddle{
-        color: #ffffff;
-        padding-right: 1px;
-        padding: 1px;
-        font-size: 12px;
-    }
-    .detailRight{
-        color: #ffffff;
-        padding: 1px;
-        font-size: 12px;
-    }
-    .boxToolM{
-        border: 1px solid #ffffff ;
-        font-size: 8px;
-        padding: 5px;
+        margin-top: 20px;
     }
 }
-@media (min-width: 320px) and (max-width: 480px) {
-    .works{ 
-        background: #161616;
-        padding: 0.7rem;
-        padding-top: 5%;
-        padding-bottom: 0%;
-    }
-    .detailProject{ 
-        padding-bottom : 0rem;
+@media (min-width: 768px) and (max-width: 991px) {
+    .products{ 
+        height: 150vh;
     }
     .textProject{
         text-align: center;
         text-transform: uppercase;
-        font-size: 2rem;
+        font-size: 3rem;
         color: #ffffff;
         padding-bottom: 20px;
+        letter-spacing: 15px;
+    }
+    .areaSlide{
+        width: 490px;
+        text-align: center;
+        display: inline-block;
+    }
+    .cardProject{
+        width: 100%;
+        height: 550px;
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: 1px solid #ffffff;
+        background: #e2effb;
+        border-radius: 20px;
+        display: flex;
+        margin: 0;
+    }
+    .headerDetail{
+        color: #65B9EB;
+        font-weight: 300;
+        font-size: 38px;
+        text-transform: uppercase;
+        margin-top: 40px;
     }
     .txtNameWork{
-        color: #ffffff;
-        font-size: 1rem;
-        font-weight: bold;
+        font-size: 28px;
+        font-weight: 500;
+        color: #65B9EB;
+        text-align: left;
+        margin-top: 20px;
     }
     .txtWorkDetails{
-        font-size: 0.65rem;
-        margin-top: -1px;
-    }
-    .detailLeft {
+        font-size: 22px;
+        font-weight: 300;
+        color: #65B9EB;
         text-align: left;
-        font-weight: bold;
-        color: #ffffff;
-    }
-    .detailMiddle{
-        color: #ffffff;
-        padding-right: 1px;
-        padding: 1px;
-        font-size: 0.47rem;
-    }
-    .detailRight{
-        color: #ffffff;
-        padding: 1px;
-        font-size: 0.47rem;
-    }
-    .boxToolM{
-        border: 1px solid #ffffff ;
-        padding: 5px;
-        font-size: 4.6px;
+        margin-top: 20px;
     }
 }
-
-@media (width: 414px) and (height: 736px) {
-    .txtProject{
+@media (min-width: 992px) and (max-width: 1024px) {
+    .products{ 
+        height: 150vh;
+    }
+    .textProject{
         text-align: center;
         text-transform: uppercase;
-        font-size: 1.8rem;
+        font-size: 3rem;
         color: #ffffff;
         padding-bottom: 20px;
-    }.txtNameWork{
-        color: #ffffff;
-        font-size: 1rem;
-        font-weight: bold;
+        letter-spacing: 15px;
+    }
+    .areaSlide{
+        width: 580px;
+        text-align: center;
+        display: inline-block;
+    }
+    .cardProject{
+        width: 100%;
+        height: 620px;
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: 1px solid #ffffff;
+        background: #e2effb;
+        border-radius: 20px;
+        display: flex;
+        margin: 0;
+    }
+    .headerDetail{
+        color: #65B9EB;
+        font-weight: 300;
+        font-size: 44px;
+        text-transform: uppercase;
+        margin-top: 40px;
+    }
+    .txtNameWork{
+        font-size: 32px;
+        font-weight: 500;
+        color: #65B9EB;
+        text-align: left;
+        margin-top: 20px;
     }
     .txtWorkDetails{
-        font-size: 0.65rem;
-        margin-top: -1px;
-    }
-    .detailLeft {
+        font-size: 25px;
+        font-weight: 300;
+        color: #65B9EB;
         text-align: left;
-        font-weight: bold;
+        margin-top: 20px;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1199px) {
+    .products{ 
+        height: 150vh;
+    }
+    .textProject{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 3rem;
         color: #ffffff;
-        margin-left: 5px;
-
+        padding-bottom: 20px;
+        letter-spacing: 15px;
     }
-    .detailMiddle{
-        color: #ffffff;
-        padding-right: 1px;
-        padding: 1px;
-        font-size: 0.47rem;
+    .areaSlide{
+        width: 590px;
+        text-align: center;
+        display: inline-block;
     }
-    .detailRight{
-        color: #ffffff;
-        padding: 1px;
-        margin-right: 5px;
+    .cardProject{
+        width: 100%;
+        height: 620px;
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: 1px solid #ffffff;
+        background: #e2effb;
+        border-radius: 20px;
+        display: flex;
+        margin: 0;
     }
-    .boxToolM{
-        border: 1px solid #ffffff ;
-        font-size: 4.6px;
-        padding: 3px;
+    .headerDetail{
+        color: #65B9EB;
+        font-weight: 300;
+        font-size: 44px;
+        text-transform: uppercase;
+        margin-top: 40px;
     }
+    .txtNameWork{
+        font-size: 32px;
+        font-weight: 500;
+        color: #65B9EB;
+        text-align: left;
+        margin-top: 20px;
+    }
+    .txtWorkDetails{
+        font-size: 25px;
+        font-weight: 300;
+        color: #65B9EB;
+        text-align: left;
+        margin-top: 20px;
+    } 
 }

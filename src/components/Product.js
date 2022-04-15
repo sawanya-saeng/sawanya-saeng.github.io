@@ -1,8 +1,8 @@
 import React from 'react'
-import { Carousel } from "react-responsive-carousel";
-
+import { RenderWorkLeft } from './RenderWorkLeft';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "../styles/Product.css"
+
 import food0 from "../images/food0.png";
 import food1 from "../images/food1.png";
 import food2 from "../images/food2.png";
@@ -30,167 +30,124 @@ import shoot7 from "../images/shoot7.png";
 import shoot8 from "../images/shoot8.png";
 import shoot9 from "../images/shoot9.png";
 
+const listFoodFridge = [
+  {
+    id: 0,
+    image: food0
+  },
+  {
+    id: 1,
+    image: food1
+  },
+  {
+    id: 2,
+    image: food2
+  },
+  {
+    id: 3,
+    image: food3
+  },
+  {
+    id: 4,
+    image: food4
+  },
+  {
+    id: 5,
+    image: food5
+  },
+  {
+    id: 6,
+    image: food6
+  },
+]
+
+const listCpe = [
+  {
+    id: 1,
+    image: cpe1,
+  },
+  {
+    id: 2,
+    image: cpe2,
+  },
+  {
+    id: 3,
+    image: cpe3,
+  },
+  {
+    id: 4,
+    image: cpe4,
+  },
+  {
+    id: 5,
+    image: cpe5,
+  },
+  {
+    id: 6,
+    image: cpe6,
+  },
+  {
+    id: 7,
+    image: cpe7,
+  },
+  {
+    id: 8,
+    image: cpe8,
+  },
+]
+
+const listShoot = [
+  {
+    id: 1,
+    image: shoot1,
+  },
+  {
+    id: 2,
+    image: shoot2,
+  },
+  {
+    id: 3,
+    image: shoot3,
+  },
+  {
+    id: 4,
+    image: shoot4,
+  },
+  {
+    id: 5,
+    image: shoot5,
+  },
+  {
+    id: 6,
+    image: shoot6,
+  },
+  {
+    id: 7,
+    image: shoot7,
+  },
+  {
+    id: 8,
+    image: shoot8,
+  },
+  {
+    id: 9,
+    image: shoot9,
+  },
+]
+
 function Product() {
     return (
       <div id="works" className="products">
-        <div className="textProject">Project</div>
+        <div className="textProject">WORKS</div>
         <div className="container">
-          <>
-            <div className="itemProject">
-              <Carousel
-                showThumbs={false}
-                infiniteLoop={true}
-                showStatus={false}
-              >
-                <div>
-                  <img src={food0} alt="food0" />
-                </div>
-                <div>
-                  <img src={food1} alt="food1" />
-                </div>
-                <div>
-                  <img src={food2} alt="food2" />
-                </div>
-                <div>
-                  <img src={food3} alt="food3" />
-                </div>
-                <div>
-                  <img src={food4} alt="food4" />
-                </div>
-                <div>
-                  <img src={food5} alt="food5" />
-                </div>
-                <div>
-                  <img src={food6} alt="food6" />
-                </div>
-              </Carousel>
-            </div>
-            <div className="detailProject">
-              <div className="row flexDetail">
-                <div className="col detailLeft">
-                  <h3 className="txtNameWork">Food Fridge App</h3>
-                  <h4 className="txtWorkDetails">
-                    Application find food menu from your ingredient
-                  </h4>
-                </div>
-                <div className="col-1.5 detailMiddle">
-                  <div className="boxToolM">UX Design</div>
-                  <div className="boxToolM">Flutter</div>
-                </div>
-                <div className="col-1.5 detailRight">
-                  <div className="boxToolM">UI Design</div>
-                  <div className="boxToolM">Firebase</div>
-                </div>
-              </div>
-            </div>
-          </>
-          <>
-            <div className="itemProject">
-              <Carousel
-                showThumbs={false}
-                infiniteLoop={true}
-                showStatus={false}
-              >
-                <div>
-                  <img src={cpe1} alt="cpe1" />
-                </div>
-                <div>
-                  <img src={cpe2} alt="cpe2" />
-                </div>
-                <div>
-                  <img src={cpe3} alt="cpe3" />
-                </div>
-                <div>
-                  <img src={cpe4} alt="cpe4" />
-                </div>
-                <div>
-                  <img src={cpe5} alt="cpe5" />
-                </div>
-                <div>
-                  <img src={cpe6} alt="cpe6" />
-                </div>
-                <div>
-                  <img src={cpe7} alt="cpe7" />
-                </div>
-                <div>
-                  <img src={cpe8} alt="cpe8" />
-                </div>
-              </Carousel>
-            </div>
-            <div className="detailProject">
-              <div className="row flexDetail">
-                <div className="col detailLeft">
-                  <h3 className="txtNameWork">CPE Website</h3>
-                  <h4 className="txtWorkDetails">
-                    The course management system of Computer Engineering
-                  </h4>
-                </div>
-                <div className="col-1.5 detailMiddle">
-                  {/* <div className="boxToolM"></div> */}
-                  {/* <div className="boxToolM"></div> */}
-                </div>
-                <div className="col-1.5 detailRight">
-                  <div className="boxToolM">UI Design</div>
-                  {/* <div className="boxToolM"> </div> */}
-                </div>
-              </div>
-            </div>
-          </>
-          <>
-            <div className="itemProject">
-              <Carousel
-                showThumbs={false}
-                infiniteLoop={true}
-                showStatus={false}
-              >
-                <div>
-                  <img src={shoot1} alt="shoot1" />
-                </div>
-                <div>
-                  <img src={shoot2} alt="shoot2" />
-                </div>
-                <div>
-                  <img src={shoot3} alt="shoot3" />
-                </div>
-                <div>
-                  <img src={shoot4} alt="shoot4" />
-                </div>
-                <div>
-                  <img src={shoot5} alt="shoot5" />
-                </div>
-                <div>
-                  <img src={shoot6} alt="shoot6" />
-                </div>
-                <div>
-                  <img src={shoot7} alt="shoot7" />
-                </div>
-                <div>
-                  <img src={shoot8} alt="shoot8" />
-                </div>
-                <div>
-                  <img src={shoot9} alt="shoot9" />
-                </div>
-              </Carousel>
-            </div>
-            <div className="detailProject">
-              <div className="row flexDetail">
-                <div className="col detailLeft">
-                  <h3 className="txtNameWork">Shooting Trap Simulation</h3>
-                  <h4 className="txtWorkDetails">
-                    Realistic shooting range simulator game
-                  </h4>
-                </div>
-                <div className="col-1.5 detailMiddle">
-                  {/* <div className="boxToolM">JAVA</div> */}
-                  {/* <div className="boxToolM">JAVA</div> */}
-                </div>
-                <div className="col-1.5 detailRight">
-                  <div className="boxToolM">Java</div>
-                  {/* <div className="boxToolM">JAVA</div> */}
-                </div>
-              </div>
-            </div>
-          </>
+          <div className="row cardProject">
+            <RenderWorkLeft
+              list={listFoodFridge} 
+              headerDetail='project'
+              txtNameWork='Food Fridge App'
+              txtWorkDetails='Application find food menu from your ingredient'
+            />
+          </div>
         </div>
       </div>
     );
