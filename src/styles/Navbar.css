@@ -24,7 +24,7 @@ nav {
 }
 .navbar-toggler {
   margin-right: 1.5rem;
-  color: #65B9EB;
+  color: #ffffff;
 }
 
 /*----- MENU LINKS --------*/
@@ -41,7 +41,7 @@ nav ul li {
 .navbar-nav > li > a {
   margin-right: 1.2rem;
   margin-left: 1.2rem;
-  color: #65B9EB !important;
+  color: #ffffff !important;
   text-align: right;
 }
 
@@ -53,11 +53,11 @@ nav ul li {
 
 .navbar-nav > li > a.active,
 .navbar-nav > li > a.active:focus {
-  border-bottom: 0.1875rem solid #65B9EB;
+  border-bottom: 0.1875rem solid #9986EB;
 }
 
 .navbar-nav > li > a:hover {
-  border-bottom: 0.1875rem solid #65B9EB;
+  border-bottom: 0.1875rem solid #9986EB;
 }
 
 @media (min-width: 1281px) and (max-height: 1920px) {
@@ -94,10 +94,10 @@ nav ul li {
     margin-right: 2rem;
     text-align: right;
   }
-    .navbar-nav > li > a {
+  .navbar-nav > li > a {
     margin-right: 0.5rem;
     margin-left: 0.5rem;
-    color: #65B9EB !important;
+    color: #ffffff !important;
     text-align: right;
     margin-top:  1.3rem;
   }
