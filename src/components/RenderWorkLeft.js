@@ -2,7 +2,7 @@ import { Carousel } from "react-responsive-carousel"
 import React from "react"
 import '../styles/Product.css'
 
-export const RenderWorkLeft = ({list, headerDetail, txtNameWork, txtWorkDetails}) => (
+export const RenderWorkLeft = ({list, link, headerDetail, txtNameWork, txtWorkDetails}) => (
   <>
     <div className="col itemProject">
       <div className="areaSlide">
@@ -26,8 +26,16 @@ export const RenderWorkLeft = ({list, headerDetail, txtNameWork, txtWorkDetails}
     </div>
     <div className="col detailProject">
       <h3 className="headerDetail">{headerDetail}</h3>
-      <h3 className="txtNameWork">{txtNameWork}</h3>
-      <h4 className="txtWorkDetails">{txtWorkDetails}</h4>
+      {link ? <>
+        <a rel="noreferrer" href={link} target="_blank">
+          <h3 className="txtNameWork">{txtNameWork}</h3>
+          <h4 className="txtWorkDetails">{txtWorkDetails}</h4>
+        </a>
+        </> : <>
+          <h3 className="txtNameWork">{txtNameWork}</h3>
+          <h4 className="txtWorkDetails">{txtWorkDetails}</h4>
+        </>
+      }
     </div>
   </>
 )

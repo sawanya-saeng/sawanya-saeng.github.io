@@ -1,7 +1,8 @@
-import React from 'react'
-import { RenderWorkLeft } from './RenderWorkLeft';
+import React from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import "../styles/Product.css"
+
+import { RenderWorkLeft } from './RenderWorkLeft';
+import { RenderWorkRight } from './RenderWorkRight';
 
 import food0 from "../images/food0.png";
 import food1 from "../images/food1.png";
@@ -29,6 +30,29 @@ import shoot6 from "../images/shoot6.png";
 import shoot7 from "../images/shoot7.png";
 import shoot8 from "../images/shoot8.png";
 import shoot9 from "../images/shoot9.png";
+
+import space0 from "../images/space0.jpg";
+
+import logo1 from "../images/wed.jpg";
+import logo2 from "../images/mw.jpg";
+import logo3 from "../images/duck.jpg";
+import logo4 from "../images/pig.jpg";
+import logo5 from "../images/kaolahm.jpg";
+import logo6 from "../images/eniac.jpg";
+
+import package1 from "../images/packmrtom.jpg";
+import package2 from "../images/packmilarich.jpg";
+
+import banner1 from "../images/banner1.jpg";
+import banner2 from "../images/banner2.jpg";
+
+import illus1 from "../images/illus1.jpg"
+import illus2 from "../images/illus2.jpg"
+import illus3 from "../images/illus3.jpg"
+import illus4 from "../images/illus4.jpg"
+import illus5 from "../images/illus5.jpg"
+import illus6 from "../images/illus6.jpg"
+
 
 const listFoodFridge = [
   {
@@ -135,6 +159,89 @@ const listShoot = [
   },
 ]
 
+const listSpace = [
+  {
+    id: 1,
+    image: space0
+  },
+]
+
+const listLogo = [
+  {
+    id: 1,
+    image: logo1
+  },
+  {
+    id: 2,
+    image: logo2
+  },
+  {
+    id: 3,
+    image: logo3
+  },
+  {
+    id: 4,
+    image: logo4
+  },
+  {
+    id: 5,
+    image: logo5
+  },
+  {
+    id: 6,
+    image: logo6
+  },
+]
+
+const listPackage = [
+  {
+    id: 1,
+    image: package1
+  },
+  {
+    id: 2,
+    image: package2
+  },
+]
+
+const listBanner = [
+  {
+    id: 1,
+    image: banner1
+  },
+  {
+    id: 2,
+    image: banner2
+  },
+]
+
+const listillus = [
+  {
+    id: 1,
+    image: illus1
+  },
+  {
+    id: 2,
+    image: illus2
+  },
+  {
+    id: 3,
+    image: illus3
+  },
+  {
+    id: 4,
+    image: illus4
+  },
+  {
+    id: 5,
+    image: illus5
+  },
+  {
+    id: 6,
+    image: illus6
+  },
+]
+
 function Product() {
     return (
       <div id="works" className="products">
@@ -146,6 +253,73 @@ function Product() {
               headerDetail='project'
               txtNameWork='Food Fridge App'
               txtWorkDetails='Application find food menu from your ingredient'
+            />
+          </div>
+          <div className="row cardProjectRight">
+            <RenderWorkRight
+              list={listCpe} 
+              headerDetail='project'
+              txtNameWork='CPE  Website'
+              txtWorkDetails='The course management system of Computer Engineering'
+            />
+          </div>
+          <div className="row cardProject">
+            <RenderWorkLeft
+              list={listShoot} 
+              headerDetail='project'
+              txtNameWork='Shooting Simulation'
+              txtWorkDetails='Realistic shooting range simulator game'
+            />
+          </div>
+          <div className="row cardProjectRight">
+            <RenderWorkRight
+              list={listCpe}
+              link='https://www.figma.com/file/D6qVBBT2T9g6k97PGbH6PI/PORTFOLIO?node-id=2%3A10'
+              headerDetail='UIDESIGN'
+              txtNameWork='Portfoio  Website'
+              txtWorkDetails='The course management system of
+              Computer Engineering'
+            />
+          </div>
+          <div className="row cardProject">
+            <RenderWorkLeft
+              list={listSpace}
+              link='https://www.figma.com/file/MiFI9qjua0AFhFAGkkpYm8/SpaceExplorer?node-id=0%3A1'
+              headerDetail='UIDESIGN'
+              txtNameWork='Space Explorer'
+              txtWorkDetails='Application to educate about the solar system'
+            />
+          </div>
+          <div className="row cardProjectRight">
+            <RenderWorkRight
+              list={listLogo}
+              headerDetail='GRAPHIC'
+              txtNameWork='Logos'
+              txtWorkDetails='Freelance'
+            />
+          </div>
+          <div className="row cardProject">
+            <RenderWorkLeft
+              list={listPackage}
+              headerDetail='GRAPHIC'
+              txtNameWork='Packaging'
+              txtWorkDetails='Freelance'
+            />
+          </div>
+          <div className="row cardProjectRight">
+            <RenderWorkRight
+              list={listBanner}
+              headerDetail='GRAPHIC'
+              txtNameWork='Banners'
+              txtWorkDetails='Freelance'
+            />
+          </div>
+          <div className="row cardProject">
+            <RenderWorkLeft
+              list={listillus}
+              headerDetail='GRAPHIC'
+              txtNameWork='Illustrations'
+              txtWorkDetails='Freelance'
             />
           </div>
         </div>

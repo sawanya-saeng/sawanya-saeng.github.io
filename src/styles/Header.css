@@ -6,12 +6,8 @@
 .areaTop{
   margin-top: 200px;
 }
-.homeMain {
-  display: flex;
-}
 .rightProfile{
   display: block;
-  margin: auto;
 }
 .theport{
   font-size: 35px;
@@ -39,10 +35,10 @@
   line-height: 150px;
 }
 .mainpic {
-  width: 500px;
+  width: 510px;
   object-fit: contain;
-  margin: auto auto;
-  display: block;
+  /* position: absolute;
+  right: 0; */
 }
 .fixed-misc {
   position: fixed;

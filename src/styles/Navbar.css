@@ -6,7 +6,9 @@ body {
 /****************************************** NAVBAR ********************************************/
 
 nav {
-  background: #ffffff;
+  background: #65B9EB;
+  /* background: linear-gradient( #9986EB,#65B9EB); */
+  opacity: 0.8;
   z-index: 2;
 }
 

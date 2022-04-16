@@ -6,17 +6,10 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Aboutme from "./components/Aboutme";
 import Skills from "./components/Skills";
-import GraphicDesign from "./components/GraphicDesign";
-import Illustrantion from "./components/Illustration";
 import Loading from "./components/Loading";
-import Banner from "./components/Banner";
-import TextEffect from "./components/TextEffect";
 import Contacts from "./components/Contacts";
 import Footer from "./components/Footer";
 import Product from "./components/Product";
-import Package from "./components/Package";
-import Uidesign from "./components/UIdesign";
-
 class App extends Component {
   state = {
     isLoading: true,
@@ -53,9 +46,9 @@ class App extends Component {
             <Banner />
             <Package />
             <Illustrantion />
-            <TextEffect />
+            <TextEffect />*/}
             <Contacts />
-            <Footer /> */}
+            <Footer /> 
           </>
         )}
       </div>

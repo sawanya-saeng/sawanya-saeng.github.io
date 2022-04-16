@@ -1,16 +1,15 @@
 .products{ 
-    height: 150vh;
+    height: 670vh;
 }
 .textProject{
     text-align: center;
     text-transform: uppercase;
     font-size: 3rem;
     color: #ffffff;
-    padding-bottom: 20px;
     letter-spacing: 15px;
+    margin-bottom: 50px;
 }
 .cardProject{
-    width: 100%;
     padding-top: 40px;
     padding-bottom: 40px;
     padding-left: 20px;
@@ -34,21 +33,21 @@
 .headerDetail{
     color: #65B9EB;
     font-weight: 300;
-    font-size: 40px;
+    font-size: 48px;
     text-transform: uppercase;
     text-align: left;
     letter-spacing: 15px;
     margin-top: 10px;
 }
 .txtNameWork{
-    font-size: 35px;
+    font-size: 32px;
     font-weight: 500;
     color: #65B9EB;
     text-align: left;
     margin-top: 40px;
 }
 .txtWorkDetails{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
     color: #65B9EB;
     text-align: left;
@@ -56,23 +55,23 @@
 
 @media (min-width: 360px) and (max-width: 480px) {
     .products{ 
-        height: 150vh;
+        height: 505vh;
     }
     .textProject{
         text-align: center;
         text-transform: uppercase;
-        font-size: 3rem;
+        font-size: 30px;
         color: #ffffff;
-        padding-bottom: 20px;
+        padding-bottom: 0px;
         letter-spacing: 15px;
     }
     .areaSlide{
         width: 280px;
         text-align: center;
         display: inline-block;
+        margin-left: -8px;
     }
     .cardProject{
-        width: 100%;
         height: 430px;
         padding-top: 40px;
         padding-left: 20px;
@@ -82,6 +81,8 @@
         border-radius: 20px;
         display: flex;
         margin: 0;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
     .headerDetail{
         color: #65B9EB;
@@ -98,23 +99,22 @@
         margin-top: 20px;
     }
     .txtWorkDetails{
-        font-size: 18px;
+        font-size: 14px;
         font-weight: 300;
         color: #65B9EB;
         text-align: left;
-        margin-top: 20px;
     }
 }
 @media (min-width: 481px) and (max-width: 624px) {
     .products{ 
-        height: 150vh;
+        height: 575vh;
     }
     .textProject{
         text-align: center;
         text-transform: uppercase;
-        font-size: 3rem;
+        font-size: 30px;
         color: #ffffff;
-        padding-bottom: 20px;
+        margin-bottom: -30px;
         letter-spacing: 15px;
     }
     .areaSlide{
@@ -123,7 +123,6 @@
         display: inline-block;
     }
     .cardProject{
-        width: 100%;
         height: 480px;
         padding-top: 40px;
         padding-left: 20px;
@@ -133,6 +132,8 @@
         border-radius: 20px;
         display: flex;
         margin: 0;
+        margin-top: 70px;
+        margin-bottom: 70px;
     }
     .headerDetail{
         color: #65B9EB;
@@ -142,30 +143,29 @@
         margin-top: 40px;
     }
     .txtNameWork{
-        font-size: 20px;
+        font-size: 24px;
         font-weight: 500;
         color: #65B9EB;
         text-align: left;
         margin-top: 20px;
     }
     .txtWorkDetails{
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 300;
         color: #65B9EB;
         text-align: left;
-        margin-top: 20px;
     }
 }
 @media (min-width: 625px) and (max-width: 767px) {
     .products{ 
-        height: 150vh;
+        height: 560vh;
     }
     .textProject{
         text-align: center;
         text-transform: uppercase;
         font-size: 3rem;
         color: #ffffff;
-        padding-bottom: 20px;
+        margin-bottom: -30px;
         letter-spacing: 15px;
     }
     .areaSlide{
@@ -174,7 +174,6 @@
         display: inline-block;
     }
     .cardProject{
-        width: 100%;
         height: 480px;
         padding-top: 40px;
         padding-left: 20px;
@@ -184,6 +183,8 @@
         border-radius: 20px;
         display: flex;
         margin: 0;
+        margin-top: 70px;
+        margin-bottom: 70px;
     }
     .headerDetail{
         color: #65B9EB;
@@ -193,40 +194,86 @@
         margin-top: 40px;
     }
     .txtNameWork{
-        font-size: 20px;
+        font-size: 24px;
         font-weight: 500;
         color: #65B9EB;
         text-align: left;
         margin-top: 20px;
     }
     .txtWorkDetails{
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 300;
         color: #65B9EB;
         text-align: left;
-        margin-top: 20px;
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
     .products{ 
-        height: 150vh;
+        height: 370vh;
     }
     .textProject{
         text-align: center;
         text-transform: uppercase;
         font-size: 3rem;
         color: #ffffff;
-        padding-bottom: 20px;
+        margin-bottom: -30px;
         letter-spacing: 15px;
     }
     .areaSlide{
-        width: 490px;
+        width: 370px;
         text-align: center;
         display: inline-block;
     }
     .cardProject{
-        width: 100%;
-        height: 550px;
+        padding: 15px;
+        border: 1px solid #ffffff;
+        background: #e2effb;
+        border-radius: 20px;
+        display: flex;
+        margin: 0;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    .headerDetail{
+        color: #65B9EB;
+        font-weight: 300;
+        font-size: 28px;
+        text-transform: uppercase;
+        letter-spacing: 8px;
+    }
+    .txtNameWork{
+        font-size: 20px;
+        font-weight: 500;
+        color: #65B9EB;
+        text-align: left;
+        margin-top: 15px;
+    }
+    .txtWorkDetails{
+        font-size: 13px;
+        font-weight: 300;
+        color: #65B9EB;
+        text-align: left;
+    }
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+    .products{ 
+        height: 485vh;
+    }
+    .textProject{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 3rem;
+        color: #ffffff;
+        margin-bottom: -30px;
+        letter-spacing: 15px;
+    }
+    .areaSlide{
+        width: 500px;
+        text-align: center;
+        display: inline-block;
+    }
+    .cardProject{
+        height: 380px;
         padding-top: 40px;
         padding-left: 20px;
         padding-right: 20px;
@@ -235,13 +282,64 @@
         border-radius: 20px;
         display: flex;
         margin: 0;
+        margin-top: 85px;
+        margin-bottom: 85px;
     }
     .headerDetail{
         color: #65B9EB;
         font-weight: 300;
-        font-size: 38px;
+        font-size: 36px;
         text-transform: uppercase;
+    }
+    .txtNameWork{
+        font-size: 26px;
+        font-weight: 500;
+        color: #65B9EB;
+        text-align: left;
         margin-top: 40px;
+    }
+    .txtWorkDetails{
+        font-size: 16px;
+        font-weight: 300;
+        color: #65B9EB;
+        text-align: left;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1199px) {
+    .products{ 
+        height: 505vh;
+    }
+    .textProject{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 3rem;
+        color: #ffffff;
+        margin-bottom: -30px;
+        letter-spacing: 15px;
+    }
+    .areaSlide{
+        width: 500px;
+        text-align: center;
+        display: inline-block;
+    }
+    .cardProject{
+        height: 380px;
+        padding-top: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: 1px solid #ffffff;
+        background: #e2effb;
+        border-radius: 20px;
+        display: flex;
+        margin: 0;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .headerDetail{
+        color: #65B9EB;
+        font-weight: 300;
+        font-size: 40px;
+        text-transform: uppercase;
     }
     .txtNameWork{
         font-size: 28px;
@@ -251,112 +349,9 @@
         margin-top: 20px;
     }
     .txtWorkDetails{
-        font-size: 22px;
+        font-size: 16px;
         font-weight: 300;
         color: #65B9EB;
         text-align: left;
-        margin-top: 20px;
-    }
-}
-@media (min-width: 992px) and (max-width: 1024px) {
-    .products{ 
-        height: 150vh;
-    }
-    .textProject{
-        text-align: center;
-        text-transform: uppercase;
-        font-size: 3rem;
-        color: #ffffff;
-        padding-bottom: 20px;
-        letter-spacing: 15px;
-    }
-    .areaSlide{
-        width: 580px;
-        text-align: center;
-        display: inline-block;
-    }
-    .cardProject{
-        width: 100%;
-        height: 620px;
-        padding-top: 40px;
-        padding-left: 20px;
-        padding-right: 20px;
-        border: 1px solid #ffffff;
-        background: #e2effb;
-        border-radius: 20px;
-        display: flex;
-        margin: 0;
-    }
-    .headerDetail{
-        color: #65B9EB;
-        font-weight: 300;
-        font-size: 44px;
-        text-transform: uppercase;
-        margin-top: 40px;
-    }
-    .txtNameWork{
-        font-size: 32px;
-        font-weight: 500;
-        color: #65B9EB;
-        text-align: left;
-        margin-top: 20px;
-    }
-    .txtWorkDetails{
-        font-size: 25px;
-        font-weight: 300;
-        color: #65B9EB;
-        text-align: left;
-        margin-top: 20px;
-    }
-}
-@media (min-width: 1025px) and (max-width: 1199px) {
-    .products{ 
-        height: 150vh;
-    }
-    .textProject{
-        text-align: center;
-        text-transform: uppercase;
-        font-size: 3rem;
-        color: #ffffff;
-        padding-bottom: 20px;
-        letter-spacing: 15px;
-    }
-    .areaSlide{
-        width: 590px;
-        text-align: center;
-        display: inline-block;
-    }
-    .cardProject{
-        width: 100%;
-        height: 620px;
-        padding-top: 40px;
-        padding-left: 20px;
-        padding-right: 20px;
-        border: 1px solid #ffffff;
-        background: #e2effb;
-        border-radius: 20px;
-        display: flex;
-        margin: 0;
-    }
-    .headerDetail{
-        color: #65B9EB;
-        font-weight: 300;
-        font-size: 44px;
-        text-transform: uppercase;
-        margin-top: 40px;
-    }
-    .txtNameWork{
-        font-size: 32px;
-        font-weight: 500;
-        color: #65B9EB;
-        text-align: left;
-        margin-top: 20px;
-    }
-    .txtWorkDetails{
-        font-size: 25px;
-        font-weight: 300;
-        color: #65B9EB;
-        text-align: left;
-        margin-top: 20px;
     } 
 }
