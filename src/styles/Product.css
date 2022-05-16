@@ -52,10 +52,63 @@
     color: #65B9EB;
     text-align: left;
 }
-
+.group-btn{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 5px;
+    padding: 25px;
+}
+.linkTag{
+    text-decoration: none;
+}
+.btn-figma{
+    width: 120px;
+    height: 35px;
+    border: 2px solid #65B9EB;
+    background-color:  transparent;
+    color: #65B9EB;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.btn-figma:hover{
+    background-color: #65B9EB;
+    color: #ffffff;
+}
+.icon-figma{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: -2px;
+}
+.btn-pdf{
+    width: 120px;
+    height: 35px;
+    border: 2px solid #65B9EB;
+    background-color: transparent;
+    color: #65B9EB;
+    border-radius: 10px;
+    margin-left: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.btn-pdf:hover{
+    background-color: #65B9EB;
+    color: #ffffff;
+}
+.text-button{
+    font-size: 16px;
+    color: #65B9EB;
+    text-decoration: none;
+}
+.text-button:hover{
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
 @media (min-width: 360px) and (max-width: 480px) {
     .products{ 
-        height: 505vh;
+        height: 540vh;
     }
     .textProject{
         text-align: center;
@@ -72,8 +125,8 @@
         margin-left: -8px;
     }
     .cardProject{
-        height: 430px;
-        padding-top: 40px;
+        /* height: 450px;
+        padding-top: 40px; */
         padding-left: 20px;
         padding-right: 20px;
         border: 1px solid #ffffff;
@@ -104,10 +157,50 @@
         color: #65B9EB;
         text-align: left;
     }
+    .group-btn{
+        position: absolute;
+        bottom: 0;
+        margin-bottom: -25px;
+    }
+    .btn-figma{
+        width: 80px;
+        height: 25px;
+        border: 1.5px solid #65B9EB;
+        background-color:  transparent;
+        color: #65B9EB;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .icon-figma{
+        width: 15px;
+        height: 15px;
+        margin-right: 10px;
+        margin-top: -2px;
+    }
+    .btn-pdf{
+        width: 80px;
+        height: 25px;
+        border: 1.5px solid #65B9EB;
+        background-color: transparent;
+        color: #65B9EB;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 25px;
+    }
+    .text-button{
+        font-size: 10px;
+        color: #65B9EB;
+        text-decoration: none;
+    }
+    .text-button:hover{
+        font-size: 10px;
+    }
 }
 @media (min-width: 481px) and (max-width: 624px) {
     .products{ 
-        height: 575vh;
+        height: 610vh;
     }
     .textProject{
         text-align: center;
@@ -123,8 +216,6 @@
         display: inline-block;
     }
     .cardProject{
-        height: 480px;
-        padding-top: 40px;
         padding-left: 20px;
         padding-right: 20px;
         border: 1px solid #ffffff;
@@ -155,10 +246,50 @@
         color: #65B9EB;
         text-align: left;
     }
+    .group-btn{
+        position: absolute;
+        bottom: 0;
+        margin-bottom: -20px;
+    }
+    .btn-figma{
+        width: 85px;
+        height: 25px;
+        border: 1.5px solid #65B9EB;
+        background-color:  transparent;
+        color: #65B9EB;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .icon-figma{
+        width: 15px;
+        height: 15px;
+        margin-right: 10px;
+        margin-top: -2px;
+    }
+    .btn-pdf{
+        width: 85px;
+        height: 25px;
+        border: 1.5px solid #65B9EB;
+        background-color: transparent;
+        color: #65B9EB;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 25px;
+    }
+    .text-button{
+        font-size: 11px;
+        color: #65B9EB;
+        text-decoration: none;
+    }
+    .text-button:hover{
+        font-size: 11px;
+    }
 }
 @media (min-width: 625px) and (max-width: 767px) {
     .products{ 
-        height: 560vh;
+        height: 670vh;
     }
     .textProject{
         text-align: center;
@@ -174,8 +305,6 @@
         display: inline-block;
     }
     .cardProject{
-        height: 480px;
-        padding-top: 40px;
         padding-left: 20px;
         padding-right: 20px;
         border: 1px solid #ffffff;
@@ -206,10 +335,50 @@
         color: #65B9EB;
         text-align: left;
     }
+    .group-btn{
+        position: absolute;
+        bottom: 0;
+        margin-bottom: -20px;
+    }
+    .btn-figma{
+        width: 85px;
+        height: 25px;
+        border: 1.5px solid #65B9EB;
+        background-color:  transparent;
+        color: #65B9EB;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .icon-figma{
+        width: 15px;
+        height: 15px;
+        margin-right: 10px;
+        margin-top: -2px;
+    }
+    .btn-pdf{
+        width: 85px;
+        height: 25px;
+        border: 1.5px solid #65B9EB;
+        background-color: transparent;
+        color: #65B9EB;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 25px;
+    }
+    .text-button{
+        font-size: 12px;
+        color: #65B9EB;
+        text-decoration: none;
+    }
+    .text-button:hover{
+        font-size: 12px;
+    }
 }
 @media (min-width: 768px) and (max-width: 991px) {
     .products{ 
-        height: 370vh;
+        height: 375vh;
     }
     .textProject{
         text-align: center;
@@ -254,10 +423,50 @@
         color: #65B9EB;
         text-align: left;
     }
+    .group-btn{
+        position: absolute;
+        bottom: 0;
+        margin-bottom: -10px;
+    }
+    .btn-figma{
+        width: 85px;
+        height: 25px;
+        border: 1.5px solid #65B9EB;
+        background-color:  transparent;
+        color: #65B9EB;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .icon-figma{
+        width: 15px;
+        height: 15px;
+        margin-right: 10px;
+        margin-top: -2px;
+    }
+    .btn-pdf{
+        width: 85px;
+        height: 25px;
+        border: 1.5px solid #65B9EB;
+        background-color: transparent;
+        color: #65B9EB;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 25px;
+    }
+    .text-button{
+        font-size: 12px;
+        color: #65B9EB;
+        text-decoration: none;
+    }
+    .text-button:hover{
+        font-size: 12px;
+    }
 }
 @media (min-width: 992px) and (max-width: 1024px) {
     .products{ 
-        height: 485vh;
+        height: 535vh;
     }
     .textProject{
         text-align: center;
@@ -273,8 +482,6 @@
         display: inline-block;
     }
     .cardProject{
-        height: 380px;
-        padding-top: 40px;
         padding-left: 20px;
         padding-right: 20px;
         border: 1px solid #ffffff;
@@ -304,10 +511,50 @@
         color: #65B9EB;
         text-align: left;
     }
+    .group-btn{
+        position: absolute;
+        bottom: 0;
+        margin-bottom: -10px;
+    }
+    .btn-figma{
+        width: 110px;
+        height: 30px;
+        border: 1.5px solid #65B9EB;
+        background-color:  transparent;
+        color: #65B9EB;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .icon-figma{
+        width: 15px;
+        height: 15px;
+        margin-right: 10px;
+        margin-top: -2px;
+    }
+    .btn-pdf{
+        width: 110px;
+        height: 30px;
+        border: 1.5px solid #65B9EB;
+        background-color: transparent;
+        color: #65B9EB;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 25px;
+    }
+    .text-button{
+        font-size: 15px;
+        color: #65B9EB;
+        text-decoration: none;
+    }
+    .text-button:hover{
+        font-size: 15px;
+    }
 }
 @media (min-width: 1025px) and (max-width: 1199px) {
     .products{ 
-        height: 505vh;
+        height: 550vh;
     }
     .textProject{
         text-align: center;
@@ -323,8 +570,6 @@
         display: inline-block;
     }
     .cardProject{
-        height: 380px;
-        padding-top: 40px;
         padding-left: 20px;
         padding-right: 20px;
         border: 1px solid #ffffff;
@@ -354,4 +599,44 @@
         color: #65B9EB;
         text-align: left;
     } 
+    .group-btn{
+        position: absolute;
+        bottom: 0;
+        margin-bottom: -10px;
+    }
+    .btn-figma{
+        width: 120px;
+        height: 35px;
+        border: 1.5px solid #65B9EB;
+        background-color:  transparent;
+        color: #65B9EB;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .icon-figma{
+        width: 15px;
+        height: 15px;
+        margin-right: 10px;
+        margin-top: -2px;
+    }
+    .btn-pdf{
+        width: 120px;
+        height: 35px;
+        border: 1.5px solid #65B9EB;
+        background-color: transparent;
+        color: #65B9EB;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 25px;
+    }
+    .text-button{
+        font-size: 16px;
+        color: #65B9EB;
+        text-decoration: none;
+    }
+    .text-button:hover{
+        font-size: 16px;
+    }
 }

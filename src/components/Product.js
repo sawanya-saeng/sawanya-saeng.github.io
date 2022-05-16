@@ -53,6 +53,7 @@ import illus4 from "../images/illus4.jpg"
 import illus5 from "../images/illus5.jpg"
 import illus6 from "../images/illus6.jpg"
 
+import fileTripTeeThai from '../files/TripTeeThai.pdf'
 
 const listFoodFridge = [
   {
@@ -253,6 +254,8 @@ function Product() {
               headerDetail='project'
               txtNameWork='Food Fridge App'
               txtWorkDetails='Application find food menu from your ingredient'
+              Figma='https://www.figma.com/file/D6qVBBT2T9g6k97PGbH6PI/PORTFOLIO?node-id=2%3A10'
+              PDF='testpdf'
             />
           </div>
           <div className="row cardProjectRight">
@@ -261,6 +264,8 @@ function Product() {
               headerDetail='project'
               txtNameWork='CPE  Website'
               txtWorkDetails='The course management system of Computer Engineering'
+              Figma='https://www.figma.com/file/D6qVBBT2T9g6k97PGbH6PI/PORTFOLIO?node-id=2%3A10'
+              PDF='testpdf'
             />
           </div>
           <div className="row cardProject">
@@ -269,25 +274,28 @@ function Product() {
               headerDetail='project'
               txtNameWork='Shooting Simulation'
               txtWorkDetails='Realistic shooting range simulator game'
+              Figma='https://www.figma.com/file/D6qVBBT2T9g6k97PGbH6PI/PORTFOLIO?node-id=2%3A10'
+              PDF='testpdf'
             />
           </div>
           <div className="row cardProjectRight">
             <RenderWorkRight
               list={listCpe}
-              link='https://www.figma.com/file/D6qVBBT2T9g6k97PGbH6PI/PORTFOLIO?node-id=2%3A10'
               headerDetail='UIDESIGN'
               txtNameWork='Portfoio  Website'
               txtWorkDetails='The course management system of
               Computer Engineering'
+              Figma='https://www.figma.com/file/D6qVBBT2T9g6k97PGbH6PI/PORTFOLIO?node-id=2%3A10'
             />
           </div>
           <div className="row cardProject">
             <RenderWorkLeft
               list={listSpace}
-              link='https://www.figma.com/file/MiFI9qjua0AFhFAGkkpYm8/SpaceExplorer?node-id=0%3A1'
               headerDetail='UIDESIGN'
               txtNameWork='Space Explorer'
               txtWorkDetails='Application to educate about the solar system'
+              Figma='https://www.figma.com/file/MiFI9qjua0AFhFAGkkpYm8/SpaceExplorer?node-id=0%3A1'
+              PDF={fileTripTeeThai}
             />
           </div>
           <div className="row cardProjectRight">
@@ -296,6 +304,8 @@ function Product() {
               headerDetail='GRAPHIC'
               txtNameWork='Logos'
               txtWorkDetails='Freelance'
+              Figma='https://www.figma.com/file/MiFI9qjua0AFhFAGkkpYm8/SpaceExplorer?node-id=0%3A1'
+              PDF={fileTripTeeThai}
             />
           </div>
           <div className="row cardProject">
