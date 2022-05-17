@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Skills.css";
 
+import mixSkills from '../images/mix-skills.png'
 import Photoshop from "../images/Photoshop.png";
 import illustrator from "../images/illustrator.png";
 import Animate from "../images/Animate.png";
@@ -75,23 +76,24 @@ const Skills = () => {
     <div id="skills" className="skills">
       <div className="container justify-content-center">
         <p className="txtSkill">Skills</p>
-        <div className='row areaSkill'>
+        {/* <div className='row areaSkill'>
           {skills.map((item,index) => {
             return (
               <div className='areaCard'>
                 <div key={index} className="itemCardSkill">
                   <img
-                      className="picSkill"
-                      src={item.pic}
-                      alt={item.description}
-                      />
+                    className="picSkill"
+                    src={item.pic}
+                    alt={item.description}
+                  />
                   <p className='txtDescript1'>{item.description1}</p>
                   <p className='txtDescript2'>{item.description2}</p>
                 </div>
               </div>
             )
           })}
-        </div>
+        </div> */}
+        <img  className="picSkill" src={mixSkills} alt={mixSkills} />
       </div>
     </div>
   );

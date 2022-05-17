@@ -2,7 +2,7 @@
 .skills {
   padding-top: 50px;
   padding-bottom: 50px;
-  height: 95vh;
+  height: 90vh;
 }
 .txtSkill {
   text-align: center;
@@ -12,17 +12,19 @@
   letter-spacing: 15px;
 }
 .picSkill{
-  width: 70%;
-  margin-top: 38px;
+  margin-top: 50px;
+  width: 80%;
+  justify-content: center;
+  align-self: center;
 }
 .areaCard{
-  padding: 15px;
+  padding: 35px;
   display: block;
   margin: auto;
 }
 .itemCardSkill{
-  width: 171px;
-  height: 243px;
+  width: 130px;
+  height: 200px;
   background: #e2effb;
   border-radius: 40px;
 }
@@ -43,55 +45,83 @@
 
 @media (min-width: 360px) and (max-width: 401px) {
   .skills {
-    height: 340vh;
+    height: 90vh;
   }
   .txtSkill {
     text-align: center;
-    font-size: 3rem;
+    font-size: 30px;
     text-transform: uppercase;
     color: #ffffff;
     letter-spacing: 15px;
     margin-left: 20px;
+  }
+  .picSkill{
+    margin-top: 150px;
+    width: 95%;
+    justify-content: center;
+    align-self: center;
   }
 }
 @media (min-width: 402px) and (max-width: 480px) {
   .skills {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    height: 185vh;
-  }
-}
-@media (min-width: 481px) and (max-width: 767px) {
-  .skills {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    height: 180vh;
+    height: 90vh;
   }
   .txtSkill {
     text-align: center;
-    font-size: 3rem;
+    font-size: 30px;
     text-transform: uppercase;
     color: #ffffff;
     letter-spacing: 15px;
     margin-left: 20px;
   }
+  .picSkill{
+    margin-top: 120px;
+    width: 90%;
+    justify-content: center;
+    align-self: center;
+  }
 }
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 481px) and (max-width: 767px) {
   .skills {
-    height: 150vh;
+    height: 90vh;
   }
   .txtSkill {
     text-align: center;
-    font-size: 3rem;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #ffffff;
+    letter-spacing: 15px;
+    margin-left: 20px;
+  }
+  .picSkill{
+    margin-top: 120px;
+    width: 90%;
+    justify-content: center;
+    align-self: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .skills {
+    height: 90vh;
+  }
+  .txtSkill {
+    text-align: center;
+    font-size: 30px;
     text-transform: uppercase;
     color: #ffffff;
     letter-spacing: 15px;
     margin-left: 22px;
+  }
+  .picSkill{
+    margin-top: 120px;
+    width: 85%;
+    justify-content: center;
+    align-self: center;
   }
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .skills {
-    height: 120vh;
+    height: 100vh;
   }
   .txtSkill {
     text-align: center;
@@ -100,5 +130,11 @@
     color: #ffffff;
     letter-spacing: 15px;
     margin-left: 22px;
+  }
+  .picSkill{
+    margin-top: 40px;
+    width: 80%;
+    justify-content: center;
+    align-self: center;
   }
 }

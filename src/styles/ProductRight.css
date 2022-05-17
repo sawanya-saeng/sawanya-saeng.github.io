@@ -81,19 +81,20 @@
   margin-left: 10px;
   justify-content: center;
   align-items: center;
+  margin-left: 30px;
 }
 .btn-pdf-right:hover{
   background-color: #ffffff;
   color: #65B9EB;
 }
 .text-button-right{
-  font-size: 16px;
+  font-size: 15px;
   color: #ffffff;
 
   text-decoration: none;
 }
 .text-button-right:hover{
-  font-size: 16px;
+  font-size: 15px;
   color: #65B9EB;
   text-decoration: none;
 }
@@ -595,10 +596,10 @@
     margin-left: 25px;
   }
   .text-button-right{
-    font-size: 16px;
+    font-size: 15px;
     color: #ffffff;
   }
   .text-button-right:hover{
-    font-size: 16px;
+    font-size: 15px;
   }
 }
