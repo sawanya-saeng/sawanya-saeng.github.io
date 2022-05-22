@@ -1,6 +1,3 @@
-.products{ 
-    height: 670vh;
-}
 .textProject{
     text-align: center;
     text-transform: uppercase;
@@ -107,9 +104,6 @@
     text-decoration: none;
 }
 @media (min-width: 360px) and (max-width: 480px) {
-    .products{ 
-        height: 540vh;
-    }
     .textProject{
         text-align: center;
         text-transform: uppercase;
@@ -125,8 +119,7 @@
         margin-left: -8px;
     }
     .cardProject{
-        /* height: 450px;
-        padding-top: 40px; */
+        padding-top: 40px;
         padding-left: 20px;
         padding-right: 20px;
         border: 1px solid #ffffff;
@@ -163,7 +156,7 @@
         margin-bottom: -25px;
     }
     .btn-figma{
-        width: 80px;
+        width: 85px;
         height: 25px;
         border: 1.5px solid #65B9EB;
         background-color:  transparent;
@@ -179,7 +172,7 @@
         margin-top: -2px;
     }
     .btn-pdf{
-        width: 80px;
+        width: 85px;
         height: 25px;
         border: 1.5px solid #65B9EB;
         background-color: transparent;
@@ -190,18 +183,15 @@
         margin-left: 25px;
     }
     .text-button{
-        font-size: 10px;
+        font-size: 8px;
         color: #65B9EB;
         text-decoration: none;
     }
     .text-button:hover{
-        font-size: 10px;
+        font-size: 8px;
     }
 }
 @media (min-width: 481px) and (max-width: 624px) {
-    .products{ 
-        height: 610vh;
-    }
     .textProject{
         text-align: center;
         text-transform: uppercase;
@@ -252,7 +242,7 @@
         margin-bottom: -20px;
     }
     .btn-figma{
-        width: 85px;
+        width: 90px;
         height: 25px;
         border: 1.5px solid #65B9EB;
         background-color:  transparent;
@@ -268,7 +258,7 @@
         margin-top: -2px;
     }
     .btn-pdf{
-        width: 85px;
+        width: 90px;
         height: 25px;
         border: 1.5px solid #65B9EB;
         background-color: transparent;
@@ -279,18 +269,15 @@
         margin-left: 25px;
     }
     .text-button{
-        font-size: 11px;
+        font-size: 9px;
         color: #65B9EB;
         text-decoration: none;
     }
     .text-button:hover{
-        font-size: 11px;
+        font-size: 9px;
     }
 }
 @media (min-width: 625px) and (max-width: 767px) {
-    .products{ 
-        height: 670vh;
-    }
     .textProject{
         text-align: center;
         text-transform: uppercase;
@@ -341,7 +328,7 @@
         margin-bottom: -20px;
     }
     .btn-figma{
-        width: 85px;
+        width: 90px;
         height: 25px;
         border: 1.5px solid #65B9EB;
         background-color:  transparent;
@@ -357,7 +344,7 @@
         margin-top: -2px;
     }
     .btn-pdf{
-        width: 85px;
+        width: 90px;
         height: 25px;
         border: 1.5px solid #65B9EB;
         background-color: transparent;
@@ -368,18 +355,15 @@
         margin-left: 25px;
     }
     .text-button{
-        font-size: 12px;
+        font-size: 11px;
         color: #65B9EB;
         text-decoration: none;
     }
     .text-button:hover{
-        font-size: 12px;
+        font-size: 11px;
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-    .products{ 
-        height: 375vh;
-    }
     .textProject{
         text-align: center;
         text-transform: uppercase;
@@ -429,7 +413,7 @@
         margin-bottom: -10px;
     }
     .btn-figma{
-        width: 85px;
+        width: 90px;
         height: 25px;
         border: 1.5px solid #65B9EB;
         background-color:  transparent;
@@ -445,7 +429,7 @@
         margin-top: -2px;
     }
     .btn-pdf{
-        width: 85px;
+        width: 90px;
         height: 25px;
         border: 1.5px solid #65B9EB;
         background-color: transparent;
@@ -456,18 +440,15 @@
         margin-left: 25px;
     }
     .text-button{
-        font-size: 12px;
+        font-size: 11px;
         color: #65B9EB;
         text-decoration: none;
     }
     .text-button:hover{
-        font-size: 12px;
+        font-size: 11px;
     }
 }
 @media (min-width: 992px) and (max-width: 1024px) {
-    .products{ 
-        height: 535vh;
-    }
     .textProject{
         text-align: center;
         text-transform: uppercase;
@@ -544,18 +525,15 @@
         margin-left: 25px;
     }
     .text-button{
-        font-size: 15px;
+        font-size: 14px;
         color: #65B9EB;
         text-decoration: none;
     }
     .text-button:hover{
-        font-size: 15px;
+        font-size: 14px;
     }
 }
 @media (min-width: 1025px) and (max-width: 1199px) {
-    .products{ 
-        height: 550vh;
-    }
     .textProject{
         text-align: center;
         text-transform: uppercase;
@@ -630,21 +608,11 @@
         margin-left: 25px;
     }
     .text-button{
-        font-size: 16px;
+        font-size: 15px;
         color: #65B9EB;
         text-decoration: none;
     }
     .text-button:hover{
-        font-size: 16px;
-    }
-}
-@media (width: 1440px) and  (height: 900px) {
-    .products{ 
-        height: 680vh;
-    }
-}
-@media (width: 1280px) and  (height: 800px) {
-    .products{ 
-        height: 735vh;
+        font-size: 15px;
     }
 }

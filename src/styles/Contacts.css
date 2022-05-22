@@ -2,7 +2,7 @@
 
 .contacts {
   padding: 3rem 0;
-  padding-top: 5rem;
+  padding-top: 6.5rem;
   padding-bottom: 0rem;
 }
 
@@ -12,7 +12,7 @@
   font-size: 3rem;
   color: #ffffff;
   letter-spacing: 15px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .txtContacts {
@@ -60,7 +60,7 @@
   font-size: 1.5rem;
 }
 .txtTelEmail{
-  color: #65B9EB;
+  color: #ffffff;
   font-size: 1.3rem;
 }
 .boxLR{
@@ -73,7 +73,9 @@
 .BoxInput{
   margin-top: -50px;
 }
-
+.text-warning{
+  color: #ffffff;
+}
 /****************************************** INPUT ********************************************/
 /*------------------ INPUTS -------------------------------*/
 .contacts input,
@@ -169,7 +171,7 @@ textarea.form-control {
     font-size: 1.3rem;
   }
   .txtTelEmail{
-    color: #F5C5AA;
+    color: #ffffff;
     font-size: 1rem;
   }
   .boxLR{

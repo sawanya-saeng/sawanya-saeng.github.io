@@ -286,6 +286,7 @@ function Product() {
               txtWorkDetails='The course management system of
               Computer Engineering'
               Figma='https://www.figma.com/file/D6qVBBT2T9g6k97PGbH6PI/PORTFOLIO?node-id=2%3A10'
+              PDF='testpdf'
             />
           </div>
           <div className="row cardProject">
@@ -314,6 +315,8 @@ function Product() {
               headerDetail='GRAPHIC'
               txtNameWork='Packaging'
               txtWorkDetails='Freelance'
+              Figma='https://www.figma.com/file/MiFI9qjua0AFhFAGkkpYm8/SpaceExplorer?node-id=0%3A1'
+              PDF={fileTripTeeThai}
             />
           </div>
           <div className="row cardProjectRight">
@@ -322,6 +325,8 @@ function Product() {
               headerDetail='GRAPHIC'
               txtNameWork='Banners'
               txtWorkDetails='Freelance'
+              Figma='https://www.figma.com/file/MiFI9qjua0AFhFAGkkpYm8/SpaceExplorer?node-id=0%3A1'
+              PDF={fileTripTeeThai}
             />
           </div>
           <div className="row cardProject">
@@ -330,6 +335,8 @@ function Product() {
               headerDetail='GRAPHIC'
               txtNameWork='Illustrations'
               txtWorkDetails='Freelance'
+              Figma='https://www.figma.com/file/MiFI9qjua0AFhFAGkkpYm8/SpaceExplorer?node-id=0%3A1'
+              PDF={fileTripTeeThai}
             />
           </div>
         </div>

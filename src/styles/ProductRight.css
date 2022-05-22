@@ -145,7 +145,7 @@
     padding: 25px;
   }
   .btn-figma-right{
-    width: 80px;
+    width: 85px;
     height: 25px;
     border: 1.5px solid #ffffff;
     background-color: transparent;
@@ -166,7 +166,7 @@
     margin-top: -2px;
   }
   .btn-pdf-right{
-    width: 80px;
+    width: 85px;
     height: 25px;
     border: 1.5px solid #ffffff;
     background-color: transparent;
@@ -179,13 +179,13 @@
 
   }
   .text-button-right{
-    font-size: 10px;
+    font-size: 8px;
     color: #ffffff;
   
     text-decoration: none;
   }
   .text-button-right:hover{
-    font-size: 10px;
+    font-size: 8px;
   }
 }
 @media (min-width: 481px) and (max-width: 624px) {
@@ -230,7 +230,7 @@
     padding: 25px;
   }
   .btn-figma-right{
-    width: 85px;
+    width: 90px;
     height: 25px;
     border: 1.5px solid #ffffff;
     background-color: transparent;
@@ -251,7 +251,7 @@
     margin-top: -2px;
   }
   .btn-pdf-right{
-    width: 85px;
+    width: 90px;
     height: 25px;
     border: 1.5px solid #ffffff;
     background-color: transparent;
@@ -263,11 +263,11 @@
     margin-left: 25px;
   }
   .text-button-right{
-    font-size: 11px;
+    font-size: 9px;
     color: #ffffff;
   }
   .text-button-right:hover{
-    font-size: 11px;
+    font-size: 9px;
   }
 }
 @media (min-width: 625px) and (max-width: 767px) {
@@ -317,7 +317,7 @@
     padding: 25px;
   }
   .btn-figma-right{
-    width: 85px;
+    width: 90px;
     height: 25px;
     border: 1.5px solid #ffffff;
     background-color: transparent;
@@ -338,7 +338,7 @@
     margin-top: -2px;
   }
   .btn-pdf-right{
-    width: 85px;
+    width: 90px;
     height: 25px;
     border: 1.5px solid #ffffff;
     background-color: transparent;
@@ -350,11 +350,11 @@
     margin-left: 25px;
   }
   .text-button-right{
-    font-size: 12px;
+    font-size: 11px;
     color: #ffffff;
   }
   .text-button-right:hover{
-    font-size: 12px;
+    font-size: 11px;
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
@@ -399,7 +399,7 @@
     padding: 25px;
   }
   .btn-figma-right{
-    width: 85px;
+    width: 90px;
     height: 25px;
     border: 1.5px solid #ffffff;
     background-color: transparent;
@@ -420,7 +420,7 @@
     margin-top: -2px;
   }
   .btn-pdf-right{
-    width: 85px;
+    width: 90px;
     height: 25px;
     border: 1.5px solid #ffffff;
     background-color: transparent;
@@ -432,11 +432,11 @@
     margin-left: 25px;
   }
   .text-button-right{
-    font-size: 12px;
+    font-size: 11px;
     color: #ffffff;
   }
   .text-button-right:hover{
-    font-size: 12px;
+    font-size: 11px;
   }
 }
 @media (min-width: 992px) and (max-width: 1024px) {
