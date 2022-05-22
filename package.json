@@ -1,7 +1,7 @@
 {
   "homepage": "https://sawanya-saeng.github.io/",
   "name": "taluew",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
