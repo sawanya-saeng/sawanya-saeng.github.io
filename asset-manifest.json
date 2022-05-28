@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.71bd0079.chunk.css",
-    "main.js": "/static/js/main.082b89e9.chunk.js",
-    "main.js.map": "/static/js/main.082b89e9.chunk.js.map",
+    "main.js": "/static/js/main.1ff77dfd.chunk.js",
+    "main.js.map": "/static/js/main.1ff77dfd.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e245a544.js",
     "runtime-main.js.map": "/static/js/runtime-main.e245a544.js.map",
     "static/css/2.e1708d6d.chunk.css": "/static/css/2.e1708d6d.chunk.css",
@@ -31,6 +31,7 @@
     "static/media/cpe8.1e8f3043.png": "/static/media/cpe8.1e8f3043.png",
     "static/media/css3.c8721e7b.png": "/static/media/css3.c8721e7b.png",
     "static/media/duck.ba7e989c.jpg": "/static/media/duck.ba7e989c.jpg",
+    "static/media/election.034492b3.jpg": "/static/media/election.034492b3.jpg",
     "static/media/eniac.e6e4ce4b.jpg": "/static/media/eniac.e6e4ce4b.jpg",
     "static/media/figma.33252c90.png": "/static/media/figma.33252c90.png",
     "static/media/food0.d2aefeca.png": "/static/media/food0.d2aefeca.png",
@@ -69,6 +70,7 @@
     "static/media/shoot9.6ce50fbc.png": "/static/media/shoot9.6ce50fbc.png",
     "static/media/space0.232ad7c2.jpg": "/static/media/space0.232ad7c2.jpg",
     "static/media/taluewprofile.97a5aff2.png": "/static/media/taluewprofile.97a5aff2.png",
+    "static/media/trip.2e197f8b.jpg": "/static/media/trip.2e197f8b.jpg",
     "static/media/ux-design.fd3a780f.gif": "/static/media/ux-design.fd3a780f.gif",
     "static/media/wed.a113ebe7.jpg": "/static/media/wed.a113ebe7.jpg"
   },
@@ -77,6 +79,6 @@
     "static/css/2.e1708d6d.chunk.css",
     "static/js/2.d1ccc491.chunk.js",
     "static/css/main.71bd0079.chunk.css",
-    "static/js/main.082b89e9.chunk.js"
+    "static/js/main.1ff77dfd.chunk.js"
   ]
 }
