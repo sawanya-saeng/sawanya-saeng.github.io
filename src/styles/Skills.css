@@ -52,7 +52,7 @@
     margin-left: 20px;
   }
   .picSkill{
-    margin-top: 150px;
+    margin-top: 40px;
     width: 95%;
     justify-content: center;
     align-self: center;
@@ -68,7 +68,7 @@
     margin-left: 20px;
   }
   .picSkill{
-    margin-top: 120px;
+    margin-top: 40px;
     width: 90%;
     justify-content: center;
     align-self: center;
@@ -84,7 +84,7 @@
     margin-left: 20px;
   }
   .picSkill{
-    margin-top: 120px;
+    margin-top: 40px;
     width: 90%;
     justify-content: center;
     align-self: center;
@@ -93,14 +93,13 @@
 @media (min-width: 768px) and (max-width: 991px) {
   .txtSkill {
     text-align: center;
-    font-size: 30px;
+    font-size: 3rem;
     text-transform: uppercase;
     color: #ffffff;
     letter-spacing: 15px;
     margin-left: 22px;
   }
   .picSkill{
-    margin-top: 120px;
     width: 85%;
     justify-content: center;
     align-self: center;

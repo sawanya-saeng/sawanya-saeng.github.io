@@ -55,7 +55,24 @@ import illus4 from "../images/illus4.jpg"
 import illus5 from "../images/illus5.jpg"
 import illus6 from "../images/illus6.jpg"
 
+import trip0 from "../images/trip.jpg"
+import election0 from "../images/election.jpg"
+
 import fileTripTeeThai from '../files/TripTeeThai.pdf'
+
+const listTrip = [
+  {
+    id: 0,
+    image: trip0
+  },
+]
+
+const listElection = [
+  {
+    id: 0,
+    image: election0
+  },
+]
 
 const listFoodFridge = [
   {
@@ -259,21 +276,21 @@ function Product() {
         <div className="container">
           <div className="row cardProject">
             <RenderWorkLeft
-              list={listSpace}
+              list={listTrip}
               headerDetail='UX/UI DESIGN'
               txtNameWork='TripTeeThai App'
-              txtWorkDetails='Application find food menu from your ingredient'
-              Figma='https://www.figma.com/file/D6qVBBT2T9g6k97PGbH6PI/PORTFOLIO?node-id=2%3A10'
+              txtWorkDetails='Application for trip planner'
+              Figma='https://www.figma.com/file/6kpF1t8sfC917TyUQMgYVD/TripTeeThai'
               PDF='testpdf'
             />
           </div>
           <div className="row cardProjectRight">
             <RenderWorkRight
-              list={listSpace}
+              list={listElection}
               headerDetail='UX/UI DESIGN'
               txtNameWork='Bangkok Election'
               txtWorkDetails='Bangkok governor election Website'
-              Figma='https://www.figma.com/file/D6qVBBT2T9g6k97PGbH6PI/PORTFOLIO?node-id=2%3A10'
+              Figma='https://www.figma.com/file/8RdXpLkEshiSAQfgKxFnUm/Bangkok-Election?node-id=0%3A1'
               PDF='testpdf'
             />
           </div>
@@ -330,30 +347,22 @@ function Product() {
           </div>
           <div className="row cardProject">
             <RenderWorkLeft
-              list={listillus}
-              headerDetail='GRAPHIC'
-              txtNameWork='Packaging'
-              txtWorkDetails='Freelance'
-            />
-          </div>
-          <div className="row cardProjectRight">
-            <RenderWorkRight
               list={listPackage}
               headerDetail='GRAPHIC'
               txtNameWork='Packaging'
               txtWorkDetails='Freelance'
             />
           </div>
-          <div className="row cardProject">
-            <RenderWorkLeft
+          <div className="row cardProjectRight">
+            <RenderWorkRight
               list={listBanner}
               headerDetail='GRAPHIC'
               txtNameWork='Banners'
               txtWorkDetails='Freelance'
             />
           </div>
-          <div className="row cardProjectRight">
-            <RenderWorkRight
+          <div className="row cardProject">
+            <RenderWorkLeft
               list={listillus}
               headerDetail='GRAPHIC'
               txtNameWork='Illustrations'
