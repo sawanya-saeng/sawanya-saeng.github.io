@@ -59,6 +59,7 @@ import trip0 from "../images/trip.jpg"
 import election0 from "../images/election.jpg"
 
 import fileTripTeeThai from '../files/TripTeeThai.pdf'
+import fileBangkokElection from '../files/BangkokElection.pdf'
 
 const listTrip = [
   {
@@ -281,7 +282,7 @@ function Product() {
               txtNameWork='TripTeeThai App'
               txtWorkDetails='Application for trip planner'
               Figma='https://www.figma.com/file/6kpF1t8sfC917TyUQMgYVD/TripTeeThai'
-              PDF='testpdf'
+              PDF={fileTripTeeThai}
             />
           </div>
           <div className="row cardProjectRight">
@@ -291,7 +292,7 @@ function Product() {
               txtNameWork='Bangkok Election'
               txtWorkDetails='Bangkok governor election Website'
               Figma='https://www.figma.com/file/8RdXpLkEshiSAQfgKxFnUm/Bangkok-Election?node-id=0%3A1'
-              PDF='testpdf'
+              PDF={fileBangkokElection}
             />
           </div>
           <div className="row cardProject">
