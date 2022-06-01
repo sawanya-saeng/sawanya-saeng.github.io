@@ -282,7 +282,7 @@ function Product() {
               txtNameWork='TripTeeThai App'
               txtWorkDetails='Application for trip planner'
               Figma='https://www.figma.com/file/6kpF1t8sfC917TyUQMgYVD/TripTeeThai'
-              PDF={fileTripTeeThai}
+              PDF='https://drive.google.com/uc?id=1XNM1V4OG9-z3I50ioV-AEXmoQ8fkgAD1'
             />
           </div>
           <div className="row cardProjectRight">
@@ -292,7 +292,7 @@ function Product() {
               txtNameWork='Bangkok Election'
               txtWorkDetails='Bangkok governor election Website'
               Figma='https://www.figma.com/file/8RdXpLkEshiSAQfgKxFnUm/Bangkok-Election?node-id=0%3A1'
-              PDF={fileBangkokElection}
+              PDF='https://drive.google.com/uc?id=1SD24tdkcyhuNYLJ77GkMvDD9WolTK2vI'
             />
           </div>
           <div className="row cardProject">
